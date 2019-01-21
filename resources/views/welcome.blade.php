@@ -42,7 +42,17 @@
                 {!! trans('auth.failed') !!}
                 </div>
                 <div>
-                    {{Cookie::get('language')}}
+                <div class="navbar-header">
+                    <div class="dropdown-toggle-wrap">
+                        <div class="dropdown navbar-toggle langtoggle" >
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{Cookie::get('language') ? Cookie::get('language') : 'en'}}</a>
+                            <ul class="dropdown-menu langbg mainlang ">
+                                <li><a href="/lang/en">en</li>
+                                <li><a href="/lang/kr">kr</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div class="title">Laravel</div>
             </div>
