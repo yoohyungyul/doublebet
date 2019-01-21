@@ -39,7 +39,7 @@
         <div class="container">
             <div class="content">
                 <div>
-                lang : {{Cookie::get('language')}}
+                {!! trans('auth.failed') !!}
                 </div>
                 <div class="title">Laravel</div>
             </div>
