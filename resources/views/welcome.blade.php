@@ -38,9 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div>
-                {!! trans('auth.test') !!}
-                </div>
+               
                 <div>
                 Language : <a href="/lang/en">en</a> <a href="/lang/kr">kr</a>
                 </div>
