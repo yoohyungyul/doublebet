@@ -38,7 +38,10 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5111</div>
+                <div>
+                lang : {{Cookie::get('language')}}
+                </div>
+                <div class="title">Laravel</div>
             </div>
         </div>
     </body>
