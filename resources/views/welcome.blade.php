@@ -42,7 +42,7 @@
                 {!! trans('auth.test') !!}
                 </div>
                 <div>
-                {{Cookie::get('language') ? Cookie::get('language') : 'en'}} : <a href="/lang/en">en</a> <a href="/lang/kr">kr</a>
+                Language : <a href="/lang/en">en</a> <a href="/lang/kr">kr</a>
                 </div>
                 <div class="title">DoubleBET</div>
             </div>
