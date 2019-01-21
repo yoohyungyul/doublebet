@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="title">Laravel</div>
+                <div class="title">DoubleBET</div>
             </div>
         </div>
     </body>
