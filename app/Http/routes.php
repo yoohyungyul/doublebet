@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 언어
+Route::get('lang/{locale}', function ($locale) {
+    Cookie::queue(Cookie::forever('language',$locale));
+    return back();
+});
