@@ -53,12 +53,12 @@
     </head>
     <body>
 
-        <div id="google_translate_element"></div>
+        
 
 
         <div class="container">
             <div class="content">
-               
+                <div id="google_translate_element"></div>
                 <div>
                 Language : <a href="/lang/en">en</a> <a href="/lang/kr">kr</a>
                 </div>
