@@ -22,13 +22,18 @@ class HomeController extends Controller
      */
     public function index()
     {
+        // 모바일 접속
+        if(Agent::isMobile()) {
 
-        echo Agent::isMobile();
+            return view('welcome_mobile');
+        } else {
+            return view('welcome');
+        }
 
-        exit;
+       
 
 
-        return view('welcome');
+       
 
     }
 
