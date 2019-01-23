@@ -13,9 +13,7 @@
 
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
 
 // 언어
 Route::get('lang/{locale}', function ($locale) {
