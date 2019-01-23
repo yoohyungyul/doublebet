@@ -25,6 +25,8 @@ class HomeController extends Controller
 
         echo Agent::isMobile();
 
+        exit;
+
 
         return view('welcome');
 
