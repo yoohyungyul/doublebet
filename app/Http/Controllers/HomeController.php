@@ -22,6 +22,9 @@ class HomeController extends Controller
     public function index()
     {
 
+        echo Agent::isMobile();
+
+        
         return view('welcome');
 
     }
