@@ -28,15 +28,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 	<link rel="stylesheet" href="/css/magnific-popup.css">
 	<link rel="stylesheet" href="/css/style.css?v=2">
 
-    <style>
-
-        section {
-            width:200px;
-            max-width:200px;
-            min-width:200px;
-            border:1px solid #ff00ff;
-        }
-    </style>
+    
 </head>
 <body>
 	<!-- PRE LOADER -->
