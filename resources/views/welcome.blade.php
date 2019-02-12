@@ -14,7 +14,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 @if(Cookie::get('language') == "kr")
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
 @else
