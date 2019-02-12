@@ -14,7 +14,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 @if(Cookie::get('language') == "kr")
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
 @else
@@ -91,7 +91,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-first">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-8">
+                                    <div class="col-md-8 col-sm-12">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
@@ -105,7 +105,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-second">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-8">
+                                    <div class="col-md-8 col-sm-12">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
@@ -119,7 +119,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-third">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-8">
+                                    <div class="col-md-8 col-sm-12">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_3_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_3_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_3_03') !!}</p>
@@ -133,7 +133,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-four">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-8">
+                                    <div class="col-md-8 col-sm-12">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_4_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_4_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_4_03') !!}</p>
@@ -147,7 +147,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-five">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-8">
+                                    <div class="col-md-8 col-sm-12">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_5_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_5_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_5_03') !!}</p>
@@ -169,13 +169,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                 <div class="row">
                     
                     <!-- market/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h1>{!! trans('messages.po_st_00') !!}</h1>
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <!-- market1/ -->
                         <div class="project-intro">
                             <div class="project-intro1 wow fadeInUp" data-wow-delay="0.2s">
@@ -219,18 +219,18 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                         <!-- /market3 -->
                     </div>
-                    <div class="col-xs-2">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_01">&nbsp;</p>
                     </div>
                     <!-- /market -->
                     <!-- vision/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_100">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h2>{!! trans('messages.po_vs_00') !!}</h2>
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="vision-01 wow fadeInUp" data-wow-delay="0.2s">
                             <ul>
                                 <li class="txt_type_01 txt_w space_04">{!! trans('messages.po_vs_01') !!}</li>
@@ -256,12 +256,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_150">&nbsp;</p>
                     </div>
                     <!-- /vision -->
                     <!-- service -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.2s">
                             <h1>{!! trans('messages.po_svc_00') !!}</h1>
@@ -271,12 +271,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             <img src="/images/doublebet_service.png" class="img-responsive" alt="">
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                     </div>
                     <!-- /service -->
                     <!-- dobule x core/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h2>{!! trans('messages.po_core_00') !!}</h2>
@@ -286,7 +286,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             <img src="/images/double_x_core.jpg" class="img-responsive" style="padding-top:21px;" alt="">
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="double-x wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
                                 <li class="txt_type_00 txt_w space_05">{!! trans('messages.po_core_02') !!}</li>
@@ -295,7 +295,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                     </div>
                     <!-- /dobule x core -->
@@ -313,7 +313,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                 <div class="row">
 
                     <!-- tokenomics/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h1>{!! trans('messages.to_int_00') !!}</h1>
@@ -322,7 +322,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     </div>
                     <!-- /tokenomics -->
 
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
                             <p class="token-thumb-box">
                                 <span class="txt_type_02 t_center">{!! trans('messages.to_dg_01') !!}</span><br/><br/>
@@ -337,7 +337,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
 
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
                             <p class="token-thumb-box">
                                 <span class="txt_type_02 t_center">{!! trans('messages.to_dg_03') !!}</span><br/><br/>
@@ -352,7 +352,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
 
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
                             <p class="token-thumb-box">
                                 <span class="txt_type_02 t_center">{!! trans('messages.to_dg_05') !!}</span><br/><br/>
@@ -367,7 +367,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
 
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
                             <p class="token-thumb-box">
                                 <span class="txt_type_02 t_center">{!! trans('messages.to_dg_07') !!}</span><br/><br/>
@@ -382,7 +382,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
 
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
                             <p class="token-thumb-box">
                                 <span class="txt_type_02 t_center">{!! trans('messages.to_dg_09') !!}</span><br/><br/>
@@ -397,7 +397,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
 
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
                             <p class="token-thumb-box">
                                 <span class="txt_type_02 t_center">{!! trans('messages.to_dg_11') !!}</span><br/><br/>
@@ -412,18 +412,18 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
 
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_100">&nbsp;</p>
                     </div>
 
                     <!-- distribution/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h1>{!! trans('messages.to_dt_00') !!}</h1>
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="token-d wow fadeInUp" data-wow-delay="0.2s">
                             <!-- 01/ -->
                             <div class="token-d-01 wow fadeInLeft" data-wow-delay="0.4s">
@@ -567,12 +567,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             <!-- /07 -->
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_100">&nbsp;</p>
                     </div>
                     <!-- /distribution -->
                     <!-- sto/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h2>{!! trans('messages.to_sto_00') !!}</h2>
@@ -581,7 +581,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     </div>
                     <!-- /sto -->
                     <!-- use of fund/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="section-title wow fund-d-00 fadeInUp" data-wow-delay="0.1s">
                             <h2>{!! trans('messages.to_fund_00') !!}</h2>
                         </div>
@@ -668,18 +668,18 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             <!-- /04 -->
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_150">&nbsp;</p>
                     </div>
                     <!-- /use of fund -->
                     <!-- Sales/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h1>{!! trans('messages.to_sale_00') !!}</h1>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="sale-thumb wow fadeInUp" data-wow-delay="0.2s">
                             <div class="sale-thumb-box">
                                 <p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_01') !!}</p><br/>
@@ -699,7 +699,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="sale-thumb wow fadeInUp" data-wow-delay="0.3s">
                             <div class="sale-thumb-box">
                                 <p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_06') !!}</p><br/>
@@ -719,7 +719,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="sale-thumb wow fadeInUp" data-wow-delay="0.4s">
                             <div class="sale-thumb-box">
                                 <p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_11') !!}</p><br/>
@@ -740,7 +740,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
                     <!-- /Sales -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_100">&nbsp;</p>
                     </div>                    
                 </div>
@@ -755,14 +755,14 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                 <div class="row">
 
                     <!-- roadmap/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_100">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h2>{!! trans('messages.to_map_00') !!}</h2>
                         </div>
                     </div>
                     <!-- /roadmap -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="roadmap-d wow">
                             <!-- 01/ -->
                             <div class="roadmap-01-txt wow fadeInDown" data-wow-delay="0.4s">
@@ -898,7 +898,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             <!-- /12 -->
                         </div>
                     </div>
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                     </div>
 
@@ -913,13 +913,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                 <div class="row">
 
                     <!-- team/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h1>{!! trans('messages.team_00') !!}</h1>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
                             <div class="team-thumb-box">
                                 <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
@@ -932,7 +932,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
                             <div class="team-thumb-box team_mg_01">
                                 <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
@@ -945,7 +945,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
                             <div class="team-thumb-box team_mg_02">
                                 <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
@@ -958,7 +958,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-thumb-box">
                                 <p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
@@ -971,7 +971,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
                             <div class="team-thumb-box team_mg_01">
                                 <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
@@ -984,7 +984,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
                             <div class="team-thumb-box team_mg_02">
                                 <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
@@ -998,7 +998,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
                     <!-- /team -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_50">&nbsp;</p>
                     </div>
 
@@ -1013,13 +1013,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                 <div class="row">
 
                     <!-- news/ -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_100">&nbsp;</p>
                         <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
                             <h2>{!! trans('messages.news_00') !!}</h2>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.2s">
                             <div class="news-thumb-box">
                                 <a href="https://bitcoinexchangeguide.com/bitcoin-sports-betting/" target="_blank">
@@ -1033,7 +1033,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.3s">
                             <div class="news-thumb-box">
                                 <a href="https://www.learnliberty.org/blog/sports-betting-should-be-legal-across-the-country-heres-why/" target="_blank">
@@ -1047,7 +1047,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-md-4 col-sm-4">
                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
                             <div class="news-thumb-box">
                                 <a href="https://blog.zensports.com/zensports-launches-peer-to-peer-sports-betting-c4e82c4d64c5" target="_blank">
@@ -1062,7 +1062,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
                     <!-- /news -->
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <p class="space_100">&nbsp;</p>
                     </div>
 
@@ -1076,7 +1076,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
             <div class="container">
                 <div class="row">
 
-                    <div class="col-xs-6 ">
+                    <div class="col-md-6 col-sm-12">
                         <div class="footer-info-01">
                             <div class="section-title">
                                 <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_me_00') !!}</p>
@@ -1101,7 +1101,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-md-6 col-sm-12">
                         <div class="footer-info-02">
                             <div class="section-title">
                                 <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_mail_00') !!}</p>
@@ -1116,7 +1116,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                         </div>
                     </div>
 
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="wow fadeInUp" data-wow-delay="0.8s"> 
                             <p class="copyright-text txt_c_08"><br>Copyright &copy; 2019 CHAINPLUS. All Rights Reserved.</p>
                         </div>
