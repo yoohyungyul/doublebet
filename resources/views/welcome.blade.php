@@ -933,7 +933,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 				<div class="col-md-4 col-sm-4">
 					<div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
 						<div class="team-thumb-box team_mg_01">
-							<p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
+							<p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
 							<p class="team_name txt_type_02 txt_b">Michael Kim</p>
 							<p class="team_company txt_type_01">CEO & Founder of CoinInside</p>
 							<p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
@@ -972,7 +972,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 				<div class="col-md-4 col-sm-4">
 					<div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
 						<div class="team-thumb-box team_mg_01">
-							<p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
+							<p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
 							<p class="team_name txt_type_02 txt_b">Henno Fourie</p>
 							<p class="team_company txt_type_01">Co-founder & CMO of Gamedex</p>
 							<!-- <p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
