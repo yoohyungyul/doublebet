@@ -647,3 +647,9 @@ footer .section-title{padding-bottom:0;margin-bottom:10px; border-bottom:1px sol
     h2 {font-size: 1.8em;}
     .menu-thumb .menu-info{top: 60%;}
 }
+
+
+
+@media screen and (min-width: 1200px) {
+    body {display:none}
+}
