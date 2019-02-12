@@ -109,7 +109,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
-                                        <a href="" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="{{$paper_link}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
                                         <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_05') !!}</a>
                                     </div>
                             </div>
@@ -1106,16 +1106,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                             <div class="section-title">
                                 <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_mail_00') !!}</p>
                             </div>
-                            <form action="/subscribe" name="subForm" method="POST" onsubmit="return write_btn();">
-                            {{ csrf_field() }}
                             <div class="wow fadeInUp" data-wow-delay="0.4s">
                                 <p class="txt_type_00 txt_c_07">{!! trans('messages.foot_mail_01') !!}</p>
                                 <p class="txt_type_00 txt_c_07">
                                     <input type="text" class="input_email" id="e-mail" placeholder="e-mail" />
-                                    <input type="image" src="/images/btn_submit.png" border="0" alt="Submit" />
+                                    <a href="#"><img src="/images/btn_submit.png" class="" alt=""></a>
                                 </p>
                             </div>
-                            </form>
                         </div>
                     </div>
 
@@ -1134,7 +1131,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
         <div class="row">
             <div class="col-xs-12 text-center">
                 {!! trans('messages.paper_alert') !!}
-            </div>
+        </div>
         </div>
     </div>
 
@@ -1148,31 +1145,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 	<script src="/js/smoothscroll.js"></script>
 	<script src="/js/select.box.js"></script>
 	<script src="/js/jquery.singlePageNav.min.js"></script>
-    <script src="/js/custom.js"></script>
-    
-    <script>
-         function to_ajax(){
-  
-    
-            var queryString = $("form[name=testForm]").serialize() ;
-
-            $.ajax({
-                type : 'post',
-                url : '/test.jsp',
-                data : queryString,
-                dataType : 'json',
-                error: function(xhr, status, error){
-                    alert(error);
-                }
-                success : function(json){
-                    alert(json)
-                },
-            });
-
-        }
-
-
-    </script>
+	<script src="/js/custom.js"></script>
 
 </body>
 </html>
