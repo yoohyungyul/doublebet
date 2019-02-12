@@ -924,7 +924,7 @@
 					 </div>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+					<div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
 						<div class="team-thumb-box team_mg_01">
 							<p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
 							<p class="team_name txt_type_02 txt_b">Michael Kim</p>
@@ -963,7 +963,7 @@
 					 </div>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
+					<div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
 						<div class="team-thumb-box team_mg_01">
 							<p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
 							<p class="team_name txt_type_02 txt_b">Henno Fourie</p>
