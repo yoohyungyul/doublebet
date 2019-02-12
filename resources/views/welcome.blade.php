@@ -86,7 +86,7 @@
 									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</p>
 									 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
 									 <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
-									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_04') !!}</a>&nbsp;&nbsp;&nbsp;
+									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_04') !!} 1</a>&nbsp;&nbsp;&nbsp;
 									 <a href="#" class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_05') !!}</a>
 								</div>
 						   </div>
