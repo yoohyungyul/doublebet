@@ -32,7 +32,7 @@
 	</section>
 
 	<!-- MENU -->
-	<section class="navbar custom-navbar navbar-fixed-top" role="navigation" style="bordeR:1px solid #ff00ff">
+	<section class="navbar custom-navbar navbar-fixed-top" role="navigation" >
 		<div class="gnb">
 		<div class="container">
 
