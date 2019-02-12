@@ -934,9 +934,9 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 					<div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
 						<div class="team-thumb-box team_mg_01">
 							<p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Michael Kim</p>
-							<p class="team_company txt_type_01">CEO & Founder of CoinInside</p>
-							<p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+							<p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
+							<p class="team_company txt_type_01">CTO of CHAINPLUS</p>
+							<!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
 						</div>
 						<div class="team-hover">
 							<div class="team-item">&nbsp;</div>
@@ -947,8 +947,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 					<div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
 						<div class="team-thumb-box team_mg_02">
 							<p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">William. Ha</p>
-							<p class="team_company txt_type_01">CEO. ABLEX</p>
+							<p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
+							<p class="team_company txt_type_01">COO of CHAINPLUS</p>
 							<!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
 						</div>
 						<div class="team-hover">
@@ -960,9 +960,9 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 					<div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
 						<div class="team-thumb-box">
 							<p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Aladin Ben</p>
-							<p class="team_company txt_type_01">Co-founder of TUNI</p>
-							<!-- <p class="team_link_01"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+							<p class="team_name txt_type_02 txt_b">Michael Kim</p>
+							<p class="team_company txt_type_01">CMO & Founder of CoinInside</p>
+							<p class="team_link_01"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
 						</div>
 						<div class="team-hover">
 							<div class="team-item">&nbsp;</div>
@@ -973,8 +973,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 					<div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
 						<div class="team-thumb-box team_mg_01">
 							<p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Henno Fourie</p>
-							<p class="team_company txt_type_01">Co-founder & CMO of Gamedex</p>
+							<p class="team_name txt_type_02 txt_b">William. Ha</p>
+							<p class="team_company txt_type_01">CEO. ABLEX</p>
 							<!-- <p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
 						</div>
 						<div class="team-hover">
