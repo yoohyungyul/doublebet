@@ -26,7 +26,7 @@ class HomeController extends Controller
         if(Agent::isMobile()) {
 
             // return view('welcome_mobile');
-            return view('welcome_mobile');
+            return view('welcome');
         } else {
             return view('welcome');
         }
