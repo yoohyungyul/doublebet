@@ -162,6 +162,6 @@ return [
 'foot_mail_00'		=> 'SUBSCRIBE',
 'foot_mail_01'		=> 'Stay informed on our Fashion Updates & offers',
 
-
+'paper_alert'       => 'Coming soon.',
 
 ];
