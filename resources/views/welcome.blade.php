@@ -1127,7 +1127,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
             </div>
         </footer>
     </div>
-    <div class="moblie">
+    <div class="mobile">
         sdfd
     </div>
 
