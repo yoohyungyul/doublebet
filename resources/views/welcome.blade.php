@@ -97,7 +97,7 @@
 					  <div class="caption">
 						   <div class="container">
 								<div class="col-md-8 col-sm-12">
-									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}<</p>
+									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</p>
 									 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
 									 <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
 									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
