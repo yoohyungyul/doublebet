@@ -54,7 +54,7 @@
 					<li><a href="#project" class="smoothScroll"><span>{!! trans('messages.me_project') !!}</span></a></li>
 					<li><a href="#tokenomics" class="smoothScroll"><span>{!! trans('messages.me_tokenomics') !!}</span></a></li>
 					<li><a href="#roadmap" class="smoothScroll"><span>{!! trans('messages.me_roadmap') !!}</span></a></li>
-					<li><a href="#team" class="smoothScroll"><span>{!! trans('messages.me_team') !!}<</span></a></li>
+					<li><a href="#team" class="smoothScroll"><span>{!! trans('messages.me_team') !!}</span></a></li>
 					<li><a href="#news" class="smoothScroll"><span>{!! trans('messages.me_news') !!}</span></a></li>
 					<li><a href="#" class="smoothScroll"><span>{!! trans('messages.me_whitepaper') !!}</span></a></li>
 				</ul>
