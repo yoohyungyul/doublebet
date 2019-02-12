@@ -109,7 +109,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
-                                        <a href="{{$paper_link}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
                                         <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_05') !!}</a>
                                     </div>
                             </div>
@@ -123,7 +123,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_3_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_3_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_3_03') !!}</p>
-                                        <a href="{{$paper_link}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">>{!! trans('messages.ho_t_3_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_3_04') !!}</a>&nbsp;&nbsp;&nbsp;
                                         <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_05') !!}</a>
                                     </div>
                             </div>
@@ -137,7 +137,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_4_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_4_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_4_03') !!}</p>
-                                        <a href="{{$paper_link}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_4_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_4_04') !!}</a>&nbsp;&nbsp;&nbsp;
                                         <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_05') !!}</a>
                                     </div>
                             </div>
@@ -151,7 +151,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_5_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_5_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_5_03') !!}</p>
-                                        <a href="{{$paper_link}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_5_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_5_04') !!}</a>&nbsp;&nbsp;&nbsp;
                                         <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_5_05') !!}</a>
                                     </div>
                             </div>
