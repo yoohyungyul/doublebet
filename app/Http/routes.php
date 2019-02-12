@@ -20,3 +20,6 @@ Route::get('lang/{locale}', function ($locale) {
     Cookie::queue(Cookie::forever('language',$locale));
     return back();
 });
+
+
+Route::post('/subscribe', 'HomeController@postSubscribe');

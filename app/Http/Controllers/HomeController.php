@@ -23,20 +23,24 @@ class HomeController extends Controller
     public function index()
     {
         // 모바일 접속
-        if(Agent::isMobile()) {
+        // if(Agent::isMobile()) {
 
-            // return view('welcome_mobile');
-            return view('welcome');
-        } else {
-            return view('welcome');
-        }
+        //     // return view('welcome_mobile');
+        //     return view('welcome');
+        // } else {
+        //     return view('welcome');
+        // }
 
-       
+        
+        return view('welcome');
 
 
        
 
     }
 
+    public function postSubscribe() {
+        return "1";
+    }
 
 }
