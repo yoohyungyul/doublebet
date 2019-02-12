@@ -30,7 +30,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 
     <style>
 
-        section {border:1px solid #ff00ff}
+        section {
+            width:200px;
+            max-width:200px;
+            min-width:200px;
+            border:1px solid #ff00ff;
+        }
     </style>
 </head>
 <body>
