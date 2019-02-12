@@ -1128,7 +1128,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
         </footer>
     </div>
     <div class="mobile">
-        sdfd
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                {!! trans('messages.paper_alert') !!}
+            </div>
+        </div>
     </div>
 
 	<!-- SCRIPTS -->
