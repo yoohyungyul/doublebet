@@ -91,7 +91,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-first">
                         <div class="caption">
                             <div class="container">
-                                    <div class="ccol-xs-12">
+                                    <div class="col-xs-8">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
@@ -105,7 +105,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-second">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-8">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
@@ -119,7 +119,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-third">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-8">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_3_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_3_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_3_03') !!}</p>
@@ -133,7 +133,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-four">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-8">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_4_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_4_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_4_03') !!}</p>
@@ -147,7 +147,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="item item-five">
                         <div class="caption">
                             <div class="container">
-                                    <div class="col-xs-12">
+                                    <div class="col-xs-8">
                                         <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_5_01') !!}</p>
                                         <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_5_02') !!}</p>
                                         <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_5_03') !!}</p>
