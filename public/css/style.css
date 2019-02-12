@@ -648,8 +648,12 @@ footer .section-title{padding-bottom:0;margin-bottom:10px; border-bottom:1px sol
     .menu-thumb .menu-info{top: 60%;}
 }
 
-
+@media screen and (min-width: 1199px) {
+    .web {display:inline}
+    .moblie {display:none}
+}
 
 @media screen and (max-width: 1200px) {
-    body {display:none}
+    .web {display:none}
+    .moblie {display:inline}
 }
