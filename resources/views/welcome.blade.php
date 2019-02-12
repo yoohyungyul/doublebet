@@ -1,12 +1,6 @@
-<?
-if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
-		$lang = $_GET['lang'];
-	} else {
-		$lang = 'en';
-}
-?>
+
 <!DOCTYPE html>
-<html lang="<?=$lang?>">
+<html lang="{{Cookie::get('language')}}">
 <head>
 	<title>DoubleBet</title>
 	<meta charset="UTF-8">
@@ -15,11 +9,11 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 	<meta name="keywords" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<? if ($lang == "kr"){ ?>
+@if(Cookie::get('language') == "kr")
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
-<? }else{ ?>
+@else
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800" rel='stylesheet' type='text/css'>
-<?}?>	
+@endif	
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/animate.css">
@@ -27,7 +21,6 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="/css/magnific-popup.css">
 	<link rel="stylesheet" href="/css/style.css?v=2">
-	<? include_once('/include/doc_'.$lang.'.php'); ?>
 
 </head>
 <body>
@@ -51,26 +44,26 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				</button>
 
 				<!-- lOGO TEXT HERE -->
-				<a href="index.php?lang=<?=$lang?>" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
+				<a href="/" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
 			</div>
 
 			<!-- MENU LINKS -->
 			<div class="collapse navbar-collapse" id="tmNav">
 				<ul class="nav navbar-nav navbar-nav-first menu-holder">
-					<li><a href="#home" class="smoothScroll"><span><?=$me_home?></span></a></li>
-					<li><a href="#project" class="smoothScroll"><span><?=$me_project?></span></a></li>
-					<li><a href="#tokenomics" class="smoothScroll"><span><?=$me_tokenomics?></span></a></li>
-					<li><a href="#roadmap" class="smoothScroll"><span><?=$me_roadmap?></span></a></li>
-					<li><a href="#team" class="smoothScroll"><span><?=$me_team?></span></a></li>
-					<li><a href="#news" class="smoothScroll"><span><?=$me_news?></span></a></li>
-					<li><a href="#" class="smoothScroll"><span><?=$me_whitepaper?></span></a></li>
+					<li><a href="#home" class="smoothScroll"><span>{!! trans('messages.me_home') !!} </span></a></li>
+					<li><a href="#project" class="smoothScroll"><span>{!! trans('messages.me_project') !!}</span></a></li>
+					<li><a href="#tokenomics" class="smoothScroll"><span>{!! trans('messages.me_tokenomics') !!}</span></a></li>
+					<li><a href="#roadmap" class="smoothScroll"><span>{!! trans('messages.me_roadmap') !!}</span></a></li>
+					<li><a href="#team" class="smoothScroll"><span>{!! trans('messages.me_team') !!}<</span></a></li>
+					<li><a href="#news" class="smoothScroll"><span>{!! trans('messages.me_news') !!}</span></a></li>
+					<li><a href="#" class="smoothScroll"><span>{!! trans('messages.me_whitepaper') !!}</span></a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					 <li>
 						<div class="custom-select" style="width:60px;margin-top:14px;margin-right:0;">
 							<select>
-								<option value="index.php?lang=en" <? if ($lang == 'en'){echo 'selected';}else{}?> >EN</option>
-								<option value="index.php?lang=kr" <? if ($lang == 'kr'){echo 'selected';}else{}?> >KR</option>
+								<option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
+								<option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif> >KR</option>
 							</select>
 						</div>
 					 </li>
@@ -90,11 +83,11 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					  <div class="caption">
 						   <div class="container">
 								<div class="col-md-8 col-sm-12">
-									 <p class="txt_type_05 txt_w txt_b"><?=$ho_t_1_01?></p>
-									 <p class="txt_type_03 txt_w"><?=$ho_t_1_02?></p>
-									 <p class="txt_box_01 txt_type_01 txt_w"><?=$ho_t_1_03?></p>
-									 <a href="#" class="section-btn-01 btn btn-default smoothScroll"><?=$ho_t_1_04?></a>&nbsp;&nbsp;&nbsp;
-									 <a href="#" class="section-btn-02 btn btn-default smoothScroll"><?=$ho_t_1_05?></a>
+									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</p>
+									 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
+									 <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
+									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_04') !!}</a>&nbsp;&nbsp;&nbsp;
+									 <a href="#" class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_05') !!}</a>
 								</div>
 						   </div>
 					  </div>
@@ -104,11 +97,11 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					  <div class="caption">
 						   <div class="container">
 								<div class="col-md-8 col-sm-12">
-									 <p class="txt_type_05 txt_w txt_b"><?=$ho_t_2_01?></p>
-									 <p class="txt_type_03 txt_w"><?=$ho_t_2_02?></p>
-									 <p class="txt_box_01 txt_type_01 txt_w"><?=$ho_t_2_03?></p>
-									 <a href="#" class="section-btn-01 btn btn-default smoothScroll"><?=$ho_t_2_04?></a>&nbsp;&nbsp;&nbsp;
-									 <a href="#" class="section-btn-02 btn btn-default smoothScroll"><?=$ho_t_2_05?></a>
+									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}<</p>
+									 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
+									 <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
+									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
+									 <a href="#" class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_05') !!}</a>
 								</div>
 						   </div>
 					  </div>
@@ -118,11 +111,11 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					  <div class="caption">
 						   <div class="container">
 								<div class="col-md-8 col-sm-12">
-									 <p class="txt_type_05 txt_w txt_b"><?=$ho_t_3_01?></p>
-									 <p class="txt_type_03 txt_w"><?=$ho_t_3_02?></p>
-									 <p class="txt_box_01 txt_type_01 txt_w"><?=$ho_t_3_03?></p>
-									 <a href="#" class="section-btn-01 btn btn-default smoothScroll"><?=$ho_t_3_04?></a>&nbsp;&nbsp;&nbsp;
-									 <a href="#" class="section-btn-02 btn btn-default smoothScroll"><?=$ho_t_3_05?></a>
+									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_3_01') !!}</p>
+									 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_3_02') !!}</p>
+									 <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_3_03') !!}</p>
+									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_04') !!}</a>&nbsp;&nbsp;&nbsp;
+									 <a href="#" class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_05') !!}</a>
 								</div>
 						   </div>
 					  </div>
@@ -132,11 +125,11 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					  <div class="caption">
 						   <div class="container">
 								<div class="col-md-8 col-sm-12">
-									 <p class="txt_type_05 txt_w txt_b"><?=$ho_t_4_01?></p>
-									 <p class="txt_type_03 txt_w"><?=$ho_t_4_02?></p>
-									 <p class="txt_box_01 txt_type_01 txt_w"><?=$ho_t_4_03?></p>
-									 <a href="#" class="section-btn-01 btn btn-default smoothScroll"><?=$ho_t_4_04?></a>&nbsp;&nbsp;&nbsp;
-									 <a href="#" class="section-btn-02 btn btn-default smoothScroll"><?=$ho_t_4_05?></a>
+									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_4_01') !!}</p>
+									 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_4_02') !!}</p>
+									 <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_4_03') !!}</p>
+									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_04') !!}</a>&nbsp;&nbsp;&nbsp;
+									 <a href="#" class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_05') !!}</a>
 								</div>
 						   </div>
 					  </div>
@@ -146,11 +139,11 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					  <div class="caption">
 						   <div class="container">
 								<div class="col-md-8 col-sm-12">
-									 <p class="txt_type_05 txt_w txt_b"><?=$ho_t_5_01?></p>
-									 <p class="txt_type_03 txt_w"><?=$ho_t_5_02?></p>
-									 <p class="txt_box_01 txt_type_01 txt_w"><?=$ho_t_5_03?></p>
-									 <a href="#" class="section-btn-01 btn btn-default smoothScroll"><?=$ho_t_5_04?></a>&nbsp;&nbsp;&nbsp;
-									 <a href="#" class="section-btn-02 btn btn-default smoothScroll"><?=$ho_t_5_05?></a>
+									 <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_5_01') !!}</p>
+									 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_5_02') !!}</p>
+									 <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_5_03') !!}</p>
+									 <a href="#" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_5_04') !!}</a>&nbsp;&nbsp;&nbsp;
+									 <a href="#" class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_5_05') !!}</a>
 								</div>
 						   </div>
 					  </div>
@@ -170,17 +163,17 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1><?=$po_st_00?></h1>
+						<h1>{!! trans('messages.po_st_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12">
 					<!-- market1/ -->
 					<div class="project-intro">
 						<div class="project-intro1 wow fadeInUp" data-wow-delay="0.2s">
-						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b"><?=$po_st_01?></p>
+						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">{!! trans('messages.po_st_01') !!}</p>
 						</div>
 						<div class="project-intro2 wow fadeInUp" data-wow-delay="0.2s">
-						   <p class="t_mid pa_ce_25"><?=$po_st_02?></p>
+						   <p class="t_mid pa_ce_25">{!! trans('messages.po_st_02') !!}</p>
 						</div>
 
 						<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.2s">
@@ -191,10 +184,10 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					<!-- market2/ -->
 					<div class="project-intro">
 						<div class="project-intro1 wow fadeInUp" data-wow-delay="0.3s">
-						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b"><?=$po_st_03?></p>
+						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">{!! trans('messages.po_st_03') !!}</p>
 						</div>
 						<div class="project-intro2 wow fadeInUp" data-wow-delay="0.3s">
-						   <p class="t_mid pa_ce_20"><?=$po_st_04?></p>
+						   <p class="t_mid pa_ce_20">{!! trans('messages.po_st_04') !!}</p>
 						</div>
 
 						<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.3s">
@@ -205,10 +198,10 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					<!-- market3/ -->
 					<div class="project-intro">
 						<div class="project-intro1 wow fadeInUp" data-wow-delay="0.4s">
-						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b"><?=$po_st_05?></p>
+						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">{!! trans('messages.po_st_05') !!}</p>
 						</div>
 						<div class="project-intro2 wow fadeInUp" data-wow-delay="0.4s">
-						   <p class="t_mid pa_ce_20"><?=$po_st_06?></p>
+						   <p class="t_mid pa_ce_20">{!! trans('messages.po_st_06') !!}</p>
 						</div>
 
 						<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.4s">
@@ -225,31 +218,31 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_100">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2><?=$po_vs_00?></h2>
+						<h2>{!! trans('messages.po_vs_00') !!}</h2>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12">
 					<div class="vision-01 wow fadeInUp" data-wow-delay="0.2s">
 						<ul>
-							<li class="txt_type_01 txt_w space_04"><?=$po_vs_01?></li>
-							<li class="txt_type_01 txt_w space_04"><?=$po_vs_02?></li>
-							<li class="txt_type_01 txt_w space_04"><?=$po_vs_03?></li>
+							<li class="txt_type_01 txt_w space_04">{!! trans('messages.po_vs_01') !!}</li>
+							<li class="txt_type_01 txt_w space_04">{!! trans('messages.po_vs_02') !!}</li>
+							<li class="txt_type_01 txt_w space_04">{!! trans('messages.po_vs_03') !!}</li>
 						</ul>
 					</div>
 					<div class="vision-02 wow fadeInUp" data-wow-delay="0.3s">
 						<ul>
-							<li class="txt_type_01 txt_w txt_b"><?=$po_vs_04?></li>
-							<li class="txt_type_01 txt_w txt_b"><?=$po_vs_05?></li>
-							<li class="txt_type_01 txt_w txt_b"><?=$po_vs_06?></li>
+							<li class="txt_type_01 txt_w txt_b">{!! trans('messages.po_vs_04') !!}</li>
+							<li class="txt_type_01 txt_w txt_b">{!! trans('messages.po_vs_05') !!}</li>
+							<li class="txt_type_01 txt_w txt_b">{!! trans('messages.po_vs_06') !!}</li>
 						</ul>
-						<div class="vision-03 wow fadeInUp" data-wow-delay="0.5s"">
-							<p class="txt_type_02 t_center txt_c_01"><?=$po_vs_07?></p>
-							<p class="txt_type_03 t_center txt_c_01 txt_b"><?=$po_vs_08?></p>
+						<div class="vision-03 wow fadeInUp" data-wow-delay="0.5s">
+							<p class="txt_type_02 t_center txt_c_01">{!! trans('messages.po_vs_07') !!}</p>
+							<p class="txt_type_03 t_center txt_c_01 txt_b">{!! trans('messages.po_vs_08') !!}</p>
 							<p><img src="/images/vision_03.jpg" class="img-responsive" alt=""></p>
 							<ul>
-								<li class="txt_type_01 space_01"><?=$po_vs_09?></li>
-								<li class="txt_type_01 space_01"><?=$po_vs_10?></li>
-								<li class="txt_type_01 space_01"><?=$po_vs_11?></li>
+								<li class="txt_type_01 space_01">{!! trans('messages.po_vs_09') !!}</li>
+								<li class="txt_type_01 space_01">{!! trans('messages.po_vs_10') !!}</li>
+								<li class="txt_type_01 space_01">{!! trans('messages.po_vs_11') !!}</li>
 							</ul>
 						</div>
 					</div>
@@ -262,8 +255,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.2s">
-						<h1><?=$po_svc_00?></h1>
-						<p class="txt_type_02 space_01 txt_c_02"><?=$po_svc_01?></p>
+						<h1>{!! trans('messages.po_svc_00') !!}</h1>
+						<p class="txt_type_02 space_01 txt_c_02">{!! trans('messages.po_svc_01') !!}</p>
 					</div>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.3s">
 						<img src="/images/doublebet_service.png" class="img-responsive" alt="">
@@ -277,8 +270,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2><?=$po_core_00?></h2>
-						<p class="txt_type_02 space_01 txt_c_03"><?=$po_core_01?></p>
+						<h2>{!! trans('messages.po_core_00') !!}</h2>
+						<p class="txt_type_02 space_01 txt_c_03">{!! trans('messages.po_core_01') !!}</p>
 					</div>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.3s">
 						<img src="/images/double_x_core.jpg" class="img-responsive" style="padding-top:21px;" alt="">
@@ -287,9 +280,9 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<div class="double-x wow fadeInUp" data-wow-delay="0.5s">
 						<ul>
-							<li class="txt_type_00 txt_w space_05"><?=$po_core_02?></li>
-							<li class="txt_type_00 txt_w space_06"><?=$po_core_03?></li>
-							<li class="txt_type_00 txt_w space_07"><?=$po_core_04?></li>
+							<li class="txt_type_00 txt_w space_05">{!! trans('messages.po_core_02') !!}</li>
+							<li class="txt_type_00 txt_w space_06">{!! trans('messages.po_core_03') !!}</li>
+							<li class="txt_type_00 txt_w space_07">{!! trans('messages.po_core_04') !!}</li>
 						</ul>
 					</div>
 				</div>
@@ -314,8 +307,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1><?=$to_int_00?></h1>
-						<p class="txt_type_02 space_01 txt_c_02"><?=$to_int_01?></p>
+						<h1>{!! trans('messages.to_int_00') !!}</h1>
+						<p class="txt_type_02 space_01 txt_c_02">{!! trans('messages.to_int_01') !!}</p>
 					</div>
 				</div>
 				<!-- /tokenomics -->
@@ -323,13 +316,13 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center"><?=$to_dg_01?></span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_dg_02?></span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_01') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_02') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center"><?=$to_dg_01?></span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_dg_02?></span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_01') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_02') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -338,13 +331,13 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center"><?=$to_dg_03?></span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_dg_04?></span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_03') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_04') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center"><?=$to_dg_03?></span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_dg_04?></span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_03') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_04') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -353,13 +346,13 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center"><?=$to_dg_05?></span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_dg_06?></span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_05') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_06') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center"><?=$to_dg_05?></span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_dg_06?></span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_05') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_06') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -368,13 +361,13 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center"><?=$to_dg_07?></span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_dg_08?></span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_07') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_08') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center"><?=$to_dg_07?></span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_dg_08?></span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_07') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_08') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -383,13 +376,13 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center"><?=$to_dg_09?></span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_dg_10?></span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_09') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_10') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center"><?=$to_dg_09?></span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_dg_10?></span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_09') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_10') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -398,13 +391,13 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center"><?=$to_dg_11?></span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_dg_12?></span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_11') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_12') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center"><?=$to_dg_11?></span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_dg_12?></span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_11') !!}<</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_12') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -418,7 +411,7 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1><?=$to_dt_00?></h1>
+						<h1>{!! trans('messages.to_dt_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12">
@@ -432,8 +425,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b"><?=$to_dt_01?></span><br>
-											<span class="txt_type_02 txt_c_06"><?=$to_dt_02?></span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_01') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_02') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_01.png" class="img-responsive" alt="">
@@ -452,8 +445,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b"><?=$to_dt_03?></span><br>
-											<span class="txt_type_02 txt_c_06"><?=$to_dt_04?></span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_03') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_04') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_02.png" class="img-responsive" alt="">
@@ -472,8 +465,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b"><?=$to_dt_05?></span><br>
-											<span class="txt_type_02 txt_c_06"><?=$to_dt_06?></span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_05') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_06') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_02.png" class="img-responsive" alt="">
@@ -492,8 +485,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b"><?=$to_dt_07?></span><br>
-											<span class="txt_type_02 txt_c_06"><?=$to_dt_08?></span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_07') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_08') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_02.png" class="img-responsive" alt="">
@@ -515,8 +508,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 											<img src="/images/token_d_03.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_c_05 txt_b"><?=$to_dt_09?></span><br>
-											<span class="txt_type_02 txt_c_06"><?=$to_dt_10?></span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_09') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_10') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -535,8 +528,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 											<img src="/images/token_d_04.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_c_05 txt_b"><?=$to_dt_11?></span><br>
-											<span class="txt_type_02 txt_c_06"><?=$to_dt_12?></span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_11') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_12') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -555,8 +548,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 											<img src="/images/token_d_03.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_c_05 txt_b"><?=$to_dt_13?></span><br>
-											<span class="txt_type_02 txt_c_06"><?=$to_dt_14?></span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_13') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_14') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -573,15 +566,15 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2><?=$to_sto_00?></h2>
-						<p class="txt_type_02 space_01 txt_c_03"><?=$to_sto_01?></p>
+						<h2>{!! trans('messages.to_sto_00') !!}</h2>
+						<p class="txt_type_02 space_01 txt_c_03">{!! trans('messages.to_sto_01') !!}</p>
 					</div>
 				</div>
 				<!-- /sto -->
 				<!-- use of fund/ -->
 				<div class="col-md-12 col-sm-12">
 					<div class="section-title wow fund-d-00 fadeInUp" data-wow-delay="0.1s">
-						<h2><?=$to_fund_00?></h2>
+						<h2>{!! trans('messages.to_fund_00') !!}</h2>
 					</div>
 					<div class="fund-d wow fadeInUp" data-wow-delay="0.2s">
 						<!-- 01/ -->
@@ -593,8 +586,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_w txt_b"><?=$to_fund_01?></span><br>
-											<span class="txt_type_02 txt_w"><?=$to_fund_02?></span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_01') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_02') !!}</span>
 										</td>
 										<td>
 											<img src="/images/use_fund_01.png" class="img-responsive" alt="">
@@ -613,8 +606,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_w txt_b"><?=$to_fund_03?></span><br>
-											<span class="txt_type_02 txt_w"><?=$to_fund_04?></span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_03') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_04') !!}</span>
 										</td>
 										<td>
 											<img src="/images/use_fund_01.png" class="img-responsive" alt="">
@@ -636,8 +629,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 											<img src="images/use_fund_04.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_w txt_b"><?=$to_fund_05?></span><br>
-											<span class="txt_type_02 txt_w"><?=$to_fund_06?></span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_05') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_06') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -656,8 +649,8 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 											<img src="/images/use_fund_03.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_w txt_b"><?=$to_fund_07?></span><br>
-											<span class="txt_type_02 txt_w"><?=$to_fund_08?></span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_07') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_08') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -674,25 +667,25 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1><?=$to_sale_00?></h1>
+						<h1>{!! trans('messages.to_sale_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="sale-thumb wow fadeInUp" data-wow-delay="0.2s">
 						<div class="sale-thumb-box">
-							<p class="txt_type_02 t_center sale-t-bg-01"><?=$to_sale_01?></p><br/>
-							<p class="txt_type_02_24 t_center txt_c_01"><?=$to_sale_02?></p><br/><br/>
-							<p class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_sale_03?></p><br/>
-							<p class="txt_type_02 t_center txt_c_02"><?=$to_sale_04?></p><br/>
-							<p class="txt_type_02 t_center txt_c_02"><?=$to_sale_05?></p>
+							<p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_01') !!}</p><br/>
+							<p class="txt_type_02_24 t_center txt_c_01">{!! trans('messages.to_sale_02') !!}</p><br/><br/>
+							<p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_03') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_04') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_05') !!}</p>
 						</div>
 						<div class="sale-hover">
 							<div class="sale-item">
-								<p class="txt_type_02 t_center txt_w sale-t-bg-02"><?=$to_sale_01?></p><br/>
-								<p class="txt_type_02_24 t_center txt_w"><?=$to_sale_02?></p><br/><br/>
-								<p class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_sale_03?></p><br/>
-								<p class="txt_type_02 t_center txt_w"><?=$to_sale_04?></p><br/>
-								<p class="txt_type_02 t_center txt_w"><?=$to_sale_05?></p>
+								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_01') !!}</p><br/>
+								<p class="txt_type_02_24 t_center txt_w">{!! trans('messages.to_sale_02') !!}</p><br/><br/>
+								<p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_03') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_04') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_05') !!}</p>
 							</div>
 						</div>
 					 </div>
@@ -700,19 +693,19 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="sale-thumb wow fadeInUp" data-wow-delay="0.3s">
 						<div class="sale-thumb-box">
-							<p class="txt_type_02 t_center sale-t-bg-01"><?=$to_sale_06?></p><br/>
-							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;"><?=$to_sale_07?></p><br/><br/>
-							<p class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_sale_08?></p><br/>
-							<p class="txt_type_02 t_center txt_c_02"><?=$to_sale_09?></p><br/>
-							<p class="txt_type_02 t_center txt_c_02"><?=$to_sale_10?></p>
+							<p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_06') !!}</p><br/>
+							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">{!! trans('messages.to_sale_07') !!}</p><br/><br/>
+							<p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_08') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_09') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_10') !!}</p>
 						</div>
 						<div class="sale-hover">
 							<div class="sale-item">
-								<p class="txt_type_02 t_center txt_w sale-t-bg-02"><?=$to_sale_06?></p><br/>
-								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;"><?=$to_sale_07?></p><br/><br/>
-								<p class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_sale_08?></p><br/>
-								<p class="txt_type_02 t_center txt_w"><?=$to_sale_09?></p><br/>
-								<p class="txt_type_02 t_center txt_w"><?=$to_sale_10?></p>
+								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_06') !!}</p><br/>
+								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_07') !!}</p><br/><br/>
+								<p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_08') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_09') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_10') !!}</p>
 							</div>
 						</div>
 					 </div>
@@ -720,19 +713,19 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-4 col-sm-4">
 					<div class="sale-thumb wow fadeInUp" data-wow-delay="0.4s">
 						<div class="sale-thumb-box">
-							<p class="txt_type_02 t_center sale-t-bg-01"><?=$to_sale_11?></p><br/>
-							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;"><?=$to_sale_12?></p><br/><br/>
-							<p class="txt_type_05 txt_c_01 t_center txt_b"><?=$to_sale_13?></p><br/>
-							<p class="txt_type_02 t_center txt_c_02"><?=$to_sale_14?></p><br/>
-							<p class="txt_type_02 t_center txt_c_02"><?=$to_sale_15?></p>
+							<p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_11') !!}</p><br/>
+							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">{!! trans('messages.to_sale_12') !!}</p><br/><br/>
+							<p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_13') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_14') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_15') !!}</p>
 						</div>
 						<div class="sale-hover">
 							<div class="sale-item">
-								<p class="txt_type_02 t_center txt_w sale-t-bg-02"><?=$to_sale_11?></p><br/>
-								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;"><?=$to_sale_12?></p><br/><br/>
-								<p class="txt_type_05 txt_c_04 t_center txt_b"><?=$to_sale_13?></p><br/>
-								<p class="txt_type_02 t_center txt_w"><?=$to_sale_14?></p><br/>
-								<p class="txt_type_02 t_center txt_w"><?=$to_sale_15?></p>
+								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_11') !!}</p><br/>
+								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_12') !!}</p><br/><br/>
+								<p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_13') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_14') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_15') !!}</p>
 							</div>
 						</div>
 					 </div>
@@ -756,7 +749,7 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_100">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2><?=$to_map_00?></h2>
+						<h2>{!! trans('messages.to_map_00') !!}</h2>
 					</div>
 				</div>
 				<!-- /roadmap -->
@@ -764,134 +757,134 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 					<div class="roadmap-d wow">
 						<!-- 01/ -->
 						<div class="roadmap-01-txt wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_01?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_01') !!}</p>
 						</div>
 						<div class="roadmap-01-pin wow fadeInDown" data-wow-delay="0.4s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-01-date wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_02?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_02') !!}</p>
 						</div>
 						<!-- /01 -->
 						<!-- 02/ -->
 						<div class="roadmap-02-date wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_03?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_03') !!}</p>
 						</div>
 						<div class="roadmap-02-pin wow fadeInUp" data-wow-delay="0.4s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-02-txt wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_04?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_04') !!}</p>
 						</div>
 						<!-- /02 -->
 						<!-- 03/ -->
 						<div class="roadmap-03-txt wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_05?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_05') !!}</p>
 						</div>
 						<div class="roadmap-03-pin wow fadeInDown" data-wow-delay="0.4s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-03-date wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_06?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_06') !!}</p>
 						</div>
 						<!-- /03 -->
 						<!-- 04/ -->
 						<div class="roadmap-04-date wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_07?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_07') !!}</p>
 						</div>
 						<div class="roadmap-04-pin wow fadeInUp" data-wow-delay="0.4s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-04-txt wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_08?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_08') !!}</p>
 						</div>
 						<!-- /04 -->
 						<!-- 05/ -->
 						<div class="roadmap-05-txt wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_09?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_09') !!}<</p>
 						</div>
 						<div class="roadmap-05-pin wow fadeInDown" data-wow-delay="0.4s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-05-date wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_10?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_10') !!}</p>
 						</div>
 						<!-- /05 -->
 						<!-- 06/ -->
 						<div class="roadmap-06-date wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_11?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_11') !!}</p>
 						</div>
 						<div class="roadmap-06-pin wow fadeInUp" data-wow-delay="0.4s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-06-txt wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_12?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_12') !!}</p>
 						</div>
 						<!-- /06 -->
 						<!-- 07/ -->
 						<div class="roadmap-07-date wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_13?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_13') !!}</p>
 						</div>
 						<div class="roadmap-07-pin wow fadeInDown" data-wow-delay="0.6s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-07-txt wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_14?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_14') !!}</p>
 						</div>
 						<!-- /07 -->
 						<!-- 08/ -->
 						<div class="roadmap-08-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_15?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_15') !!}</p>
 						</div>
 						<div class="roadmap-08-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-08-date wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_16?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_16') !!}</p>
 						</div>
 						<!-- /08 -->
 						<!-- 09/ -->
 						<div class="roadmap-09-date wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_17?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_17') !!}</p>
 						</div>
 						<div class="roadmap-09-pin wow fadeInDown" data-wow-delay="0.6s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-09-txt wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_18?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_18') !!}</p>
 						</div>
 						<!-- /09 -->
 						<!-- 10/ -->
 						<div class="roadmap-10-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_19?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_19') !!}</p>
 						</div>
 						<div class="roadmap-10-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-10-date wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_20?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_20') !!}</p>
 						</div>
 						<!-- /10 -->
 						<!-- 11/ -->
 						<div class="roadmap-11-date wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_21?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_21') !!}</p>
 						</div>
 						<div class="roadmap-11-pin wow fadeInDown" data-wow-delay="0.6s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-11-txt wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_22?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_22') !!}</p>
 						</div>
 						<!-- /11 -->
 						<!-- 12/ -->
 						<div class="roadmap-12-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07"><?=$to_map_23?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_23') !!}</p>
 						</div>
 						<div class="roadmap-12-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-12-date wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b"><?=$to_map_24?></p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_24') !!}</p>
 						</div>
 						<!-- /12 -->
 					</div>
@@ -914,7 +907,7 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1><?=$team_00?></h1>
+						<h1>{!! trans('messages.team_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
@@ -1014,7 +1007,7 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-12 col-sm-12">
 					<p class="space_100">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2><?=$news_00?></h2>
+						<h2>{!! trans('messages.news_00') !!}</h2>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
@@ -1077,18 +1070,18 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-6 col-sm-12">
 					<div class="footer-info-01">
 						<div class="section-title">
-							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s"><?=$foot_me_00?></p>
+							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_me_00') !!}</p>
 						</div>
 						<div class="wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><a href="#home"><?=$foot_me_01?></a></p>
-							<p class="txt_type_00 txt_c_07"><a href="#roadmap"><?=$foot_me_02?></a></p>
-							<p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')"><?=$foot_me_03?></a></p>
-							<p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')"><?=$foot_me_04?></a></p>
+							<p class="txt_type_00 txt_c_07"><a href="#home">{!! trans('messages.foot_me_01') !!}</a></p>
+							<p class="txt_type_00 txt_c_07"><a href="#roadmap">{!! trans('messages.foot_me_02') !!}</a></p>
+							<p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')">{!! trans('messages.foot_me_03') !!}</a></p>
+							<p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')">{!! trans('messages.foot_me_04') !!}</a></p>
 						</div>
 					</div>
 					<div class="footer-info-01">
 						<div class="section-title">
-							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s"><?=$foot_us_00?></p>
+							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_us_00') !!}</p>
 						</div>
 						<div class="wow fadeInUp" data-wow-delay="0.4s">
 							<p class="txt_type_00 txt_c_07"><a href="mailto:jhkim@doublebet.io">jhkim@doublebet.io</a></p>
@@ -1102,10 +1095,10 @@ if ($_GET['lang'] =='en' or $_GET['lang'] =='kr'){
 				<div class="col-md-6 col-sm-12">
 					 <div class="footer-info-02">
 						  <div class="section-title">
-							   <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s"><?=$foot_mail_00?></p>
+							   <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_mail_00') !!}</p>
 						  </div>
 						  <div class="wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><?=$foot_mail_01?></p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.foot_mail_01') !!}</p>
 							<p class="txt_type_00 txt_c_07">
 								<input type="text" class="input_email" id="e-mail" placeholder="e-mail" />
 								<a href="#"><img src="/images/btn_submit.png" class="" alt=""></a>
