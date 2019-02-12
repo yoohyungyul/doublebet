@@ -987,7 +987,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 						<div class="team-thumb-box team_mg_02">
 							<p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
 							<p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
-							<p class="team_company txt_type_01">DCInside. CEO</p>
+							<p class="team_company txt_type_01">Founder & CEO of DCInside</p>
 							<!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
 						</div>
 						<div class="team-hover">
@@ -997,7 +997,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 				</div>
 				<!-- /team -->
 				<div class="col-md-12 col-sm-12">
-					<p class="space_100">&nbsp;</p>
+					<p class="space_50">&nbsp;</p>
 				</div>
 
 			</div>
