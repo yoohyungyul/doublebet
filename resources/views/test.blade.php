@@ -627,7 +627,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 
     <!-- Roadmap-->
     <section id="roadmap" data-stellar-background-ratio="0.5">
-            <div class="c_bg_03">
+        <div class="c_bg_03">
             <div class="container">
                 <div class="row">
 
@@ -778,14 +778,14 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="col-xs-12">
                         <p class="space_50">&nbsp;</p>
                     </div>
-
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- team -->
-        <section id="team" data-stellar-background-ratio="0.5">
-            <div class="c_bg_04">
+    <!-- team -->
+    <section id="team" data-stellar-background-ratio="0.5">
+        <div class="c_bg_04">
             <div class="container">
                 <div class="row">
 
@@ -878,14 +878,14 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="col-xs-12">
                         <p class="space_50">&nbsp;</p>
                     </div>
-
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- news -->
-        <section id="news" data-stellar-background-ratio="0.5">
-            <div class="c_bg_05">
+    <!-- news -->
+    <section id="news" data-stellar-background-ratio="0.5">
+        <div class="c_bg_05">
             <div class="container">
                 <div class="row">
 
@@ -942,10 +942,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <div class="col-xs-2">
                         <p class="space_100">&nbsp;</p>
                     </div>
-
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     
     
 
