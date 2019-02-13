@@ -50,26 +50,35 @@ class HomeController extends Controller
 
         if(!$request->email) return "0";
 
-        try {
-            DB::beginTransaction();
 
-            // 거래 내역 등록
-            $subscribe = new Subscribe;
-            $subscribe->email = $request->email;
-            $subscribe->push();
-         
+        $data = Subscribe::where('email',$request->email)->first();
 
-        } catch (\Exception $e) {
-            DB::rollback();
+        if($data) {
+            return "1";
 
-            return "0";
+        } else {
 
-           
-        } finally {
-            DB::commit();
+            try {
+                DB::beginTransaction();
+
+                // 거래 내역 등록
+                $subscribe = new Subscribe;
+                $subscribe->email = $request->email;
+                $subscribe->push();
+            
+
+            } catch (\Exception $e) {
+                DB::rollback();
+
+                return "0";
+
+            
+            } finally {
+                DB::commit();
+            }
+
+            return "1";
         }
-
-        return "1";
 
 
     }
