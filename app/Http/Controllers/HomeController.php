@@ -48,7 +48,7 @@ class HomeController extends Controller
 
     public function postSubscribe(Request $request) {
 
-        // return $request->email;
+        if(!$request->email) return "0";
 
         try {
             DB::beginTransaction();
