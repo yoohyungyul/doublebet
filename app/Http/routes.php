@@ -14,6 +14,7 @@
 
 
 Route::get('/', 'HomeController@index');
+Route::get('/test', 'HomeController@test');
 
 // 언어
 Route::get('lang/{locale}', function ($locale) {

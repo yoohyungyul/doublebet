@@ -39,6 +39,11 @@ class HomeController extends Controller
 
     }
 
+    public function test() {
+        return view('test');
+
+    }
+
     public function postSubscribe() {
         return "1";
     }
