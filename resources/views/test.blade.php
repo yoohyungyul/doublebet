@@ -623,6 +623,329 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
             </div>
         </div>
     </section>
+
+
+    <!-- Roadmap-->
+    <section id="roadmap" data-stellar-background-ratio="0.5">
+            <div class="c_bg_03">
+            <div class="container">
+                <div class="row">
+
+                    <!-- roadmap/ -->
+                    <div class="col-xs-12">
+                        <p class="space_100">&nbsp;</p>
+                        <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
+                            <h2>{!! trans('messages.to_map_00') !!}</h2>
+                        </div>
+                    </div>
+                    <!-- /roadmap -->
+                    <div class="col-xs-12">
+                        <div class="roadmap-d wow">
+                            <!-- 01/ -->
+                            <div class="roadmap-01-txt wow fadeInDown" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_01') !!}</p>
+                            </div>
+                            <div class="roadmap-01-pin wow fadeInDown" data-wow-delay="0.4s">
+                                <img src="/images/roadmap_01.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-01-date wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_02') !!}</p>
+                            </div>
+                            <!-- /01 -->
+                            <!-- 02/ -->
+                            <div class="roadmap-02-date wow fadeInDown" data-wow-delay="0.4s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_03') !!}</p>
+                            </div>
+                            <div class="roadmap-02-pin wow fadeInUp" data-wow-delay="0.4s">
+                                <img src="/images/roadmap_02.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-02-txt wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_04') !!}</p>
+                            </div>
+                            <!-- /02 -->
+                            <!-- 03/ -->
+                            <div class="roadmap-03-txt wow fadeInDown" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_05') !!}</p>
+                            </div>
+                            <div class="roadmap-03-pin wow fadeInDown" data-wow-delay="0.4s">
+                                <img src="/images/roadmap_01.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-03-date wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_06') !!}</p>
+                            </div>
+                            <!-- /03 -->
+                            <!-- 04/ -->
+                            <div class="roadmap-04-date wow fadeInDown" data-wow-delay="0.4s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_07') !!}</p>
+                            </div>
+                            <div class="roadmap-04-pin wow fadeInUp" data-wow-delay="0.4s">
+                                <img src="/images/roadmap_02.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-04-txt wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_08') !!}</p>
+                            </div>
+                            <!-- /04 -->
+                            <!-- 05/ -->
+                            <div class="roadmap-05-txt wow fadeInDown" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_09') !!}<</p>
+                            </div>
+                            <div class="roadmap-05-pin wow fadeInDown" data-wow-delay="0.4s">
+                                <img src="/images/roadmap_01.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-05-date wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_10') !!}</p>
+                            </div>
+                            <!-- /05 -->
+                            <!-- 06/ -->
+                            <div class="roadmap-06-date wow fadeInDown" data-wow-delay="0.4s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_11') !!}</p>
+                            </div>
+                            <div class="roadmap-06-pin wow fadeInUp" data-wow-delay="0.4s">
+                                <img src="/images/roadmap_02.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-06-txt wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_12') !!}</p>
+                            </div>
+                            <!-- /06 -->
+                            <!-- 07/ -->
+                            <div class="roadmap-07-date wow fadeInUp" data-wow-delay="0.6s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_13') !!}</p>
+                            </div>
+                            <div class="roadmap-07-pin wow fadeInDown" data-wow-delay="0.6s">
+                                <img src="/images/roadmap_02.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-07-txt wow fadeInDown" data-wow-delay="0.6s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_14') !!}</p>
+                            </div>
+                            <!-- /07 -->
+                            <!-- 08/ -->
+                            <div class="roadmap-08-txt wow fadeInUp" data-wow-delay="0.6s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_15') !!}</p>
+                            </div>
+                            <div class="roadmap-08-pin wow fadeInUp" data-wow-delay="0.6s">
+                                <img src="/images/roadmap_01.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-08-date wow fadeInDown" data-wow-delay="0.6s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_16') !!}</p>
+                            </div>
+                            <!-- /08 -->
+                            <!-- 09/ -->
+                            <div class="roadmap-09-date wow fadeInUp" data-wow-delay="0.6s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_17') !!}</p>
+                            </div>
+                            <div class="roadmap-09-pin wow fadeInDown" data-wow-delay="0.6s">
+                                <img src="/images/roadmap_02.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-09-txt wow fadeInDown" data-wow-delay="0.6s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_18') !!}</p>
+                            </div>
+                            <!-- /09 -->
+                            <!-- 10/ -->
+                            <div class="roadmap-10-txt wow fadeInUp" data-wow-delay="0.6s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_19') !!}</p>
+                            </div>
+                            <div class="roadmap-10-pin wow fadeInUp" data-wow-delay="0.6s">
+                                <img src="/images/roadmap_01.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-10-date wow fadeInDown" data-wow-delay="0.6s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_20') !!}</p>
+                            </div>
+                            <!-- /10 -->
+                            <!-- 11/ -->
+                            <div class="roadmap-11-date wow fadeInUp" data-wow-delay="0.6s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_21') !!}</p>
+                            </div>
+                            <div class="roadmap-11-pin wow fadeInDown" data-wow-delay="0.6s">
+                                <img src="/images/roadmap_02.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-11-txt wow fadeInDown" data-wow-delay="0.6s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_22') !!}</p>
+                            </div>
+                            <!-- /11 -->
+                            <!-- 12/ -->
+                            <div class="roadmap-12-txt wow fadeInUp" data-wow-delay="0.6s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_23') !!}</p>
+                            </div>
+                            <div class="roadmap-12-pin wow fadeInUp" data-wow-delay="0.6s">
+                                <img src="/images/roadmap_01.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="roadmap-12-date wow fadeInDown" data-wow-delay="0.6s">
+                                <p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_24') !!}</p>
+                            </div>
+                            <!-- /12 -->
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="space_50">&nbsp;</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- team -->
+        <section id="team" data-stellar-background-ratio="0.5">
+            <div class="c_bg_04">
+            <div class="container">
+                <div class="row">
+
+                    <!-- team/ -->
+                    <div class="col-xs-12">
+                        <p class="space_50">&nbsp;</p>
+                        <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
+                            <h1>{!! trans('messages.team_00') !!}</h1>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="team-thumb-box">
+                                <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
+                                <p class="team_company txt_type_01">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
+                                <p class="team_link_01"><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="team-thumb-box team_mg_01">
+                                <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
+                                <p class="team_company txt_type_01">Co-founder & CTO of CHAINPLUS<br>CTO of Melonbit</p>
+                                <!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="team-thumb-box team_mg_02">
+                                <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
+                                <p class="team_company txt_type_01">Co-founder & COO of CHAINPLUS<br>Director of MGAME</p>
+                                <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="team-thumb-box">
+                                <p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Michael Kim</p>
+                                <p class="team_company txt_type_01">Co-founder & CMO of CHAINPLUS<BR>CSO of Barunson E&A</p>
+                                <p class="team_link_01"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="team-thumb-box team_mg_01">
+                                <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">William. Ha</p>
+                                <p class="team_company txt_type_01">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
+                                <!-- <p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-thumb-box team_mg_02">
+                                <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
+                                <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
+                                <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /team -->
+                    <div class="col-xs-12">
+                        <p class="space_50">&nbsp;</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- news -->
+        <section id="news" data-stellar-background-ratio="0.5">
+            <div class="c_bg_05">
+            <div class="container">
+                <div class="row">
+
+                    <!-- news/ -->
+                    <div class="col-xs-12">
+                        <p class="space_100">&nbsp;</p>
+                        <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
+                            <h2>{!! trans('messages.news_00') !!}</h2>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="news-thumb wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="news-thumb-box">
+                                <a href="https://bitcoinexchangeguide.com/bitcoin-sports-betting/" target="_blank">
+                                <p class="news-padding-20"><img src="/images/news_p_01.jpg" class="img-responsive" alt=""></p>
+                                <p class="news_title txt_type_02 txt_c_01">Bitcoin Sports Betting & Live Player Gambling?</p>
+                                <p class="news_cont txt_type_00">When it comes to online sports betting, or any betting really, there is a lot involved with starting a successful website.</p>
+                                </a>
+                            </div>
+                            <div class="news-hover">
+                                <div class="news-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="news-thumb wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="news-thumb-box">
+                                <a href="https://www.learnliberty.org/blog/sports-betting-should-be-legal-across-the-country-heres-why/" target="_blank">
+                                <p class="news-padding-20"><img src="/images/news_p_02.jpg" class="img-responsive" alt=""></p>
+                                <p class="news_title txt_type_02 txt_c_01">Sports betting should be legal across the country.</p>
+                                <p class="news_cont txt_type_00">The Oakland Raiders’ impending move to Las Vegas has reignited debate about the legality of betting on sports. Most states ban betting schemes (although Nevada is an exception)</p>
+                                </a>
+                            </div>
+                            <div class="news-hover">
+                                <div class="news-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="news-thumb-box">
+                                <a href="https://blog.zensports.com/zensports-launches-peer-to-peer-sports-betting-c4e82c4d64c5" target="_blank">
+                                <p class="news-padding-20"><img src="/images/news_p_03.jpg" class="img-responsive" alt=""></p>
+                                <p class="news_title txt_type_02 txt_c_01">ZenSports Launches Peer-to-Peer Sports Betting!</p>
+                                <p class="news_cont txt_type_00">We can’t contain our excitement over here at ZenSports’ headquarters — today we’re announcing the launch of a new peer-to-peer sports betting marketplace where anyone can</p>
+                                </a>
+                            </div>
+                            <div class="news-hover">
+                                <div class="news-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /news -->
+                    <div class="col-xs-2">
+                        <p class="space_100">&nbsp;</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     
     
 
