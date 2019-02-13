@@ -1113,8 +1113,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                                 <p class="txt_type_00 txt_c_07">{!! trans('messages.foot_mail_01') !!}</p>
                                 <p class="txt_type_00 txt_c_07">
                                     <input type="email" class="input_email" id="email" placeholder="e-mail" name="email" />
-                                    <a href="javascript:submit();" ><img src="/images/btn_submit.png" class="" alt=""></a>
-                                    <!-- <input type="image" src="/images/btn_submit.png" border="0" alt="Submit" /> -->
+                                    <input type="image" src="/images/btn_submit.png" border="0" alt="Submit" />
                                 </p>
                             </div>
                             </form>
