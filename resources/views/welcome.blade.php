@@ -1155,10 +1155,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
         function write_check(){
 
             if(!$('#email').val()) {
-                alert("이메일을 입력해 주세요.");
+                alert("{!! trans('messages.subscribeEmail') !!}");
                 return false;
             }
-  
+
 
             var formData = $("form[name=subscribeForm]").serialize() ;
 
@@ -1169,7 +1169,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 success : function(data) {
                     if(data == "1") {
                         $('#email').val('');
-                        alert("정상적으로 등록되었습니다.");
+                        alert("{!! trans('messages.subscribeSuccess') !!}");
                     } else {
                         alert("error");
                     }

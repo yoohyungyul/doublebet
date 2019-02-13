@@ -160,4 +160,6 @@ return [
 'foot_mail_01'		=> 'Stay informed on our Fashion Updates & offers',
 
 'paper_alert'       => '준비중입니다.',
+'subscribeEmail'    => '이메일을 입력해 주세요.',
+'subscribeSuccess'    => '등록완료',
 ];
