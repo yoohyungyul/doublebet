@@ -593,7 +593,7 @@ footer .section-title{padding-bottom:0;margin-bottom:10px; border-bottom:1px sol
 ----------------------------------------*/
 
 @media screen and (max-width: 1170px) {
-    .custom-navbar .navbar-nav.navbar-nav-first {
+    /* .custom-navbar .navbar-nav.navbar-nav-first { */
       margin-left: inherit;
     }
 }
