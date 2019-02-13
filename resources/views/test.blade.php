@@ -31,7 +31,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 
     <style>
         .container {
-            width: 1120px;
+            width: 1980px;
             max-width: none !important;
         }
     </style>
