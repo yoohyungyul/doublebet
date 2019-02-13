@@ -44,8 +44,9 @@ class HomeController extends Controller
 
     }
 
-    public function postSubscribe() {
-        return "1";
+    public function postSubscribe(Request $request) {
+
+        return $request->email;
     }
 
 }
