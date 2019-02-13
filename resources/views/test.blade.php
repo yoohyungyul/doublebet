@@ -946,6 +946,64 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
             </div>
         </div>
     </section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer" data-stellar-background-ratio="0.5">
+        <div class="c_bg_06">	
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xs-12">
+                        <div class="footer-info-01">
+                            <div class="section-title">
+                                <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_me_00') !!}</p>
+                            </div>
+                            <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07"><a href="#home">{!! trans('messages.foot_me_01') !!}</a></p>
+                                <p class="txt_type_00 txt_c_07"><a href="#roadmap">{!! trans('messages.foot_me_02') !!}</a></p>
+                                <p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')">{!! trans('messages.foot_me_03') !!}</a></p>
+                                <p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')">{!! trans('messages.foot_me_04') !!}</a></p>
+                            </div>
+                        </div>
+                        <div class="footer-info-01">
+                            <div class="section-title">
+                                <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_us_00') !!}</p>
+                            </div>
+                            <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07"><a href="mailto:jhkim@doublebet.io">jhkim@doublebet.io</a></p>
+                                <p class="txt_type_00 txt_c_07">
+                                    <a href="javascript:alert('Coming soon!')"><img src="/images/sns_tel.png" class="" alt=""></a>&nbsp;
+                                    <a href="https://medium.com/@chainplus365" target="_blank"><img src="/images/sns_med.png" class="" alt=""></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="footer-info-02">
+                            <div class="section-title">
+                                <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_mail_00') !!}</p>
+                            </div>
+                            <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.foot_mail_01') !!}</p>
+                                <p class="txt_type_00 txt_c_07">
+                                    <input type="text" class="input_email" id="e-mail" placeholder="e-mail" />
+                                    <a href="#"><img src="/images/btn_submit.png" class="" alt=""></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="wow fadeInUp" data-wow-delay="0.8s"> 
+                            <p class="copyright-text txt_c_08"><br>Copyright &copy; 2019 CHAINPLUS. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
     
     
 
