@@ -46,7 +46,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
     </section>
 
     <!-- MENU -->
-    <section class="navbar custom-navbar navbar-fixed-top" role="navigation" >
+    <section class="navbar navbar-fixed-top" role="navigation" >
         <div class="gnb">
             <div class="container">
 
