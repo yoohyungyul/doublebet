@@ -1145,7 +1145,31 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 	<script src="/js/smoothscroll.js"></script>
 	<script src="/js/select.box.js"></script>
 	<script src="/js/jquery.singlePageNav.min.js"></script>
-	<script src="/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
+    
+    <script>
+        function to_ajax(){
+  
+ 
+        var queryString = $("form[name=testForm]").serialize() ;
+
+        $.ajax({
+            type : 'post',
+            url : '/test.jsp',
+            data : queryString,
+            dataType : 'json',
+            error: function(xhr, status, error){
+                alert(error);
+            }
+            success : function(json){
+                alert(json)
+            },
+        });
+
+        }
+
+
+    </script>
 
 </body>
 </html>
