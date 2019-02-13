@@ -605,7 +605,7 @@ footer .section-title{padding-bottom:0;margin-bottom:10px; border-bottom:1px sol
 
 @media only screen and (max-width: 992px) {
     section {padding: 60px 0;}
-    .custom-navbar .section-btn {margin-left: 1em;}
+    /* .custom-navbar .section-btn {margin-left: 1em;} */
     .slider .item {background-position: center;}
     .about-info {padding: 0;}
     .team-info {margin-bottom: 50px;}
@@ -616,14 +616,14 @@ footer .section-title{padding-bottom:0;margin-bottom:10px; border-bottom:1px sol
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .custom-navbar .nav li a {padding-right: 10px;padding-left: 10px;}
+    /* .custom-navbar .nav li a {padding-right: 10px;padding-left: 10px;} */
 }
 
 @media only screen and (max-width: 767px) {
     h1 {font-size: 2.5em;}
     h1,h2,h3 {line-height: normal;}
 
-    .custom-navbar {
+    /* .custom-navbar {
       background: #ffffff;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -636,7 +636,7 @@ footer .section-title{padding-bottom:0;margin-bottom:10px; border-bottom:1px sol
     .custom-navbar .nav li a, .top-nav-collapse .nav li a {color: #575757;}
     .custom-navbar .navbar-nav.navbar-right li {display: inline-block;}
     .custom-navbar .navbar-nav.navbar-right .section-btn {display: block !important;width: 50%;margin: 10px auto 10px auto;padding: 10px;}
-    .custom-navbar .section-btn a {color: #ffffff !important;}
+    .custom-navbar .section-btn a {color: #ffffff !important;} */
     .slider .caption {padding: 0;}
     .menu-thumb .menu-info {top: 80%;}
     footer {padding: 60px 0;padding-bottom: 60px;}
