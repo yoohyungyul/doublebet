@@ -30,7 +30,6 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 	<link rel="stylesheet" href="/css/style.css?v=2">
 
     <style>
-        body{background:#ffffff;font-family:'Open Sans','Nanum Gothic','Noto Sans KR', sans-serif;}
         .container {
             width: 1182px;
             max-width: none !important;
