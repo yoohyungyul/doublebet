@@ -41,45 +41,45 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
         <!-- MENU -->
         <section class="navbar custom-navbar navbar-fixed-top" role="navigation" >
-            <div class="gnb">
-            <div class="container">
+            <!-- <div class="gnb"> -->
+                <div class="container">
 
-                <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon icon-bar"></span>
-                        <span class="icon icon-bar"></span>
-                        <span class="icon icon-bar"></span>
-                    </button>
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon icon-bar"></span>
+                            <span class="icon icon-bar"></span>
+                            <span class="icon icon-bar"></span>
+                        </button>
 
-                    <!-- lOGO TEXT HERE -->
-                    <a href="/" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
+                        <!-- lOGO TEXT HERE -->
+                        <a href="/" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
+                    </div>
+
+                    <!-- MENU LINKS -->
+                    <div class="collapse navbar-collapse" id="tmNav">
+                        <ul class="nav navbar-nav navbar-nav-first menu-holder">
+                            <li><a href="#home" class="smoothScroll"><span>{!! trans('messages.me_home') !!} </span></a></li>
+                            <li><a href="#project" class="smoothScroll"><span>{!! trans('messages.me_project') !!}</span></a></li>
+                            <li><a href="#tokenomics" class="smoothScroll"><span>{!! trans('messages.me_tokenomics') !!}</span></a></li>
+                            <li><a href="#roadmap" class="smoothScroll"><span>{!! trans('messages.me_roadmap') !!}</span></a></li>
+                            <li><a href="#team" class="smoothScroll"><span>{!! trans('messages.me_team') !!}</span></a></li>
+                            <li><a href="#news" class="smoothScroll"><span>{!! trans('messages.me_news') !!}</span></a></li>
+                            <li><a href="#" class="smoothScroll"><span>{!! trans('messages.me_whitepaper') !!}</span></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <div class="custom-select" style="width:60px;margin-top:14px;margin-right:0;">
+                                    <select>
+                                        <option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
+                                        <option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif>KR</option>
+                                    </select>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-
-                <!-- MENU LINKS -->
-                <div class="collapse navbar-collapse" id="tmNav">
-                    <ul class="nav navbar-nav navbar-nav-first menu-holder">
-                        <li><a href="#home" class="smoothScroll"><span>{!! trans('messages.me_home') !!} </span></a></li>
-                        <li><a href="#project" class="smoothScroll"><span>{!! trans('messages.me_project') !!}</span></a></li>
-                        <li><a href="#tokenomics" class="smoothScroll"><span>{!! trans('messages.me_tokenomics') !!}</span></a></li>
-                        <li><a href="#roadmap" class="smoothScroll"><span>{!! trans('messages.me_roadmap') !!}</span></a></li>
-                        <li><a href="#team" class="smoothScroll"><span>{!! trans('messages.me_team') !!}</span></a></li>
-                        <li><a href="#news" class="smoothScroll"><span>{!! trans('messages.me_news') !!}</span></a></li>
-                        <li><a href="#" class="smoothScroll"><span>{!! trans('messages.me_whitepaper') !!}</span></a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <div class="custom-select" style="width:60px;margin-top:14px;margin-right:0;">
-                                <select>
-                                    <option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
-                                    <option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif>KR</option>
-                                </select>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-            </div>
+            <!-- </div> -->
         </section>
 
 
