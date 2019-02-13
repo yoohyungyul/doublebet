@@ -6,6 +6,7 @@ use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Agent;
+use Mail;
 
 class HomeController extends Controller
 {
