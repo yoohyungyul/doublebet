@@ -1154,21 +1154,21 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     <script>
         function write_check(){
   
- 
-        var queryString = $("form[name=subscribeForm]").serialize() ;
+            alert("11");
+            // var queryString = $("form[name=subscribeForm]").serialize() ;
 
-        $.ajax({
-            type : 'post',
-            url : '/subscribe',
-            data : queryString,
-            dataType : 'json',
-            error: function(xhr, status, error){
-                alert(error);
-            }
-            success : function(data){
-                alert(data)
-            },
-        });
+            // $.ajax({
+            //     type : 'post',
+            //     url : '/subscribe',
+            //     data : queryString,
+            //     dataType : 'json',
+            //     error: function(xhr, status, error){
+            //         alert(error);
+            //     }
+            //     success : function(data){
+            //         alert(data)
+            //     },
+            // });
 
         }
 
