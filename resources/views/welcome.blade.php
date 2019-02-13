@@ -1106,13 +1106,17 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                             <div class="section-title">
                                 <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_mail_00') !!}</p>
                             </div>
+       
+                            <form name="subscribeForm" method="POST" >
+                            {!! csrf_field() !!}
                             <div class="wow fadeInUp" data-wow-delay="0.4s">
                                 <p class="txt_type_00 txt_c_07">{!! trans('messages.foot_mail_01') !!}</p>
                                 <p class="txt_type_00 txt_c_07">
                                     <input type="text" class="input_email" id="e-mail" placeholder="e-mail" />
-                                    <a href="#"><img src="/images/btn_submit.png" class="" alt=""></a>
+                                    <a href="javascript:" onclick="write_check();"><img src="/images/btn_submit.png" class="" alt=""></a>
                                 </p>
                             </div>
+                            </form>
                         </div>
                     </div>
 
@@ -1148,21 +1152,21 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     <script src="/js/custom.js"></script>
     
     <script>
-        function to_ajax(){
+        function write_check(){
   
  
-        var queryString = $("form[name=testForm]").serialize() ;
+        var queryString = $("form[name=subscribeForm]").serialize() ;
 
         $.ajax({
             type : 'post',
-            url : '/test.jsp',
+            url : '/subscribe',
             data : queryString,
             dataType : 'json',
             error: function(xhr, status, error){
                 alert(error);
             }
-            success : function(json){
-                alert(json)
+            success : function(data){
+                alert(data)
             },
         });
 
