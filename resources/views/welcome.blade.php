@@ -41,7 +41,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
         <!-- MENU -->
         <section class="navbar custom-navbar navbar-fixed-top" role="navigation" >
-            <!-- <div class="gnb"> -->
+            <div class="gnb">
                 <div class="container">
 
                     <div class="navbar-header">
@@ -79,7 +79,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     </div>
 
                 </div>
-            <!-- </div> -->
+            </div>
         </section>
 
 
