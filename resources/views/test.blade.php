@@ -180,6 +180,449 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
             </div>
         </div>
     </section>
+
+
+    <!-- Tokenomics -->
+    <section id="tokenomics" data-stellar-background-ratio="0.5">
+        <div class="c_bg_02">
+            <div class="container">
+                <div class="row">
+
+                    <!-- tokenomics/ -->
+                    <div class="col-xs-12">
+                        <p class="space_50">&nbsp;</p>
+                        <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
+                            <h1>{!! trans('messages.to_int_00') !!}</h1>
+                            <p class="txt_type_02 space_01 txt_c_02">{!! trans('messages.to_int_01') !!}</p>
+                        </div>
+                    </div>
+                    <!-- /tokenomics -->
+
+                    <div class="col-xs-4">
+                        <div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
+                            <p class="token-thumb-box">
+                                <span class="txt_type_02 t_center">{!! trans('messages.to_dg_01') !!}</span><br/><br/>
+                                <span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_02') !!}</span>
+                            </p>
+                            <div class="token-hover">
+                                <div class="token-item">
+                                    <span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_01') !!}</span><br/><br/>
+                                    <span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_02') !!}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
+                            <p class="token-thumb-box">
+                                <span class="txt_type_02 t_center">{!! trans('messages.to_dg_03') !!}</span><br/><br/>
+                                <span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_04') !!}</span>
+                            </p>
+                            <div class="token-hover">
+                                <div class="token-item">
+                                    <span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_03') !!}</span><br/><br/>
+                                    <span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_04') !!}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
+                            <p class="token-thumb-box">
+                                <span class="txt_type_02 t_center">{!! trans('messages.to_dg_05') !!}</span><br/><br/>
+                                <span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_06') !!}</span>
+                            </p>
+                            <div class="token-hover">
+                                <div class="token-item">
+                                    <span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_05') !!}</span><br/><br/>
+                                    <span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_06') !!}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
+                            <p class="token-thumb-box">
+                                <span class="txt_type_02 t_center">{!! trans('messages.to_dg_07') !!}</span><br/><br/>
+                                <span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_08') !!}</span>
+                            </p>
+                            <div class="token-hover">
+                                <div class="token-item">
+                                    <span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_07') !!}</span><br/><br/>
+                                    <span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_08') !!}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
+                            <p class="token-thumb-box">
+                                <span class="txt_type_02 t_center">{!! trans('messages.to_dg_09') !!}</span><br/><br/>
+                                <span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_10') !!}</span>
+                            </p>
+                            <div class="token-hover">
+                                <div class="token-item">
+                                    <span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_09') !!}</span><br/><br/>
+                                    <span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_10') !!}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
+                            <p class="token-thumb-box">
+                                <span class="txt_type_02 t_center">{!! trans('messages.to_dg_11') !!}</span><br/><br/>
+                                <span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_12') !!}</span>
+                            </p>
+                            <div class="token-hover">
+                                <div class="token-item">
+                                    <span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_11') !!}<</span><br/><br/>
+                                    <span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_12') !!}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <p class="space_100">&nbsp;</p>
+                    </div>
+
+                    <!-- distribution/ -->
+                    <div class="col-xs-12">
+                        <p class="space_50">&nbsp;</p>
+                        <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
+                            <h1>{!! trans('messages.to_dt_00') !!}</h1>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="token-d wow fadeInUp" data-wow-delay="0.2s">
+                            <!-- 01/ -->
+                            <div class="token-d-01 wow fadeInLeft" data-wow-delay="0.4s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="250px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="right">
+                                                <span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_01') !!}</span><br>
+                                                <span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_02') !!}</span>
+                                            </td>
+                                            <td>
+                                                <img src="/images/token_d_01.png" class="img-responsive" alt="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /01 -->
+                            <!-- 02/ -->
+                            <div class="token-d-02 wow fadeInLeft" data-wow-delay="0.5s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="250px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="right">
+                                                <span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_03') !!}</span><br>
+                                                <span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_04') !!}</span>
+                                            </td>
+                                            <td>
+                                                <img src="/images/token_d_02.png" class="img-responsive" alt="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /02 -->
+                            <!-- 03/ -->
+                            <div class="token-d-03 wow fadeInLeft" data-wow-delay="0.6s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="250px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="right">
+                                                <span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_05') !!}</span><br>
+                                                <span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_06') !!}</span>
+                                            </td>
+                                            <td>
+                                                <img src="/images/token_d_02.png" class="img-responsive" alt="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /03 -->
+                            <!-- 04/ -->
+                            <div class="token-d-04 wow fadeInLeft" data-wow-delay="0.7s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="250px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="right">
+                                                <span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_07') !!}</span><br>
+                                                <span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_08') !!}</span>
+                                            </td>
+                                            <td>
+                                                <img src="/images/token_d_02.png" class="img-responsive" alt="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /04 -->
+                            <!-- 05/ -->
+                            <div class="token-d-05 wow fadeInRight" data-wow-delay="0.4s">
+                                <table class="tbl_list" style="width:500px;">
+                                    <colgroup>
+                                        <col width="260px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="/images/token_d_03.png" class="img-responsive" alt="">
+                                            </td>
+                                            <td>
+                                                <span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_09') !!}</span><br>
+                                                <span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_10') !!}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /05 -->
+                            <!-- 06/ -->
+                            <div class="token-d-06 wow fadeInRight" data-wow-delay="0.5s">
+                                <table class="tbl_list" style="width:400px;">
+                                    <colgroup>
+                                        <col width="170px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="/images/token_d_04.png" class="img-responsive" alt="">
+                                            </td>
+                                            <td>
+                                                <span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_11') !!}</span><br>
+                                                <span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_12') !!}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /06 -->
+                            <!-- 07/ -->
+                            <div class="token-d-07 wow fadeInRight" data-wow-delay="0.4s">
+                                <table class="tbl_list" style="width:500px;">
+                                    <colgroup>
+                                        <col width="260px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="/images/token_d_03.png" class="img-responsive" alt="">
+                                            </td>
+                                            <td>
+                                                <span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_13') !!}</span><br>
+                                                <span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_14') !!}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /07 -->
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="space_100">&nbsp;</p>
+                    </div>
+                    <!-- /distribution -->
+                    <!-- sto/ -->
+                    <div class="col-xs-12">
+                        <p class="space_50">&nbsp;</p>
+                        <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
+                            <h2>{!! trans('messages.to_sto_00') !!}</h2>
+                            <p class="txt_type_02 space_01 txt_c_03">{!! trans('messages.to_sto_01') !!}</p>
+                        </div>
+                    </div>
+                    <!-- /sto -->
+                    <!-- use of fund/ -->
+                    <div class="col-xs-12">
+                        <div class="section-title wow fund-d-00 fadeInUp" data-wow-delay="0.1s">
+                            <h2>{!! trans('messages.to_fund_00') !!}</h2>
+                        </div>
+                        <div class="fund-d wow fadeInUp" data-wow-delay="0.2s">
+                            <!-- 01/ -->
+                            <div class="fund-d-01 wow fadeInLeft" data-wow-delay="0.4s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="250px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="right">
+                                                <span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_01') !!}</span><br>
+                                                <span class="txt_type_02 txt_w">{!! trans('messages.to_fund_02') !!}</span>
+                                            </td>
+                                            <td>
+                                                <img src="/images/use_fund_01.png" class="img-responsive" alt="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /01 -->
+                            <!-- 02/ -->
+                            <div class="fund-d-02 wow fadeInLeft" data-wow-delay="0.4s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="300px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="right">
+                                                <span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_03') !!}</span><br>
+                                                <span class="txt_type_02 txt_w">{!! trans('messages.to_fund_04') !!}</span>
+                                            </td>
+                                            <td>
+                                                <img src="/images/use_fund_01.png" class="img-responsive" alt="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /02 -->
+                            <!-- 03/ -->
+                            <div class="fund-d-03 wow fadeInRight" data-wow-delay="0.4s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="390px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="images/use_fund_04.png" class="img-responsive" alt="">
+                                            </td>
+                                            <td>
+                                                <span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_05') !!}</span><br>
+                                                <span class="txt_type_02 txt_w">{!! trans('messages.to_fund_06') !!}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /03 -->
+                            <!-- 04/ -->
+                            <div class="fund-d-04 wow fadeInRight" data-wow-delay="0.4s">
+                                <table class="tbl_list" style="width:600px;">
+                                    <colgroup>
+                                        <col width="160px" /><col width="*" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="/images/use_fund_03.png" class="img-responsive" alt="">
+                                            </td>
+                                            <td>
+                                                <span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_07') !!}</span><br>
+                                                <span class="txt_type_02 txt_w">{!! trans('messages.to_fund_08') !!}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /04 -->
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="space_150">&nbsp;</p>
+                    </div>
+                    <!-- /use of fund -->
+                    <!-- Sales/ -->
+                    <div class="col-xs-12">
+                        <p class="space_50">&nbsp;</p>
+                        <div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
+                            <h1>{!! trans('messages.to_sale_00') !!}</h1>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="sale-thumb wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="sale-thumb-box">
+                                <p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_01') !!}</p><br/>
+                                <p class="txt_type_02_24 t_center txt_c_01">{!! trans('messages.to_sale_02') !!}</p><br/><br/>
+                                <p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_03') !!}</p><br/>
+                                <p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_04') !!}</p><br/>
+                                <p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_05') !!}</p>
+                            </div>
+                            <div class="sale-hover">
+                                <div class="sale-item">
+                                    <p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_01') !!}</p><br/>
+                                    <p class="txt_type_02_24 t_center txt_w">{!! trans('messages.to_sale_02') !!}</p><br/><br/>
+                                    <p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_03') !!}</p><br/>
+                                    <p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_04') !!}</p><br/>
+                                    <p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_05') !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="sale-thumb wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="sale-thumb-box">
+                                <p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_06') !!}</p><br/>
+                                <p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">{!! trans('messages.to_sale_07') !!}</p><br/><br/>
+                                <p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_08') !!}</p><br/>
+                                <p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_09') !!}</p><br/>
+                                <p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_10') !!}</p>
+                            </div>
+                            <div class="sale-hover">
+                                <div class="sale-item">
+                                    <p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_06') !!}</p><br/>
+                                    <p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_07') !!}</p><br/><br/>
+                                    <p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_08') !!}</p><br/>
+                                    <p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_09') !!}</p><br/>
+                                    <p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_10') !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="sale-thumb wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="sale-thumb-box">
+                                <p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_11') !!}</p><br/>
+                                <p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">{!! trans('messages.to_sale_12') !!}</p><br/><br/>
+                                <p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_13') !!}</p><br/>
+                                <p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_14') !!}</p><br/>
+                                <p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_15') !!}</p>
+                            </div>
+                            <div class="sale-hover">
+                                <div class="sale-item">
+                                    <p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_11') !!}</p><br/>
+                                    <p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_12') !!}</p><br/><br/>
+                                    <p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_13') !!}</p><br/>
+                                    <p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_14') !!}</p><br/>
+                                    <p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_15') !!}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Sales -->
+                    <div class="col-xs-12">
+                        <p class="space_100">&nbsp;</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
     
     
 
