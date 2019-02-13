@@ -1,7 +1,7 @@
 <?php
 
-$paper_link = "https://drive.google.com/file/d/1qqJ63CWZfCPGhYYzWHrbcIFlm1HfPEGZ/view?usp=sharing";
-if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file/d/144Qyh45NECrcK6id5PWhu2H948h5DhpJ/view?usp=sharing";
+$paper_link = "https://bit.ly/2SMkkbA";
+if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 ?>
 
