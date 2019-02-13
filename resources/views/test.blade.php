@@ -172,7 +172,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
 
 
     <section id="project" data-stellar-background-ratio="0.5">
-        <div class="">
+        <div class="c_bg_01">
             <div class="container">
                 <div class="row">
                     
