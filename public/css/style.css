@@ -649,12 +649,12 @@ footer .section-title{padding-bottom:0;margin-bottom:10px; border-bottom:1px sol
     .menu-thumb .menu-info{top: 60%;}
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 767px) {
     .web {display:inline}
     .mobile {display:none}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .web {display:none}
     .mobile {display:inline}
 }
