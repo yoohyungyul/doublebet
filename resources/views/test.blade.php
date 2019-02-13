@@ -61,6 +61,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://drive.google.com/file
                     <a href="/" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
                 </div> -->
 
+                <a href="/" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
+
                 <!-- MENU LINKS -->
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-nav-first menu-holder">
