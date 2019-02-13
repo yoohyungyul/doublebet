@@ -1112,7 +1112,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                             <div class="wow fadeInUp" data-wow-delay="0.4s">
                                 <p class="txt_type_00 txt_c_07">{!! trans('messages.foot_mail_01') !!}</p>
                                 <p class="txt_type_00 txt_c_07">
-                                    <input type="text" class="input_email" id="email" placeholder="e-mail" name="email" />
+                                    <input type="email" class="input_email" id="email" placeholder="e-mail" name="email" />
                                     <a href="javascript:" onclick="write_check();"><img src="/images/btn_submit.png" class="" alt=""></a>
                                 </p>
                             </div>
@@ -1153,6 +1153,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     
     <script>
         function write_check(){
+
+            if(!$('#email').val()) {
+                alert("이메일을 입력해 주세요.");
+                return false;
+            }
   
 
             var formData = $("form[name=subscribeForm]").serialize() ;
@@ -1162,7 +1167,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 url : '/subscribe',
                 data : formData,
                 success : function(data) {
-                    alert(data);
+                    if(data == "1") {
+                        alert("정상적으로 등록되었습니다.");
+                    } else {
+                        alert("error");
+                    }
                 }, // success 
     
                 error : function(xhr, status) {
