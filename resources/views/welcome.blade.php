@@ -1168,6 +1168,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 data : formData,
                 success : function(data) {
                     if(data == "1") {
+                        $('#email').val('');
                         alert("정상적으로 등록되었습니다.");
                     } else {
                         alert("error");
