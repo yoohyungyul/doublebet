@@ -1172,14 +1172,14 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     } else {
                         alert("error");
                     }
-                    return false;
                 }, // success 
     
                 error : function(xhr, status) {
                     alert(xhr + " : " + status);
-                    return false;
                 }
             });
+
+            return false;
 
         }
 
