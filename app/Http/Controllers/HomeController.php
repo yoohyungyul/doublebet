@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use DB;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Agent;
+use App\Subscribe;
 
 class HomeController extends Controller
 {
@@ -46,7 +48,30 @@ class HomeController extends Controller
 
     public function postSubscribe(Request $request) {
 
-        return $request->email;
+        // return $request->email;
+
+        try {
+            DB::beginTransaction();
+
+            // 거래 내역 등록
+            $subscribe = new Subscribe;
+            $subscribe->email = $request->email;
+            $subscribe->push();
+         
+
+        } catch (\Exception $e) {
+            DB::rollback();
+
+            return "0";
+
+           
+        } finally {
+            DB::commit();
+        }
+
+        return "1";
+
+
     }
 
 }
