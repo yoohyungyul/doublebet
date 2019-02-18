@@ -43,7 +43,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<li><a href="#news" class="smoothScroll">NEWS</a></li>
 					<li><a href="#" class="smoothScroll">WHITEPAPER</a></li>
 					<li>
-						<select name="lang-select" class="lang-select" >
+						<select name="lang-select" class="lang-select" onchange="alert('ddfd')">
 							<option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
 							<option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif>KR</option>
 						</select>
