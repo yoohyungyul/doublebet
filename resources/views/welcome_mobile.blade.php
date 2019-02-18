@@ -678,13 +678,16 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								<a href="https://medium.com/@chainplus365" target="_blank"><img src="/images/mobile/sns_med.png" class="" alt="" style="width:30px"></a>
 							</li>
 						</ul>
-					</div>
+                    </div>
+                    <form name="subscribeForm" method="POST" onsubmit="return write_check();">
+                    {!! csrf_field() !!}
 					<div class="col-xs-12" style="margin-top:40px">
 						<div class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 0px 5px 0px" >SUBSCRIBE</div>
 						<p class="txt_c_07" style="padding:5px 0px">tay informed on our Fashion Updates & offers</p>
 					</div>     
 					<div class="col-xs-8"><input type="email" style="width:100%;height:50px;padding:3px 15px; margin:0 5px 0 0;color:#ffffff;background:#241f28;border:1px solid #564f5b"id="email" placeholder="e-mail" name="email" /></div>
-					<div class="col-xs-4"><input type="submit" style="width:100%;height:50px;background:#564f5b;border:0px;color:#FFF" value="SUBSCRIBE"/></div>
+                    <div class="col-xs-4"><input type="submit" style="width:100%;height:50px;background:#564f5b;border:0px;color:#FFF" value="SUBSCRIBE"/></div>
+                    </form>
 					<div class="col-xs-12">
 						<p class="txt_type_08 txt_c_08" style="margin:20px 0px 40px">© Copyright 2019 CHAINPLUS. All Rights Reserved.</p>
 					</div>
@@ -717,7 +720,42 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			autoControls:false,  //star,stop
 			controls:false //next,prve 
 		});	
-	});
+    });
+    
+
+    function write_check(){
+
+
+        if(!$('#email').val()) {
+            $('#email').focus();
+            alert("{!! trans('messages.subscribeEmail') !!}");
+            return false;
+        }
+
+
+        var formData = $("form[name=subscribeForm]").serialize() ;
+
+        $.ajax({
+            type : 'post',
+            url : '/subscribe',
+            data : formData,
+            success : function(data) {
+                if(data == "1") {
+                    $('#email').val('');
+                    alert("{!! trans('messages.subscribeSuccess') !!}");
+                } else {
+                    alert("error");
+                }
+            }, // success 
+
+            error : function(xhr, status) {
+                alert(xhr + " : " + status);
+            }
+        });
+
+        return false;
+
+    }
 	</script>
 </body>
 </html>
