@@ -35,13 +35,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     <a href="#" class="menu_close"><img src="/images/mobile/btn_close.png" alt="메뉴닫기"></a> 
                 </div>
                 <ul>
-                    <li><a href="#home" class="smoothScroll">HOME</a></li>
-					<li><a href="#project" class="smoothScroll">PROJECT</a></li>
-					<li><a href="#tokenomics" class="smoothScroll">TOKENOMICS</a></li>
-					<li><a href="#roadmap" class="smoothScroll">ROADMAP</a></li>
-					<li><a href="#team" class="smoothScroll">TEAM</a></li>
-					<li><a href="#news" class="smoothScroll">NEWS</a></li>
-					<li><a href="#" class="smoothScroll">WHITEPAPER</a></li>
+                    <li><a href="#home" class="smoothScroll">{!! trans('messages.me_home') !!}</a></li>
+					<li><a href="#project" class="smoothScroll">{!! trans('messages.me_project') !!}</a></li>
+					<li><a href="#tokenomics" class="smoothScroll">{!! trans('messages.me_tokenomics') !!}</a></li>
+					<li><a href="#roadmap" class="smoothScroll">{!! trans('messages.me_roadmap') !!}</a></li>
+					<li><a href="#team" class="smoothScroll">{!! trans('messages.me_team') !!}</a></li>
+					<li><a href="#news" class="smoothScroll">{!! trans('messages.me_news') !!}</a></li>
+					<li><a href="#" class="smoothScroll">{!! trans('messages.me_whitepaper') !!}</a></li>
 					<li>
 						<select name="lang-select" class="lang-select" onchange="location.href=this.value">
 							<option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
@@ -68,11 +68,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			<div class="home-visual">
 				<ul class="home-visual-slider">
 					<li class="item-01">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">DoubleBet</span>
-						<p class="s_txt_02 txt_type_02 txt_w">Sports Betting Blockchain Platform</p>
-						<p class="s_txt_03 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</span>
+						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
+						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
+						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_04') !!}</a>&nbsp;&nbsp;&nbsp;
+						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_05') !!}</a>
 					</li>
 					<li class="item-02">
 						<p class="s_txt_01 txt_type_03 txt_w txt_b">DoubleBet</span>

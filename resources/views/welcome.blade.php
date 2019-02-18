@@ -58,7 +58,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 <!-- MENU LINKS -->
                 <div class="collapse navbar-collapse" id="tmNav">
                     <ul class="nav navbar-nav navbar-nav-first menu-holder">
-                        <li><a href="#home" class="smoothScroll"><span>{!! trans('messages.me_home') !!} </span></a></li>
+                        <li><a href="#home" class="smoothScroll"><span>{!! trans('messages.me_home') !!}</span></a></li>
                         <li><a href="#project" class="smoothScroll"><span>{!! trans('messages.me_project') !!}</span></a></li>
                         <li><a href="#tokenomics" class="smoothScroll"><span>{!! trans('messages.me_tokenomics') !!}</span></a></li>
                         <li><a href="#roadmap" class="smoothScroll"><span>{!! trans('messages.me_roadmap') !!}</span></a></li>
