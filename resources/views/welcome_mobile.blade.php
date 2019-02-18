@@ -547,8 +547,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<div class="col-xs-7">
 								<div style="margin-left:-40px;padding:30px 10px 0px 0px">
                                     <a href="https://bitcoinexchangeguide.com/bitcoin-sports-betting/" target="_blank"> 
-									<p class="txt_c_01 txt_type_01 ">Bitcoin Sports Betting & Live Player Gambling?</p>
-                                    <p class="txt_c_02">When it comes to online sports betting, or any betting really, there is a lot involved with starting a successful website.</p>
+									    <p class="txt_c_01 txt_type_01 ">Bitcoin Sports Betting & Live Player Gambling?</p>
+                                        <p class="txt_c_02">When it comes to online sports betting, or any betting really, there is a lot involved with starting a successful website.</p>
                                     </a>
 								</div>
 							</div>
@@ -559,8 +559,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<div class="col-xs-5" ><img src="/images/mobile/img_news_02.png" style="width:100%;margin:30px 0px 30px -30px;border-radius:3px;"/></div>
 							<div class="col-xs-7">
 								<div style="margin-left:-40px;padding:30px 10px 0px 0px">
-									<p class="txt_c_01 txt_type_01 ">Sports betting should be legal across the country.</p>
-									<p class="txt_c_02">The Oakland Raiders’ impending move to Las Vegas has reignited debate about the legality of betting on sports. Most states ban betting schemes (although Nevada is an exception)</p>
+                                    <a href="https://www.learnliberty.org/blog/sports-betting-should-be-legal-across-the-country-heres-why/" target="_blank">
+									    <p class="txt_c_01 txt_type_01 ">Sports betting should be legal across the country.</p>
+                                        <p class="txt_c_02">The Oakland Raiders’ impending move to Las Vegas has reignited debate about the legality of betting on sports. Most states ban betting schemes (although Nevada is an exception)</p>
+                                    </a>
 								</div>
 							</div>
 						</div>
@@ -570,8 +572,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<div class="col-xs-5" ><img src="/images/mobile/img_news_03.png" style="width:100%;margin:30px 0px 30px -30px;border-radius:3px;"/></div>
 							<div class="col-xs-7">
 								<div style="margin-left:-40px;padding:30px 10px 0px 0px">
-									<p class="txt_c_01 txt_type_01 ">ZenSports Launches Peer-to-Peer Sports Betting!</p>
-									<p class="txt_c_02">We can’t contain our excitement over here at ZenSports’ headquarters — today we’re announcing the launch of a new peer-to-peer sports betting marketplace where anyone can</p>
+                                    <a href="https://blog.zensports.com/zensports-launches-peer-to-peer-sports-betting-c4e82c4d64c5" target="_blank">
+									    <p class="txt_c_01 txt_type_01 ">ZenSports Launches Peer-to-Peer Sports Betting!</p>
+                                        <p class="txt_c_02">We can’t contain our excitement over here at ZenSports’ headquarters — today we’re announcing the launch of a new peer-to-peer sports betting marketplace where anyone can</p>
+                                    </a>
 								</div>
 							</div>
 						</div>
@@ -584,18 +588,18 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			<div class="footer-content" style="background:#241f28">
 				<div class="row" style="margin-top:40px">
 					<div class="col-xs-6">
-						<span class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 20px 5px 0px">DoubleBet</span>
+						<span class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 20px 5px 0px">{!! trans('messages.foot_me_00') !!}</span>
 						<ul style="padding:0px;margin-top:15px;">
-							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#home">Home</a></li>
-							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#roadmap">Roadmap</a></li>
-							<li class="txt_c_07" style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>Terms and conditions</a></li>
-							<li class="txt_c_07"  style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>Privacy Policy</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#home">{!! trans('messages.foot_me_01') !!}</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#roadmap">{!! trans('messages.foot_me_02') !!}</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_03') !!}</a></li>
+							<li class="txt_c_07"  style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_04') !!}</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-6">
-						<span class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 20px 5px 0px">Contact us</span>
+						<span class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 20px 5px 0px">{!! trans('messages.foot_us_00') !!}</span>
 						<ul style="padding:0px;margin-top:15px;">
-							<li class="txt_c_07" style="padding-bottom:5px;">help@doublebet.io</li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="mailto:jhkim@doublebet.io">jhkim@doublebet.io</a></li>
 							<li>
 								<a herf="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'><img src="/images/mobile/sns_tel.png" class="" alt="" style="width:30px"></a>&nbsp;
 								<a href="https://medium.com/@chainplus365" target="_blank"><img src="/images/mobile/sns_med.png" class="" alt="" style="width:30px"></a>
@@ -605,8 +609,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     <form name="subscribeForm" method="POST" onsubmit="return write_check();">
                     {!! csrf_field() !!}
 					<div class="col-xs-12" style="margin-top:40px">
-						<div class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 0px 5px 0px" >SUBSCRIBE</div>
-						<p class="txt_c_07" style="padding:5px 0px">tay informed on our Fashion Updates & offers</p>
+						<div class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 0px 5px 0px" >{!! trans('messages.foot_mail_00') !!}</div>
+						<p class="txt_c_07" style="padding:5px 0px">{!! trans('messages.foot_mail_01') !!}</p>
 					</div>     
 					<div class="col-xs-8"><input type="email" style="width:100%;height:50px;padding:3px 15px; margin:0 5px 0 0;color:#ffffff;background:#241f28;border:1px solid #564f5b"id="email" placeholder="e-mail" name="email" /></div>
                     <div class="col-xs-4"><input type="submit" style="width:100%;height:50px;background:#564f5b;border:0px;color:#FFF" value="SUBSCRIBE"/></div>
