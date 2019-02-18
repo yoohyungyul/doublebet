@@ -35,12 +35,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     <a href="#" class="menu_close"><img src="/images/mobile/btn_close.png" alt="메뉴닫기"></a> 
                 </div>
                 <ul>
-                    <li><a href="#home_mobile">HOME</a></li>
-					<li><a href="#project_mobile">PROJECT</a></li>
-					<li><a href="#tokenomics_mobile" class="smoothScroll">TOKENOMICS</a></li>
-					<li><a href="#roadmap_mobile" class="smoothScroll">ROADMAP</a></li>
-					<li><a href="#team_mobile" class="smoothScroll">TEAM</a></li>
-					<li><a href="#news_mobile" class="smoothScroll">NEWS</a></li>
+                    <li><a href="#home" class="smoothScroll">HOME</a></li>
+					<li><a href="#project" class="smoothScroll">PROJECT</a></li>
+					<li><a href="#tokenomics" class="smoothScroll">TOKENOMICS</a></li>
+					<li><a href="#roadmap" class="smoothScroll">ROADMAP</a></li>
+					<li><a href="#team" class="smoothScroll">TEAM</a></li>
+					<li><a href="#news" class="smoothScroll">NEWS</a></li>
 					<li><a href="#" class="smoothScroll">WHITEPAPER</a></li>
 					<li>
 						<select name="lang-select" class="lang-select" >
@@ -64,7 +64,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     
     <!-- 컨텐츠 내용-->      
     <div id="content">
-		<section id="home_mobile">
+		<section id="home" data-stellar-background-ratio="0.5">
 			<div class="home-visual">
 				<ul class="home-visual-slider">
 					<li class="item-01">
@@ -106,7 +106,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 		</section>
 
-		<section id="project_mobile">
+		<section id="project" data-stellar-background-ratio="0.5">
         <!-- market/ -->
 			<div class="project-content">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
@@ -259,7 +259,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 		</section>
 
 
-		<section id="tokenomics_mobile" >
+		<section id="tokenomics" data-stellar-background-ratio="0.5" >
 			<div class="tokenomics-content" style="background:#f8f8f8">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
 					<p class="txt_type_03_1 txt_c_01 txt_b">Tokenomics</p>
@@ -445,7 +445,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 		</section>
 
-		<section id="roadmap_mobile" >
+		<section id="roadmap" data-stellar-background-ratio="0.5" >
 			<div class="roadmap-content" style="background:#7748b1;height:1450px;">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
 					<p class="txt_type_03_1 txt_w txt_b">Roadmap</p>
@@ -557,7 +557,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				
 		</section>
 
-		<section id="team_mobile" >
+		<section id="team" data-stellar-background-ratio="0.5" >
 			<div class="ourteam-content" >
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
 					<p class="txt_type_06 txt_c_01 txt_b">Our Team</p>
@@ -599,7 +599,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 		</section>
 
-		<section id="new_mobile" >
+		<section id="new" data-stellar-background-ratio="0.5" >
 			<div class="new-content" style="background:#a563f5">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
 					<p class="txt_type_06 txt_w txt_b">News</p>
@@ -657,14 +657,14 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 		</section>
 
-		<footer id="footer_mobile" >
+		<footer >
 			<div class="footer-content" style="background:#241f28">
 				<div class="row" style="margin-top:40px">
 					<div class="col-xs-6">
 						<span class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 20px 5px 0px">DoubleBet</span>
 						<ul style="padding:0px;margin-top:15px;">
-							<li class="txt_c_07" style="padding-bottom:5px;"><a href="">Home</a></li>
-							<li class="txt_c_07" style="padding-bottom:5px;"><a href="">Roadmap</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#home">Home</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#roadmap">Roadmap</a></li>
 							<li class="txt_c_07" style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>Terms and conditions</a></li>
 							<li class="txt_c_07"  style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>Privacy Policy</a></li>
 						</ul>
