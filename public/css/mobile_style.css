@@ -67,7 +67,7 @@ ul {list-style-type: none;}
 
 .project-content, .tokenomics-content, .roadmap-content, .ourteam-content, .new-content, .footer-content {position:relative; margin-bottom:0;padding:1em 1.5em;width:100%}
 .project-intro{position:relative;width:100%;clear:both;padding-bottom:10px;}
-.project-intro1{background:url(../images/intro_bg_02.jpg) no-repeat 0 0;margin:0 auto;background-size:100%; width:320px; height:100px;}
+.project-intro1{background:url(/images/mobile/intro_bg_02.jpg) no-repeat 0 0;margin:0 auto;background-size:100%; width:320px; height:100px;}
 .project-intro1 .t_mid{position:relative;text-align:center;}
 .pa_ce_15{position:absolute;top:15%;}
 .pa_ce_20{position:absolute;top:20%;}
