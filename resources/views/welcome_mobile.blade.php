@@ -330,21 +330,21 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<div class="text-center" style="position:relative;">
 					<img src="/images/mobile/img_tokenomics_bg02.png" style="width:60%;padding:60px 0px;" />
 					<div class="wow fadeInLeft" data-wow-delay="0.1s" style="position:absolute;top:27%;left:1%;">
-						<div class="txt_w txt_type_08" style="text-align: right;float:left">20%<br>Business<br>Expansion and<br>Management</div>
+						<div class="txt_w txt_type_08" style="text-align: right;float:left">{!! trans('messages.to_fund_01') !!}<br>{!! trans('messages.to_fund_02') !!}</div>
 						<div style="float:left;text-align:left;padding:30px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_08.png" style="width:25%;"/></div>
 					</div>
 					
 					<div class="wow fadeInLeft" data-wow-delay="0.2s" style="position:absolute;top:65%;left:4%;">
-						<div class="txt_w txt_type_08"  style="text-align: right;float:left">30%<br>Marketing and<br>Partnerships</div>
+						<div class="txt_w txt_type_08"  style="text-align: right;float:left">{!! trans('messages.to_fund_03') !!}<br>{!! trans('messages.to_fund_04') !!}</div>
 						<div style="float:left;text-align:left;padding:30px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_09.png" style="width:25%;"/></div>
 					</div>
 					<div class="wow fadeInRight" data-wow-delay="0.3s" style="position:absolute;top:20%;left:45%;">
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_10.png" style="width:100px;"/></div>
-						<div class="txt_w txt_type_08"  style="text-align:left;float:left;padding:0px 0px 0px 5px;">10%<br>Initial Investor</div>
+						<div class="txt_w txt_type_08"  style="text-align:left;float:left;padding:0px 0px 0px 5px;">{!! trans('messages.to_fund_05') !!}<br>{!! trans('messages.to_fund_06') !!}</div>
 					</div>
 					<div class="wow fadeInRight" data-wow-delay="0.4s" style="position:absolute;top:50%;left:75%;">
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_11.png" style="width:20px;"/></div>
-						<div  class="txt_w txt_type_08"  style="text-align:left;float:left;padding:0px 0px 0px 5px;">40%<br>Development<br>Cost</div>
+						<div  class="txt_w txt_type_08"  style="text-align:left;float:left;padding:0px 0px 0px 5px;">{!! trans('messages.to_fund_07') !!}<br>{!! trans('messages.to_fund_08') !!}</div>
 					</div>
 				</div>
 			</div>
