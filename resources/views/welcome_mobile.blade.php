@@ -350,22 +350,19 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 			<div class="tokenomics-content"  >
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">Token Sales</p>
+					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.to_sale_00') !!}</p>
 				</div>
 				<div class="row wow fadeInUp"  data-wow-delay="0.1s">
 					<div class="col-xs-12" >
 						<div style="display: inline-block;background:#a563f5;width:100%;margin-bottom:10px">
 							<div  class="col-xs-4 txt_w txt_type_08" style="padding:10px">
-									<p>2019.01</p>
-									<p>Sale to Domestic
-									/International
-									Institutions</p>
+									<p>{!! trans('messages.to_sale_01') !!}</p>
+									<p>{!! trans('messages.to_sale_02') !!}</p>
 							</div>
-							<div  class="col-xs-4 text-center txt_c_04 txt_type_06 txt_b" style="padding-top:15px">$0.10</div>
+							<div  class="col-xs-4 text-center txt_c_04 txt_type_06 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_03') !!}</div>
 							<div class="col-xs-4 txt_w txt_type_08" style="padding:10px">
-								<p>1,000USDT Minimum</p>
-								<p>10ETH Minimum</p>
-								<p>1,000USDT = 10,000DBET</p>
+								<p>{!! trans('messages.to_sale_04') !!}</p>
+								<p>{!! trans('messages.to_sale_05') !!}</p>
 							</div>
 						</div>
 					</div>
@@ -374,14 +371,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="col-xs-12" >
 						<div style="display: inline-block;background:#f8f8f8;width:100%;margin-bottom:10px">
 							<div  class="col-xs-4 txt_c_01 txt_type_08" style="padding:10px">
-									<p>2019.01</p>
-									<p>1st Private Sale</p>
+									<p>{!! trans('messages.to_sale_06') !!}</p>
+									<p>{!! trans('messages.to_sale_07') !!}</p>
 							</div>
-							<div  class="col-xs-4 text-center txt_c_01 txt_type_06 txt_b" style="padding-top:15px">$0.15</div>
+							<div  class="col-xs-4 text-center txt_c_01 txt_type_06 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_08') !!}</div>
 							<div class="col-xs-4 txt_c_02 txt_type_08" style="padding:10px">
-								<p>1,000USDT Minimum</p>
-								<p>10ETH Minimum</p>
-								<p>1,000USDT = 6,667DBET</p>
+								<p>{!! trans('messages.to_sale_09') !!}</p>
+								<p>{!! trans('messages.to_sale_10') !!}</p>
 							</div>
 						</div>
 					</div>
@@ -390,14 +386,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="col-xs-12" >
 						<div style="display: inline-block;background:#f8f8f8;width:100%;margin-bottom:10px">
 							<div  class="col-xs-4 txt_c_01 txt_type_08" style="padding:10px">
-									<p>2019.01</p>
-									<p>2st Private Sale</p>
+									<p>{!! trans('messages.to_sale_11') !!}</p>
+									<p>{!! trans('messages.to_sale_12') !!}</p>
 							</div>
-							<div  class="col-xs-4 text-center txt_c_01 txt_type_06 txt_b" style="padding-top:15px">$0.30</div>
+							<div  class="col-xs-4 text-center txt_c_01 txt_type_06 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_13') !!}</div>
 							<div class="col-xs-4 txt_c_02 txt_type_08" style="padding:10px">
-								<p>1,000USDT Minimum</p>
-								<p>10ETH Minimum</p>
-								<p>1,000USDT = 3,334DBET</p>
+								<p>{!! trans('messages.to_sale_14') !!}</p>
+								<p>{!! trans('messages.to_sale_15') !!}</p>
 							</div>
 						</div>
 					</div>
