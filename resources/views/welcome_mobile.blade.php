@@ -22,7 +22,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     <header>
         <div id="navbar">
 			<a href="#" class="menubtn">menu</a>
-            <span class="newLogo"><img src="/images/mobile/logo.png" alt="Doublbet"></span>
+            <span class="newLogo"><a href="/"><img src="/images/mobile/logo.png" alt="Doublbet"></a></span>
 			<div class="top_sns">
 				<a href="javascript:alert('coming soon');"><img src="/images/mobile/icon_tel.png" alt=""></a>
 				<a href="https://medium.com/@chainplus365" target="_blank"><img src="/images/mobile/icon_med.png" alt=""></a>
@@ -51,7 +51,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<li>
 						<div class="sns-icon">
 							<ul>
-							<li><a href="javascript:alert('coming soon');"><img src="/images/mobile/icon_tel.png" alt="telegram"></a></li>
+							<li><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'><img src="/images/mobile/icon_tel.png" alt="telegram"></a></li>
 							<li><a href="https://medium.com/@chainplus365" target="_blank"><img src="/images/mobile/icon_med.png" alt="medium"></a></li>
 							</ul>
 						</div>
