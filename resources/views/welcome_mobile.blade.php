@@ -674,7 +674,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						<ul style="padding:0px;margin-top:15px;">
 							<li class="txt_c_07" style="padding-bottom:5px;">help@doublebet.io</li>
 							<li>
-								<a href="javascript:alert('Coming soon!')"><img src="/images/mobile/sns_tel.png" class="" alt="" style="width:30px"></a>&nbsp;
+								<a herf="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'><img src="/images/mobile/sns_tel.png" class="" alt="" style="width:30px"></a>&nbsp;
 								<a href="https://medium.com/@chainplus365" target="_blank"><img src="/images/mobile/sns_med.png" class="" alt="" style="width:30px"></a>
 							</li>
 						</ul>
