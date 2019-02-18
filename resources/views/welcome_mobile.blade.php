@@ -324,16 +324,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 			<div class="tokenomics-content" style="background:#a563f5">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
-					<p class="txt_type_03_1 txt_w txt_b">STO Conversion</p>
-					<p class="txt_w">Security Token Offering (STO) is classified as a
-						security-type token. Upon completing its
-						private sales, DoubleBet plans to
-						initiate its STO in the US with a
-						DoubleBet Token (DBET) in compliance
-						with STO issuance guidelines stipulated
-						by the Securities and Exchange
-						Commission (SEC). 
-					</p>
+					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.to_sto_00') !!}</p>
+					<p class="txt_w">{!! trans('messages.to_sto_01') !!}</p>
 				</div>
 				<div class="text-center" style="position:relative;">
 					<img src="/images/mobile/img_tokenomics_bg02.png" style="width:60%;padding:60px 0px;" />
