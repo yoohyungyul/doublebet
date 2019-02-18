@@ -68,35 +68,35 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			<div class="home-visual">
 				<ul class="home-visual-slider">
 					<li class="item-01">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">111{!! trans('messages.ho_t_1_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_05') !!}</a>
 					</li>
 					<li class="item-02">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">22{!! trans('messages.ho_t_2_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_05') !!}</a>
 					</li>
 					<li class="item-03">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_3_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">33{!! trans('messages.ho_t_3_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_3_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_3_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_05') !!}</a>
 					</li>
 					<li class="item-04">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_4_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">44{!! trans('messages.ho_t_4_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_4_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_4_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_05') !!}</a>
 					</li>
 					<li class="item-05">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_5_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">55{!! trans('messages.ho_t_5_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_5_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_5_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_5_04') !!}</a>&nbsp;&nbsp;&nbsp;
