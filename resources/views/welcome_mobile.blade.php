@@ -194,13 +194,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 			<div class="project-content">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">DoubleBet Service</p>
-					<p class="txt_c_02">At its core, DoubleBet's sports betting system will
-						use the company’s p2p (pear-to-pear) open
-						blockchain technology, which is transparent and
-						almost instantaneous, in combination
-						with an AI-based 'Double X Core' system.
-					</p>
+					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.po_svc_00') !!}</p>
+					<p class="txt_c_02">{!! trans('messages.po_svc_01') !!}</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.1s">
 					<img src="/images/mobile/img_service_01.png" />
@@ -209,49 +204,28 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			<div style="background:#a563f5;">
 				
 				<div class="section-title t_center "  style="padding:1em 1.5em;">
-					<p class="txt_type_03_1 txt_w txt_b">DoubleBet Service</p>
-					<p class="txt_c_03">The Core Technology of DoubleBets Forming a Sports Beting Block Chain Platform</p>
+					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.po_core_00') !!}</p>
+					<p class="txt_c_03">T{!! trans('messages.po_core_01') !!}</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.1s">
 					<p class="txt_type_01 txt_c_04 text-center txt_b"style="padding:20px 0px 10px"  >Double X Core AI</p>
 					<img src="/images/mobile/img_service_02.png" />
 					<p class="txt_w" style="text-align:center;background:#7748b1;padding:2em 1.5em;">
-							To collect high-quality,
-						exclusive information from numerous
-						bookmarkers, DoubleBet developed the
-						'Double X Core - AI,' which has its own
-						artificial intelligence (AI) capabilities, in-house.
-						The Odds API system featuring the
-						Double X Core - AI will provide stable and reliable
-						sports betting content.
+                        {!! trans('messages.po_core_02') !!}
 					</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.2s">
 					<p class="txt_type_01 txt_c_04 text-center txt_b" style="padding:20px 0px 10px" >Double X Core Wallet</p>
 					<img src="/images/mobile/img_service_03.png" />
 					<p class="txt_w " style="text-align:center;background:#7748b1;padding:2em 1.5em;">
-						Cryptocurrency transactions require
-						top-grade stability and security.
-						DoubleBet will ensure its system security is at least
-						on par with other currency exchanges.
-						The Double X Core - Wallet is the best security
-						technology system developed to work with BitGo,
-						a leader in cryptocurrency security,
-						when exchanging and storing cryptocurrencies. 
+                        {!! trans('messages.po_core_03') !!}
 					</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.3s">
 					<p class="txt_type_01 txt_c_04 text-center txt_b" style="padding:20px 0px 10px"   >Double X Core Betting</p>
 					<img src="/images/mobile/img_service_04.png" />
 					<p class="txt_w" style="text-align:center;background:#7748b1;padding:2em 1.5em;">
-						Double X Core-Betting is a stable, transparent,
-						and fast core algorithm technology
-						featured in DoubleBet’s blockchain-based
-						betting system. Also, Double X Core - Betting is
-						designed to take into account the special
-						circumstances of the betting system,
-						and handle over 100,000 betting
-						transactions per second. 
+                        {!! trans('messages.po_core_04') !!}
 					</p>
 				</div>
 			</div>
