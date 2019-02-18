@@ -1,0 +1,145 @@
+﻿header{
+  display: block;
+  width:100%;
+  height:50px;
+  background: #a563f5;
+  border-bottom:0px solid #000;
+  padding:0;
+}
+
+#navbar {
+  position:relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*버튼*/
+.menubtn {
+  /* needs positioning for z-index http://stackoverflow.com/a/10600930/477958 */
+  position:absolute;
+  left: 10px;
+  top: -1px; 
+  z-index: 101;
+  color:#274a61;
+  text-decoration: none;
+  font-size: 0em;
+  line-height: 0em;
+  padding:27px;
+  background-image:url(../images/icon_toggle.png);
+  background-position:50% 50%;
+  background-size: 24px 21px;
+  background-repeat: no-repeat;
+}
+.menubtn:hover, .openmenu .menubtn {
+  color: #bdd43e;
+  /*background-image:url(images/common/hamburger-active.png);*/
+}
+
+.menu_bi{display: none;position:absolute;top: 14px;left:0;z-index: 101;}
+.menu_bi > img {width:240px;}
+.menu_close{
+  display: none;
+  position:absolute;
+  top: 14px; 
+  left: 240px;
+  z-index: 101;
+}
+.menu_close > img {width: 24px;}
+
+/** toggle menu **/
+body.openmenu {
+  position: fixed;
+  overflow: hidden;
+}
+
+#pgcontainer {
+  padding:0;
+  margin: 0;
+}
+
+.overlay {
+  position: fixed;
+  z-index:99;
+  background-color: rgba(0,0,0,0.5);
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.openmenu .overlay {
+  top: 0;
+}
+
+/*슬라이딩 메뉴*/
+#hamburgermenu {
+  height: 100%;
+  width:0;
+  background:#a563f5;
+  position:fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  -webkit-box-shadow:3px 0 7px rgba(0,0,0,0.55);
+  -moz-box-shadow:3px 0 7px rgba(0,0,0,0.55);
+  box-shadow: 3px 0 7px rgba(0,0,0,0.55);
+}
+
+#hamburgermenu .menuTop { 
+  margin:0; 
+  height:90px;
+  background:#a563f5; 
+  border-bottom:0px solid #434343;
+  position: relative;
+}
+#hamburgermenu ul {
+  z-index: 101;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding:0;
+}
+#hamburgermenu ul li {
+  display: block;
+  margin:0 auto;
+  width:100%;
+  background-position:1.7em 0.9em;
+  background-repeat:no-repeat;
+  background-size:3em;
+  padding:0;
+}
+
+#hamburgermenu ul li a {
+  display: block;
+  padding-top:1em;
+  padding-bottom:1em;
+  padding-left: 1.5em;
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align:left;
+  line-height:1.1em;
+}
+#hamburgermenu ul li a.textColor {
+  background-color: #222; 
+  color: #fff;  
+  border-bottom:1px solid #434343;
+}
+#hamburgermenu ul li a > span{ font-size:1.1em; color:#fff;}
+#hamburgermenu li a:hover {
+  color: #fff;
+}
+
+#hamburgermenu ul li .lang-select{
+	font-size:1.1em; 
+	background:#a563f5; 
+	vertical-align:middle; 
+	width:80px; 
+	height:40px; 
+	color:#ffffff;
+	margin:0.8em 0 0.8em 1.5em;
+	border:1px solid #fff;
+}
+#hamburgermenu ul li .sns-icon ul li{float:left;width:40px;}
+#hamburgermenu ul li .sns-icon img{width:34px;}
