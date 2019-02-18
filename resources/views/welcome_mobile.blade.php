@@ -236,13 +236,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 		<section id="tokenomics" data-stellar-background-ratio="0.5" >
 			<div class="tokenomics-content" style="background:#f8f8f8">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">Tokenomics</p>
-					<p class="txt_c_02">DoubleBet Tokens(DBET) can be purchased with
-							cryptocurrencies during the private sale
-							period in early 2019(TBD). 
-							Investors can purchase DoubleBet(DBET)
-							Tokens with cryptocurrencies
-							(Tether (USDT) and Ethereum (ETH)).</p>
+					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.to_int_00') !!}</p>
+					<p class="txt_c_02">{!! trans('messages.to_int_01') !!}</p>
 				</div>
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.1s">
 					<div class="col-xs-6" >
