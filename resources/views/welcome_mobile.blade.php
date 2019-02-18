@@ -176,19 +176,19 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<div style="text-align:center;background:#fff;padding-bottom:30px;">
 					<img src="/images/mobile/img_down_arrow.png" style="width:80px;margin-top:-6px"/>
-					<p style="margin-top:30px;color:#a563f5">DoubleBet : Sports Betting Blockchain Platform</p>
-					<p class="txt_type_02 txt_b" style="color:#a563f5">Evolution of global<br>sports betting systems</p>
+					<p style="margin-top:30px;color:#a563f5">{!! trans('messages.po_vs_07') !!}</p>
+					<p class="txt_type_02 txt_b" style="color:#a563f5">{!! trans('messages.po_vs_08') !!}</p>
 					<div style="margin-top:20px;"class="wow fadeInUp" data-wow-delay="0.1s"  >
 						<img src="/images/mobile/icon_01.png" style="max-width:100px;padding-bottom:5px" />
-						<p class="txt_c_15" >Legal global sports betting services for the global market</p>
+						<p class="txt_c_15" >{!! trans('messages.po_vs_09') !!}</p>
 					</div>
 					<div style="margin-top:20px;"class="wow fadeInUp" data-wow-delay="0.3s"  >
 						<img src="/images/mobile/icon_02.png" style="max-width:100px;padding-bottom:5px" />
-						<p class="txt_c_15" >Transparent, reliable system based on blockchain technology</p>
+						<p class="txt_c_15" >{!! trans('messages.po_vs_10') !!}</p>
 					</div>
 					<div style="margin-top:20px;"class="wow fadeInUp" data-wow-delay="0.5s"  >
 						<img src="/images/mobile/icon_03.png" style="max-width:100px;padding-bottom:5px" />
-						<p class="txt_c_15"  >Diversity in services using two-way services</p>
+						<p class="txt_c_15"  >{!! trans('messages.po_vs_11') !!}</p>
 					</div>
 				</div>
 			</div>
