@@ -160,19 +160,19 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 			<div class="project-content" style="background:#a563f5;padding-bottom:50px">
 				<div class="section-title t_center wow fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_w txt_b">Implications and Vision of DoubleBet</p>
+					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.po_vs_00') !!}</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.3s"  style="border:1px solid #d2b1fa;border-radius:3px;color:#decff1;text-align:center;padding:10px;margin-bottom:15px">
-					Monopolization of sports betting
+                {!! trans('messages.po_vs_01') !!}
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.4s"   style="border:1px solid #d2b1fa;border-radius:3px;color:#decff1;text-align:center;padding:10px;margin-bottom:15px">
-					Convoluted market with illegal private vendors
+                {!! trans('messages.po_vs_02') !!}
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.5s"   style="border:1px solid #d2b1fa;border-radius:3px;color:#decff1;text-align:center;padding:10px;margin-bottom:15px">
-					Standardization of sports betting mechanisms
+				{!! trans('messages.po_vs_03') !!}
 				</div>
 				<div class="txt_w " style="text-align:center;background:#7748b1;padding:20px;font-size:1.5em;line-height:1.5em;">
-						Move users to illegal private companies with high dividend rates and increase damage Low transparency and reliability of operating systems Users do not have the opportunity to enjoy various betting options.
+				{!! trans('messages.po_vs_04') !!}
 				</div>
 				<div style="text-align:center;background:#fff;padding-bottom:30px;">
 					<img src="/images/mobile/img_down_arrow.png" style="width:80px;margin-top:-6px"/>
