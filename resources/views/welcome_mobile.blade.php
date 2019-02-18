@@ -286,38 +286,38 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 			<div class="tokenomics-content" >
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">Token distributionkenomics</p>
+					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.to_dt_00') !!}</p>
 				</div>
 				
 				<div class="text-center" style="position:relative;">
 					<img src="/images/mobile/img_tokenomics_bg01.png" style="width:60%;padding:60px 0px;" />
 					<div class="wow fadeInLeft" data-wow-delay="0.1s" style="position:absolute;top:7%;left:10%;">
-						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left;"><span class="txt_c_05">15%</span><br>Retainedat the<br>company</div>
+						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left;"><span class="txt_c_05">{!! trans('messages.to_dt_01') !!}</span><br>{!! trans('messages.to_dt_02') !!}</div>
 						<div  style="float:left;text-align:left;padding:30px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_01.png" style="width:25%;"/></div>
 					</div>
 					<div class="wow fadeInLeft" data-wow-delay="0.2s"  style="position:absolute;top:24%;left:0%;">
-						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_09">10%</span><br>Marketing<br>& Bounty<br>& Airdrop</div>
+						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_09">{!! trans('messages.to_dt_03') !!}</span><br>{!! trans('messages.to_dt_04') !!}</div>
 						<div style="float:left;text-align:left;padding:30px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_02.png" style="width:25%;"/></div>
 					</div>
 					<div  class="wow fadeInLeft" data-wow-delay="0.3s"  style="position:absolute;top:53%;left:0%;">
-						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_10">15%</span><br>DoubleBet<br>Team</div>
+						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_10">{!! trans('messages.to_dt_05') !!}</span><br>{!! trans('messages.to_dt_06') !!}</div>
 						<div style="float:left;text-align:left;padding:0px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_03.png" style="width:25%;"/></div>
 					</div>
 					<div  class="wow fadeInUp" data-wow-delay="0.4s" style="position:absolute;top:73%;left:13%;">
-						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_11">10%</span><br>Strategic<br>Partner</div>
+						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_11">{!! trans('messages.to_dt_07') !!}</span><br>{!! trans('messages.to_dt_08') !!}</div>
 						<div style="float:left;text-align:left;padding:0px 0px 0px 5px;"><img src="/images/mobile/img_tokenomics_line_04.png" style="width:25%;"/></div>
 					</div>
 					<div  class="wow fadeInUp" data-wow-delay="0.5s" style="position:absolute;top:78%;left:50%;">
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_05.png" style="width:44px;"/></div>
-						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:10px 0px 0px 5px;"><span class="txt_c_14">10%</span><br>Initial Investor</div>
+						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:10px 0px 0px 5px;"><span class="txt_c_14">{!! trans('messages.to_dt_13') !!}</span><br>{!! trans('messages.to_dt_14') !!}</div>
 					</div>
 					<div  class="wow fadeInRight" data-wow-delay="0.6s"  style="position:absolute;top:60%;left:70%;">
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_06.png" style="width:35px;"/></div>
-						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:0px 0px 0px 5px;"><span class="txt_c_13">20%</span><br>Exchange<br>Sales</div>
+						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:0px 0px 0px 5px;"><span class="txt_c_13">{!! trans('messages.to_dt_11') !!}</span><br>{!! trans('messages.to_dt_12') !!}</div>
 					</div>
 					<div  class="wow fadeInRight" data-wow-delay="0.7s"  style="position:absolute;top:30%;left:67%;">
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_07.png" style="width:34px;"/></div>
-						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:0px 0px 0px 5px;"><span class="txt_c_12">20%</span><br>Private sales</div>
+						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:0px 0px 0px 5px;"><span class="txt_c_12">{!! trans('messages.to_dt_09') !!}</span><br>{!! trans('messages.to_dt_10') !!}</div>
 					</div>
 				</div>
 			</div>
