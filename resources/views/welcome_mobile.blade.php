@@ -71,36 +71,36 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						<p class="s_txt_01 txt_type_03 txt_w txt_b">DoubleBet</span>
 						<p class="s_txt_02 txt_type_02 txt_w">Sports Betting Blockchain Platform</p>
 						<p class="s_txt_03 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-						<a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-						<a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
+						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
 					</li>
 					<li class="item-02">
 						<p class="s_txt_01 txt_type_03 txt_w txt_b">DoubleBet</span>
 						<p class="s_txt_02 txt_type_02 txt_w">Sports Betting Blockchain Platform</p>
 						<p class="s_txt_03 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-						<a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-						<a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
+						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
 					</li>
 					<li class="item-03">
 						<p class="s_txt_01 txt_type_03 txt_w txt_b">DoubleBet</span>
 						<p class="s_txt_02 txt_type_02 txt_w">Sports Betting Blockchain Platform</p>
 						<p class="s_txt_03 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-						<a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-						<a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
+						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
 					</li>
 					<li class="item-04">
 						<p class="s_txt_01 txt_type_03 txt_w txt_b">DoubleBet</span>
 						<p class="s_txt_02 txt_type_02 txt_w">Sports Betting Blockchain Platform</p>
 						<p class="s_txt_03 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-						<a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-						<a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
+						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
 					</li>
 					<li class="item-05">
 						<p class="s_txt_01 txt_type_03 txt_w txt_b">DoubleBet</span>
 						<p class="s_txt_02 txt_type_02 txt_w">Sports Betting Blockchain Platform</p>
 						<p class="s_txt_03 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-						<a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-						<a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
+						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
 					</li>
 				</ul>
 			</div>
