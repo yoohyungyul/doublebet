@@ -22,7 +22,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     <header>
         <div id="navbar">
 			<a href="#" class="menubtn">menu</a>
-            <span class="newLogo"><a href="/"><img src="/images/mobile/logo.png" alt="Doublbet"></a></span>
+            <span class="newLogo"><img src="/images/mobile/logo.png" alt="Doublbet"></span>
 			<div class="top_sns">
 				<a href="javascript:alert('coming soon');"><img src="/images/mobile/icon_tel.png" alt=""></a>
 				<a href="https://medium.com/@chainplus365" target="_blank"><img src="/images/mobile/icon_med.png" alt=""></a>
