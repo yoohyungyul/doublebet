@@ -496,7 +496,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 		<section id="team" data-stellar-background-ratio="0.5" >
 			<div class="ourteam-content" >
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_06 txt_c_01 txt_b">Our Team</p>
+					<p class="txt_type_06 txt_c_01 txt_b">{!! trans('messages.team_00') !!}</p>
 				</div>
 				<div class="row" >
 					<div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="0.1s"  style="margin-bottom:30px">
@@ -538,7 +538,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 		<section id="new" data-stellar-background-ratio="0.5" >
 			<div class="new-content" style="background:#a563f5">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
-					<p class="txt_type_06 txt_w txt_b">News</p>
+					<p class="txt_type_06 txt_w txt_b">{!! trans('messages.news_00') !!}</p>
 				</div>
 				<ul style="padding:0px 0px 0px 30px	">
 					<li style="background:#fff;border-radius:3px;margin-bottom:30px">
@@ -546,13 +546,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<div class="col-xs-5" ><img src="/images/mobile/img_news_01.png" style="width:100%;margin:30px 0px 30px -30px;border-radius:3px;"/></div>
 							<div class="col-xs-7">
 								<div style="margin-left:-40px;padding:30px 10px 0px 0px">
-									<p class="txt_c_01 txt_type_01 ">Sportsbet — bitcoin sports betting</p>
-									<p class="txt_c_02">The project launched in June 2016 and
-										due to rising popularity of bitcoin, the
-										customer base grew rapidly and by
-										November 2017 the amount of active
-										users had doubled.
-									</p>
+                                    <a href="https://bitcoinexchangeguide.com/bitcoin-sports-betting/" target="_blank"> 
+									<p class="txt_c_01 txt_type_01 ">Bitcoin Sports Betting & Live Player Gambling?</p>
+                                    <p class="txt_c_02">When it comes to online sports betting, or any betting really, there is a lot involved with starting a successful website.</p>
+                                    </a>
 								</div>
 							</div>
 						</div>
@@ -562,13 +559,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<div class="col-xs-5" ><img src="/images/mobile/img_news_02.png" style="width:100%;margin:30px 0px 30px -30px;border-radius:3px;"/></div>
 							<div class="col-xs-7">
 								<div style="margin-left:-40px;padding:30px 10px 0px 0px">
-									<p class="txt_c_01 txt_type_01 ">ZenSports Launches Peer-to-Peer Sports Betting! </p>
-									<p class="txt_c_02">We can’t contain our excitement
-										over here at ZenSports’ headquarters 
-										— today we’re announcing the launch
-										of a new peer-to-peer sports betting
-										marketplace where anyone can
-									</p>
+									<p class="txt_c_01 txt_type_01 ">Sports betting should be legal across the country.</p>
+									<p class="txt_c_02">The Oakland Raiders’ impending move to Las Vegas has reignited debate about the legality of betting on sports. Most states ban betting schemes (although Nevada is an exception)</p>
 								</div>
 							</div>
 						</div>
@@ -578,13 +570,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<div class="col-xs-5" ><img src="/images/mobile/img_news_03.png" style="width:100%;margin:30px 0px 30px -30px;border-radius:3px;"/></div>
 							<div class="col-xs-7">
 								<div style="margin-left:-40px;padding:30px 10px 0px 0px">
-									<p class="txt_c_01 txt_type_01 ">Sports betting should be legal across the country.</p>
-									<p class="txt_c_02">The Oakland Raiders’ impending move to
-										Las Vegas has reignited debate about
-										the legality of betting on sports.
-										Most states ban betting schemes
-										(although Nevada is an exception), 
-									</p>
+									<p class="txt_c_01 txt_type_01 ">ZenSports Launches Peer-to-Peer Sports Betting!</p>
+									<p class="txt_c_02">We can’t contain our excitement over here at ZenSports’ headquarters — today we’re announcing the launch of a new peer-to-peer sports betting marketplace where anyone can</p>
 								</div>
 							</div>
 						</div>
