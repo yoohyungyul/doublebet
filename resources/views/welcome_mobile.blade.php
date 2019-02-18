@@ -242,42 +242,42 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.1s">
 					<div class="col-xs-6" >
 						<div style="background:#a563f5;padding:10px;width:100%;">
-							<p class="txt_w text-center txt_type_07">TOKEN SYMBOL</p>
-							<p class="txt_c_04 txt_b text-center txt_type_02">DBET</p>
+							<p class="txt_w text-center txt_type_07">{!! trans('messages.to_dg_01') !!}</p>
+							<p class="txt_c_04 txt_b text-center txt_type_02">{!! trans('messages.to_dg_02') !!}</p>
 						</div>
 					</div>
 					<div class="col-xs-6">
 						<div style="border-top:1px solid #a563f5;background:#ffff;padding:10px;">
-							<p class="txt_c_02 text-center txt_type_07">TOTAL TOKEN SUPPLY</p>
-							<p class="txt_c_01 text-center txt_type_02">1,250,000,000</p>
+							<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_03') !!}</p>
+							<p class="txt_c_01 text-center txt_type_02">{!! trans('messages.to_dg_04') !!}</p>
 						</div>
 					</div>
 				</div>
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.2s">
 					<div class="col-xs-6">
 						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px">
-							<p class="txt_c_02 text-center txt_type_07">DBET PRICE</p>
-							<p class="txt_c_01 text-center txt_type_02">$0.15</p>
+							<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_05') !!}</p>
+							<p class="txt_c_01 text-center txt_type_02">{!! trans('messages.to_dg_06') !!}</p>
 						</div>
 					</div>
 					<div class="col-xs-6 wow fadeInUp">
 						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px">
-								<p class="txt_c_02 text-center txt_type_07">PRE-SALE HARDCAP</p>
-								<p class="txt_c_01 text-center txt_type_02">250,000,000</p>
+								<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_07') !!}</p>
+								<p class="txt_c_01 text-center txt_type_02">{!! trans('messages.to_dg_08') !!}</p>
 							</div>
 					</div>
 				</div>
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.3s">
 					<div class="col-xs-6">
 						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px">
-							<p class="txt_c_02 text-center txt_type_07">ACCEPT CURRENCY</p>
-							<p class="txt_c_01 text-center txt_type_02">USDT, ETH</p>
+							<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_09') !!}</p>
+							<p class="txt_c_01 text-center txt_type_02">{!! trans('messages.to_dg_10') !!}</p>
 						</div>
 					</div>
 					<div class="col-xs-6">
 						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px">
-							<p class="txt_c_02 text-center txt_type_07" >TECHNICAL SPECIFICATIONS</p>
-							<p class="txt_c_01 text-center txt_type_02">ERC-20</p>
+							<p class="txt_c_02 text-center txt_type_07" >{!! trans('messages.to_dg_11') !!}</p>
+							<p class="txt_c_01 text-center txt_type_02">{!! trans('messages.to_dg_12') !!}</p>
 						</div>
 					</div>
 				</div>
