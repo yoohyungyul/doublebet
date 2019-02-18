@@ -68,35 +68,35 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			<div class="home-visual">
 				<ul class="home-visual-slider">
 					<li class="item-01">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">111{!! trans('messages.ho_t_1_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_05') !!}</a>
 					</li>
 					<li class="item-02">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">22{!! trans('messages.ho_t_2_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_05') !!}</a>
 					</li>
 					<li class="item-03">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">33{!! trans('messages.ho_t_3_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_3_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_3_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_3_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_05') !!}</a>
 					</li>
 					<li class="item-04">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">44{!! trans('messages.ho_t_4_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_4_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_4_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_4_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_04') !!}</a>&nbsp;&nbsp;&nbsp;
 						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_05') !!}</a>
 					</li>
 					<li class="item-05">
-						<p class="s_txt_01 txt_type_03 txt_w txt_b">55{!! trans('messages.ho_t_5_01') !!}</span>
+						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_5_01') !!}</span>
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_5_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_5_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll">{!! trans('messages.ho_t_5_04') !!}</a>&nbsp;&nbsp;&nbsp;
@@ -110,15 +110,15 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
         <!-- market/ -->
 			<div class="project-content">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">Global Sports Betting Market</p>
+					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.po_st_00') !!}</p>
 				</div>
 				<!-- market1/ -->
 				<div class="project-intro">
 					<div class="project-intro1 wow fadeInUp" data-wow-delay="0.2s">
-					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">The most profitable business in the global gambling market</p>
+					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_01') !!}</p>
 					</div>
 					<div class="project-intro2 wow fadeInUp" data-wow-delay="0.2s">
-					<p class="t_mid pa_ce_20">Moving forward, sports betting is expected to grow from 44.5% in 2017 to 46% in 2020. As of 2017, the sports betting market was 21.3bn(USD). However, by 2022, the market is expected to reach 27.2bn(USD).</p>
+					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_02') !!}</p>
 					</div>
 
 					<div class="project-intro3 wow fadeInUp" data-wow-delay="0.2s">
@@ -129,10 +129,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<!-- market2/ -->
 				<div class="project-intro">
 					<div class="project-intro1 wow fadeInUp" data-wow-delay="0.3s">
-					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">Fastest growing sports<br />betting market : USA</p>
+					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_03') !!}</p>
 					</div>
 					<div class="project-intro2 wow fadeInUp" data-wow-delay="0.3s">
-					<p class="t_mid pa_ce_20">In May 2018, the US Supreme Court made a ruling that, in effect, would legalize sports betting. Legalization of sports betting is expected to bring the industry, which is estimated at 160bn(USD) in size, out of the shadows and into the light.</p>
+					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_04') !!}</p>
 					</div>
 
 					<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.3s">
@@ -143,10 +143,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<!-- market3/ -->
 				<div class="project-intro">
 					<div class="project-intro1 wow fadeInUp" data-wow-delay="0.4s">
-					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">Asia-Pacific (APAC) : Largest sports<br />betting market in the world</p>
+					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_05') !!}</p>
 					</div>
 					<div class="project-intro2 wow fadeInUp" data-wow-delay="0.4s">
-					<p class="t_mid pa_ce_20">Currently, in Asian markets, more than 95% of all betting actions go through illegal private companies due to regulations on sports betting. The size of these illicit markets in total is estimated at more than 10 times the size of the legal sports betting market.</p>
+					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_06') !!}</p>
 					</div>
 
 					<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.4s">
