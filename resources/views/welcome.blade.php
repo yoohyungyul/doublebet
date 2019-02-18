@@ -1084,8 +1084,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="wow fadeInUp" data-wow-delay="0.4s">
                             <p class="txt_type_00 txt_c_07"><a href="#home">{!! trans('messages.foot_me_01') !!}</a></p>
                             <p class="txt_type_00 txt_c_07"><a href="#roadmap">{!! trans('messages.foot_me_02') !!}</a></p>
-                            <p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')">{!! trans('messages.foot_me_03') !!}</a></p>
-                            <p class="txt_type_00 txt_c_07"><a href="javascript:alert('Coming soon!')">{!! trans('messages.foot_me_04') !!}</a></p>
+                            <p class="txt_type_00 txt_c_07"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_03') !!}</a></p>
+                            <p class="txt_type_00 txt_c_07"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_04') !!}</a></p>
                         </div>
                     </div>
                     <div class="footer-info-01">

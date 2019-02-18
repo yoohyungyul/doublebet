@@ -663,10 +663,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="col-xs-6">
 						<span class="txt_w txt_type_01" style="border-bottom:1px solid #564f5b;padding:0px 20px 5px 0px">DoubleBet</span>
 						<ul style="padding:0px;margin-top:15px;">
-							<li class="txt_c_07" style="padding-bottom:5px;">Home</li>
-							<li class="txt_c_07" style="padding-bottom:5px;">Roadmap</li>
-							<li class="txt_c_07" style="padding-bottom:5px;">Terms and conditions</li>
-							<li class="txt_c_07"  style="padding-bottom:5px;">Privacy Policy</li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="">Home</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="">Roadmap</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>Terms and conditions</a></li>
+							<li class="txt_c_07"  style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>Privacy Policy</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-6">
