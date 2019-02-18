@@ -404,104 +404,84 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 		<section id="roadmap" data-stellar-background-ratio="0.5" >
 			<div class="roadmap-content" style="background:#7748b1;height:1450px;">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
-					<p class="txt_type_03_1 txt_w txt_b">Roadmap</p>
+					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.to_map_00') !!}</p>
 					
 				</div>
 				<div class="row" >
 					<div class="col-xs-6" style="position:relative;height:1450px; border-right:1px solid #fff">
 						<div class="wow fadeInLeft" data-wow-delay="0.2s" style="position:absolute;right:20px;top:100px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">2012. 06</p>
-							<p class="txt_c_07" >Launched the Bulls NineMobile Web / App<br>Opened the asino game service</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_03') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_04') !!}</p>
 						</div>
 						<div class="wow fadeInLeft" data-wow-delay="0.4s"  style="position:absolute;right:20px;top:280px;text-align: right">
 								<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">2018. 08</p>
-							<p class="txt_c_07" >Partially upgraded the Fixed<br>Odds system<br>within the UPOLL service<br>Stabilized the UPOLL system</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_07') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_08') !!}</p>
 						</div>
 						<div class="wow fadeInLeft" data-wow-delay="0.6s"  style="position:absolute;right:20px;top:540px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">2018. 12</p>
-							<p class="txt_c_07" >Issued DoubleBet(DBET) Tokens Developed the DoubleBet Wallet</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_11') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_12') !!}</p>
 						</div>
 
 						<div class="wow fadeInLeft" data-wow-delay="0.8s"  style="position:absolute;right:20px;top:750px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 02</p>
-							<p class="txt_c_07" >DoubleBet(DBET)<br>Coin pre-sale</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_21') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_22') !!}</p>
 						</div>
 
-						<div class="wow fadeInLeft" data-wow-delay="0.9s"  style="position:absolute;right:20px;top:830px;text-align: right">
-							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 03</p>
-							<p class="txt_c_07" >DoubleBet(DBET)<br>Coin public sale</p>
-						</div>
+						
 
 						<div class="wow fadeInLeft" data-wow-delay="1.0s"  style="position:absolute;right:20px;top:900px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 05</p>
-							<p class="txt_c_07" >Float the DoubleBet (DBET) Coin </p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_17') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_18') !!}</p>
 						</div>
 						<div class="wow fadeInLeft" data-wow-delay="1.2s"  style="position:absolute;right:20px;top:1140px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 10</p>
-							<p class="txt_c_07" >Expand DoubleBet services<br>
-								- Establish a global service<br>
-								expansion strategy<br>
-								- Establish a local service maintenance and management strategy
-							</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_13') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_14') !!}</p>
 						</div>
 						
 					</div>
 					<div class="col-xs-6" style="position:relative;" >
 						<div class="wow fadeInRight" data-wow-delay="0.1s"  style="position:absolute;left:20px;top:25px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2011. 12</p>
-							<p class="txt_c_07" >Launched the Bulls Nine<br>(total betting system) </p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_02') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_01') !!}</p>
 						
 						</div>
 
 						<div class="wow fadeInRight" data-wow-delay="0.3s"  style="position:absolute;left:20px;top:190px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2018. 04</p>
-							<p class="txt_c_07" >Launched the UPOLL<br>(match prediction system)<br>service</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_06') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_05') !!}</p>
 						</div>
 
 						<div class="wow fadeInRight" data-wow-delay="0.5s"  style="position:absolute;left:20px;top:390px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2018. 09</p>
-							<p class="txt_c_07" >Introduced blockchain technology in the UPOLL system<br>Established plans for the DoubleBet (sports betting system) environment</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_10') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_09') !!}</p>
 							
 						</div>
 
 						<div class="wow fadeInRight" data-wow-delay="0.7s"  style="position:absolute;left:20px;top:630px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 01</p>
-							<p class="txt_c_07" >Published the reverse ICO white paper<br>Commenced DoubleBet Coin private sale</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_24') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_23') !!}</p>
 						</div>
-						<div class="wow fadeInRight" data-wow-delay="0.8s"  style="position:absolute;left:20px;top:750px;">
-							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 02</p>
-							<p class="txt_c_07" >Acquire corporate license in Georgia</p>
-						</div>
+                        
+                        
 						<div class="wow fadeInRight" data-wow-delay="0.9s"  style="position:absolute;left:20px;top:830px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 03</p>
-							<p class="txt_c_07" >Develop the DoubleBet prototype </p>
-						</div>
-						<div class="wow fadeInRight" data-wow-delay="1.0s"  style="position:absolute;left:20px;top:900px;">
-							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 05</p>
-							<p class="txt_c_07" >Launch DoubleBet global version<br>- Web (PC, Mobile), App </p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_20') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_19') !!}</p>
 						</div>
 						<div class="wow fadeInRight" data-wow-delay="1.1s"  style="position:absolute;left:20px;top:1000px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">2019. 07</p>
-							<p class="txt_c_07" >
-								Launch DoubleBet localized version<br>
-								- Localization for each country in Asia<br>
-								- Localization for the US 
-							</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_16') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_15') !!}</p>
 						</div>
 						
 						
