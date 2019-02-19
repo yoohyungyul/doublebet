@@ -40,7 +40,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			
 			<div class="navbar-header">
 				<!-- lOGO TEXT HERE -->
-				<a href="index.html" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
+				<a href="/" class="navbar-brand"><img src="/images/blank.png" border="0" width="183" height="62" alt="DoubleBet" /></a>
 			</div>
 			<!-- MENU LINKS -->
 			<div class="collapse navbar-collapse" id="tmNav">
@@ -56,7 +56,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<ul class="nav navbar-nav navbar-right">
 					 <li>
 						<div class="custom-select" style="width:60px;margin-top:14px;margin-right:16px;">
-                            <select name="lang-select" class="lang-select" onchange="location.href=this.value">
+                            <select  onchange="location.href=this.value">
                                 <option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
                                 <option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif>KR</option>
                             </select>
