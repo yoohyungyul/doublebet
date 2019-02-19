@@ -63,7 +63,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 	</header>
 	
 
-	<a href="#team" class="smoothScroll">{!! trans('messages.me_team') !!}</a>
+	<a href="#team" >{!! trans('messages.me_team') !!}</a>
     
     <!-- 컨텐츠 내용-->      
     <div id="content">
