@@ -297,7 +297,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 	<!-- Tokenomics -->
 	<section id="tokenomics" data-stellar-background-ratio="0.5">
-		<div class="c_bg_02">
+		<div >
 		<div class="container">
 			<div class="row">
 
