@@ -933,7 +933,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 </div>
                 <div class="col-xs-4">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-thumb-box team_mg_02">
+                        <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
                             <p class="team_company txt_type_01">Co-founder & COO of CHAINPLUS<br>Director of MGAME</p>
@@ -974,7 +974,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
                 <div class="col-xs-4">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-thumb-box team_mg_02">
+                        <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_08.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Jay W. Kim</p>
                             <p class="team_company txt_type_01">CLO of CHAINPLUS<br>New York Attorny</p>
