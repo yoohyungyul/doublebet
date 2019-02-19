@@ -29,6 +29,8 @@ $(function(){
 			jsAnimateMenu('close');
 			
 		}
+
+		alert(e.html());
 		e.preventDefault();
 		
 	});
