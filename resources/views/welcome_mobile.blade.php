@@ -155,7 +155,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_06') !!}</p>
 					</div>
 
-					<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.4s">
+					<div class="porject-intro3 " >
 					<img src="/images/mobile/intro_di_03.jpg" class="img-bottom" alt="">
 					</div>
 				</div>
@@ -328,7 +328,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 			</div>
 
-			<div class="tokenomics-content" style="background:#a563f5">
+			<!-- <div class="tokenomics-content" style="background:#a563f5">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
 					<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_sto_00') !!}</p>
 					<p class="txt_w">{!! trans('messages.to_sto_01') !!}</p>
@@ -353,7 +353,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						<div  class="txt_w txt_type_08"  style="text-align:left;float:left;padding:0px 0px 0px 5px;">{!! trans('messages.to_fund_07') !!}<br>{!! trans('messages.to_fund_08') !!}</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="tokenomics-content"  >
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
 					<p class="txt_type_02 txt_c_01 txt_b">{!! trans('messages.to_sale_00') !!}</p>
