@@ -661,7 +661,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1>{!! trans('messages.to_sale_00') !!}</h1>
+						<h1 class="txt_w">{!! trans('messages.to_sale_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-xs-4 col-xs-4">
