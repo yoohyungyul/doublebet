@@ -52,7 +52,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<li><a href="#roadmap" class="smoothScroll"><span>{!! trans('messages.me_roadmap') !!}</span></a></li>
 					<li><a href="#team" class="smoothScroll"><span>{!! trans('messages.me_team') !!}</span></a></li>
 					<li><a href="#news" class="smoothScroll"><span>{!! trans('messages.me_news') !!}</span></a></li>
-					<li><a href="javascript:" onclick="window.open({{$paper_link}});" target="_blank" ><span>{!! trans('messages.me_whitepaper') !!}</span></a></li>
+					<li><a href="#" onclick="window.open('{{$paper_link}}');" target="_blank" ><span>{!! trans('messages.me_whitepaper') !!}</span></a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					 <li>
