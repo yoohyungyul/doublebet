@@ -673,7 +673,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_04') !!}</p><br/>
 							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_05') !!}</p>
 						</div>
-						<div class="sale-hover">
+						<!-- <div class="sale-hover">
 							<div class="sale-item">
 								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_01') !!}</p><br/>
 								<p class="txt_type_02_24 t_center txt_w">{!! trans('messages.to_sale_02') !!}</p><br/><br/>
@@ -681,7 +681,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_04') !!}</p><br/>
 								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_05') !!}</p>
 							</div>
-						</div>
+						</div> -->
 					 </div>
 				</div>
 				<div class="col-xs-4 col-xs-4">
