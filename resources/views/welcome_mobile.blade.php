@@ -508,7 +508,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<div class="row" >
 					<div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="0.1s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_01.jpg" alt="" style="max-width:230px">
-						<p class="txt_c_16" style="margin:10px 0px 0px">Kim Jae Hong</p>
+						<p class="txt_c_16" style="margin:10px 0px 0px">Jae Hong Kim</p>
 						<p class="txt_c_02">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
 						<p><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/mobile/icon_link.jpg" style="width:20px;" alt=""></a></p>
 					</div>
@@ -528,12 +528,28 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						<p class="txt_c_02">Co-founder & CMO of CHAINPLUS<BR>CSO of Barunson E&A</p>
 						<p><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/mobile/icon_link.jpg" style="width:20px;" alt=""></a></p>
 					</div>
+
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.5s"  style="margin-bottom:30px">
+						<img src="/images/mobile/team_07.jpg" alt="" style="max-width:230px">
+						<p class="txt_c_16" style="margin:10px 0px 0px">Kyung Soo Kim</p>
+						<p class="txt_c_02">CFO of CHAINPLUS<br>Finance in Foxconn, Samsung, Hyosung</p>
+						
+					</div>
+
+					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.6s"  style="margin-bottom:30px">
+						<img src="/images/mobile/team_08.jpg" alt="" style="max-width:230px">
+						<p class="txt_c_16" style="margin:10px 0px 0px">Jay W. Kim<</p>
+						<p class="txt_c_02">CLO of CHAINPLUS<br>New York Attorny</p>
+						
+					</div>
+
+
+					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.7s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_05.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">William. Ha</p>
 						<p class="txt_c_02">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
 					</div>
-					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.6s"  style="margin-bottom:30px">
+					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.8s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_06.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Yu Sik Kim</p>
 						<p class="txt_c_02">Founder & CEO of DCInside</p>
