@@ -920,11 +920,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     </div>
                     <div class="col-xs-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="team-thumb-box team_mg_01">
+                            <div class="team-thumb-box ">
                                 <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
                                 <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
                                 <p class="team_company txt_type_01">Co-founder & CTO of CHAINPLUS<br>CTO of Melonbit</p>
-                                <!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                                
                             </div>
                             <div class="team-hover">
                                 <div class="team-item">&nbsp;</div>
@@ -933,11 +933,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     </div>
                     <div class="col-xs-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="team-thumb-box team_mg_02">
+                            <div class="team-thumb-box ">
                                 <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
                                 <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
                                 <p class="team_company txt_type_01">Co-founder & COO of CHAINPLUS<br>Director of MGAME</p>
-                                <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                                
                             </div>
                             <div class="team-hover">
                                 <div class="team-item">&nbsp;</div>
@@ -945,7 +945,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-xs-4">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-thumb-box">
@@ -980,7 +980,6 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                                 <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
                                 <p class="team_name txt_type_02 txt_b">William. Ha</p>
                                 <p class="team_company txt_type_01">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
-                                <!-- <p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
                             </div>
                             <div class="team-hover">
                                 <div class="team-item">&nbsp;</div>
@@ -996,7 +995,6 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                                 <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
                                 <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
                                 <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
-                                <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
                             </div>
                             <div class="team-hover">
                                 <div class="team-item">&nbsp;</div>
@@ -1009,14 +1007,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                                 <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
                                 <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
                                 <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
-                                <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
-                            </div>
+                             </div>
                             <div class="team-hover">
                                 <div class="team-item">&nbsp;</div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 				<!-- /team -->
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_100">&nbsp;</p>
