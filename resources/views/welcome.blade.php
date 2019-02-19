@@ -560,13 +560,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<!-- /distribution -->
 				<!-- sto/ -->
-				<div class="col-xs-12 col-xs-12">
+				<!-- <div class="col-xs-12 col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
 						<h2>{!! trans('messages.to_sto_00') !!}</h2>
 						<p class="txt_type_02 space_01 txt_c_03">{!! trans('messages.to_sto_01') !!}</p>
 					</div>
-				</div>
+				</div> -->
 				<!-- /sto -->
 				<!-- use of fund/ -->
 				<!-- <div class="col-xs-12 col-xs-12">
