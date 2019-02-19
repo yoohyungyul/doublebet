@@ -96,6 +96,24 @@ return [
 'to_dt_13'			=> '10%',
 'to_dt_14'			=> 'Initial Investor',
 
+
+'to_dt_02_m'			=> 'Retainedat the<br>company',
+
+'to_dt_04_m'			=> 'Marketing<br>& Bounty<br>& Airdrop',
+
+'to_dt_06_m'			=> 'DoubleBet<br>Team',
+
+'to_dt_08_m'			=> 'Strategic<br>Partner',
+
+'to_dt_10_m'			=> 'Private<br>sales',
+
+'to_dt_12_m'			=> 'Exchange<br>Sales',
+
+'to_dt_14_m'			=> 'Initial<br>Investor',
+
+
+
+
 'to_sto_00'			=> 'STO Conversion',
 'to_sto_01'			=> 'Security Token Offering (STO) is classified as a security-type token.<br />Upon completing its private sales, DoubleBet plans to initiate its STO in the US with a DoubleBet Token (DBET) in compliance with STO issuance guidelines stipulated by the Securities and Exchange Commission (SEC).',
 
