@@ -31,7 +31,7 @@ $(function(){
 		}
 
 		// e.preventDefault();
-		e.returnValue = false;
+		// e.returnValue = false;
 		
 	});
 
