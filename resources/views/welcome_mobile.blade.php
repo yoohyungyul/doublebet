@@ -365,7 +365,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 									<p>{!! trans('messages.to_sale_01') !!}</p>
 									<p>{!! trans('messages.to_sale_02') !!}</p>
 							</div>
-							<div  class="col-xs-4 text-center txt_c_04 txt_type_06 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_03') !!}</div>
+							<div  class="col-xs-4 text-center txt_c_04 txt_type_03 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_03') !!}</div>
 							<div class="col-xs-4 txt_w txt_type_08" style="padding:10px">
 								<p>{!! trans('messages.to_sale_04') !!}</p>
 								<p>{!! trans('messages.to_sale_05') !!}</p>
@@ -380,7 +380,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 									<p>{!! trans('messages.to_sale_06') !!}</p>
 									<p>{!! trans('messages.to_sale_07') !!}</p>
 							</div>
-							<div  class="col-xs-4 text-center txt_c_01 txt_type_06 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_08') !!}</div>
+							<div  class="col-xs-4 text-center txt_c_01 txt_type_03 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_08') !!}</div>
 							<div class="col-xs-4 txt_c_02 txt_type_08" style="padding:10px">
 								<p>{!! trans('messages.to_sale_09') !!}</p>
 								<p>{!! trans('messages.to_sale_10') !!}</p>
@@ -395,7 +395,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 									<p>{!! trans('messages.to_sale_11') !!}</p>
 									<p>{!! trans('messages.to_sale_12') !!}</p>
 							</div>
-							<div  class="col-xs-4 text-center txt_c_01 txt_type_06 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_13') !!}</div>
+							<div  class="col-xs-4 text-center txt_c_01 txt_type_03 txt_b" style="padding-top:15px">{!! trans('messages.to_sale_13') !!}</div>
 							<div class="col-xs-4 txt_c_02 txt_type_08" style="padding:10px">
 								<p>{!! trans('messages.to_sale_14') !!}</p>
 								<p>{!! trans('messages.to_sale_15') !!}</p>
