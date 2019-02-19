@@ -905,7 +905,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4">
+                    <div class="col-xs-4 text-center">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
                             <div class="team-thumb-box">
                                 <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
@@ -918,7 +918,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-4 text-center">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
                             <div class="team-thumb-box ">
                                 <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
@@ -931,7 +931,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-4 text-center">
                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
                             <div class="team-thumb-box ">
                                 <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
