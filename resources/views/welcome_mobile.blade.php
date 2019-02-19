@@ -254,7 +254,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						</div>
 					</div>
 					<div class="col-xs-6">
-						<div style="border-top:1px solid #a563f5;background:#ffff;padding:10px;">
+						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;">
 							<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_03') !!}</p>
 							<p class="txt_c_01 text-center txt_type_02">{!! trans('messages.to_dg_04') !!}</p>
 						</div>
