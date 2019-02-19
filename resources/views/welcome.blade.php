@@ -56,7 +56,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<ul class="nav navbar-nav navbar-right">
 					 <li>
 						<div style="width:60px;margin-top:14px;margin-right:16px;">
-                            <select name="lang-select"  onchange="location.href=this.value">
+                            <select name="lang-select"  >
                                 <option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
                                 <option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif>KR</option>
                             </select>
