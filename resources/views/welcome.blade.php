@@ -911,7 +911,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                                 <p class="t_center"><img src="/images/team_01.jpg"  alt=""></p>
                                 <p class=" txt_type_02 txt_b">Kim Jae Hong</p>
                                 <p class="team_company txt_type_01">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
-                                <p class="team_link_01"> <a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                                <p class="team_link_01">&nbsp;<a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
                             </div>
                         </div>
                     </div>
