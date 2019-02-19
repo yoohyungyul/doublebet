@@ -23,8 +23,10 @@ $(function(){
 		}
 	});
 
-	$('a[href$="#"]').on('click', function(e){
+	$('#link').on('click', function(e){
+		$('.menu_close').show();
 		e.preventDefault();
+		
 	});
 
 	$('.menu_close').on('click',function(e){

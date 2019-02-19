@@ -35,13 +35,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     <a href="#" class="menu_close"><img src="/images/mobile/btn_close.png" alt="메뉴닫기"></a> 
                 </div>
                 <ul>
-                    <li><a href="?#home" class="smoothScroll">{!! trans('messages.me_home') !!}</a></li>
-					<li><a href="?#project" class="smoothScroll">{!! trans('messages.me_project') !!}</a></li>
-					<li><a href="?#tokenomics" class="smoothScroll">{!! trans('messages.me_tokenomics') !!}</a></li>
-					<li><a href="?#roadmap" class="smoothScroll">{!! trans('messages.me_roadmap') !!}</a></li>
-					<li><a href="?#team" class="smoothScroll">{!! trans('messages.me_team') !!}</a></li>
-					<li><a href="?#news" class="smoothScroll">{!! trans('messages.me_news') !!}</a></li>
-					<li><a href="#" class="smoothScroll">{!! trans('messages.me_whitepaper') !!}</a></li>
+                    <li><a id="link" href="#home" class="smoothScroll">{!! trans('messages.me_home') !!}</a></li>
+					<li><a id="link" href="#project" class="smoothScroll">{!! trans('messages.me_project') !!}</a></li>
+					<li><a id="link" href="#tokenomics" class="smoothScroll">{!! trans('messages.me_tokenomics') !!}</a></li>
+					<li><a id="link" href="#roadmap" class="smoothScroll">{!! trans('messages.me_roadmap') !!}</a></li>
+					<li><a id="link" href="#team" class="smoothScroll">{!! trans('messages.me_team') !!}</a></li>
+					<li><a id="link" href="#news" class="smoothScroll">{!! trans('messages.me_news') !!}</a></li>
+					<li><a id="link" href="#" class="smoothScroll">{!! trans('messages.me_whitepaper') !!}</a></li>
 					<li>
 						<select name="lang-select" class="lang-select" onchange="location.href=this.value">
 							<option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
@@ -116,30 +116,31 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.po_st_00') !!}</p>
 				</div>
 				<!-- market1/ -->
-				<div class="project-intro">
-					<div class="project-intro1 wow fadeInUp" data-wow-delay="0.2s">
+				<div class="project-intro wow fadeInUp" data-wow-delay="0.2s">
+					<div class="project-intro1 " >
 						<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_01') !!}</p>
 					</div>
-					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" /></div>
-					<div class="project-intro2 wow fadeInUp" data-wow-delay="0.2s">
+					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -5px;"/></div>
+					<div class="project-intro2 " >
 					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_02') !!}</p>
 					</div>
 
-					<div class="project-intro3 wow fadeInUp" data-wow-delay="0.2s">
+					<div class="project-intro3 " >
 					<img src="/images/mobile/intro_di_01.jpg" class="img-bottom" alt="">
 					</div>
 				</div>
 				<!-- /market1 -->
 				<!-- market2/ -->
-				<div class="project-intro">
-					<div class="project-intro1 wow fadeInUp" data-wow-delay="0.3s">
-					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_03') !!}</p>
+				<div class="project-intro wow fadeInUp" data-wow-delay="0.3s">
+					<div class="project-intro1 " >
+						<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_03') !!}</p>
 					</div>
-					<div class="project-intro2 wow fadeInUp" data-wow-delay="0.3s">
+					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -5px;"/></div>
+					<div class="project-intro2 " >
 					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_04') !!}</p>
 					</div>
 
-					<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.3s">
+					<div class="porject-intro3 " >
 					<img src="/images/mobile/intro_di_02.jpg" class="img-bottom" alt="">
 					</div>
 				</div>
