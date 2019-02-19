@@ -693,7 +693,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_09') !!}</p><br/>
 							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_10') !!}</p>
 						</div>
-						<div class="sale-hover">
+						<!-- <div class="sale-hover">
 							<div class="sale-item">
 								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_06') !!}</p><br/>
 								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_07') !!}</p><br/><br/>
@@ -701,7 +701,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_09') !!}</p><br/>
 								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_10') !!}</p>
 							</div>
-						</div>
+						</div> -->
 					 </div>
 				</div>
 				<div class="col-xs-4 col-xs-4">
@@ -713,7 +713,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_14') !!}</p><br/>
 							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_15') !!}</p>
 						</div>
-						<div class="sale-hover">
+						<!-- <div class="sale-hover">
 							<div class="sale-item">
 								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_11') !!}</p><br/>
 								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_12') !!}</p><br/><br/>
@@ -721,7 +721,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_14') !!}</p><br/>
 								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_15') !!}</p>
 							</div>
-						</div>
+						</div> -->
 					 </div>
 				</div>
 				<!-- /Sales -->
@@ -956,6 +956,21 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-thumb-box team_mg_01">
+                            <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">추가</p>
+                            <p class="team_company txt_type_01">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="col-md-4 col-sm-4">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
                         <div class="team-thumb-box team_mg_01">
