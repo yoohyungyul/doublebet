@@ -905,15 +905,15 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					</div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-4 text-center">1
-                        <!-- <div class="team-thumb wow fadeInUp text-center" data-wow-delay="0.2s">
-                            <div class="team-thumb-box">
+                    <div class="col-xs-4 text-center">
+                        <div class="team-thumb wow fadeInUp text-center" data-wow-delay="0.2s">
+                            <div class="">
                                 <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
                                 <p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
                                 <p class="team_company txt_type_01">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
                                 <p class="team_link_01"><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                     <div class="col-xs-4 text-center">2
                         <!-- <div class="team-thumb wow fadeInUp text-center" data-wow-delay="0.3s">
