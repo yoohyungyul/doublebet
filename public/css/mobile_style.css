@@ -67,7 +67,7 @@ ul {list-style-type: none;}
 
 .project-content, .tokenomics-content, .roadmap-content, .ourteam-content, .new-content, .footer-content {position:relative; margin-bottom:0;padding:1em 1.5em;width:100%}
 .project-intro{position:relative;width:100%;clear:both;padding-bottom:10px;}
-.project-intro1{background:#a463f5;width:100%; padding:10px 10px 0px;}
+.project-intro1{background:#a463f5;width:100%; padding:20px 10px 10px;}
 .project-intro1 .t_mid{position:relative;text-align:center;}
 .pa_ce_15{position:absolute;top:15%;}
 .pa_ce_20{position:absolute;top:20%;}
