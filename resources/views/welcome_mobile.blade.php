@@ -60,7 +60,10 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
             </div>
             <div class="overlay"></div> 
         </div>
-    </header>
+	</header>
+	
+
+	sfsdfsfs
     
     <!-- 컨텐츠 내용-->      
     <div id="content">
