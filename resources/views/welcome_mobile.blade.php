@@ -119,11 +119,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<!-- market1/ -->
 				<div class="project-intro wow fadeInUp" data-wow-delay="0.2s">
 					<div class="project-intro1 " >
-						<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_01') !!}</p>
+						<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_01_m') !!}</p>
 					</div>
 					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -6px;"/></div>
 					<div class="project-intro2 " >
-					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_02') !!}</p>
+					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_02_m') !!}</p>
 					</div>
 
 					<div class="project-intro3 " >
@@ -138,7 +138,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					</div>
 					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -6px;"/></div>
 					<div class="project-intro2 " >
-					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_04') !!}</p>
+					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_04_m') !!}</p>
 					</div>
 
 					<div class="porject-intro3 " >
@@ -149,11 +149,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<!-- market3/ -->
 				<div class="project-intro wow fadeInUp" data-wow-delay="0.4s">
 					<div class="project-intro1 ">
-					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_05') !!}</p>
+					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_05_m') !!}</p>
 					</div>
 					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -6px;"/></div>
 					<div class="project-intro2 " >
-					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_06') !!}</p>
+					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_06_m') !!}</p>
 					</div>
 
 					<div class="porject-intro3 " >

@@ -46,6 +46,16 @@ return [
 'po_st_04'			=> 'In May 2018, the US Supreme Court made a ruling that, in effect, would legalize sports betting. Legalization of sports betting is expected to bring the industry, which is estimated at 160bn(USD) in size, out of the shadows and into the light.',
 'po_st_05'			=> 'Asia-Pacific (APAC) :<br />Largest sports betting market in the world',
 'po_st_06'			=> 'Currently, in Asian markets, more than 95% of all betting actions go through illegal private companies due to regulations on sports betting. The size of these illicit markets in total is estimated at more than 10 times the size of the legal sports betting market.',
+
+
+'po_st_01_m'			=> 'The most profitable business in the global gambling market',
+'po_st_02_m'			=> 'Moving forward, sports betting is expected to grow from 44.5% in 2017 to 46% in 2020. As of 2017, the sports betting market was 21.3bn(USD). However, by 2022, the market is expected to reach 27.2bn(USD).',
+
+'po_st_04_m'			=> 'In May 2018, the US Supreme Court made a ruling that, in effect, would legalize sports betting. Legalization of sports betting is expected to bring the industry, which is estimated at 160bn(USD) in size, out of the shadows and into the light.',
+'po_st_05_m'			=> 'Asia-Pacific (APAC) :<br />Largest sports betting market in the world',
+'po_st_06_m'			=> 'Currently, in Asian markets, more than 95% of all betting actions go through illegal private companies due to regulations on sports betting. The size of these illicit markets in total is estimated at more than 10 times the size of the legal sports betting market.',
+
+
 'po_vs_00'			=> 'Implications and Vision of DoubleBet',
 'po_vs_01'			=> 'Monopolization of<br>sports betting',
 'po_vs_02'			=> 'Convoluted market with illegal<br>private vendors',
