@@ -113,7 +113,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
         <!-- market/ -->
 			<div class="project-content">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.po_st_00') !!}</p>
+					<p class="txt_type_02 txt_c_01 txt_b">{!! trans('messages.po_st_00') !!}</p>
 				</div>
 				<!-- market1/ -->
 				<div class="project-intro wow fadeInUp" data-wow-delay="0.2s">
@@ -135,7 +135,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="project-intro1 " >
 						<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_03') !!}</p>
 					</div>
-					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -5px;"/></div>
+					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -6px;"/></div>
 					<div class="project-intro2 " >
 					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_04') !!}</p>
 					</div>
@@ -166,7 +166,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 			<div class="project-content" style="background:#a563f5;padding-bottom:50px">
 				<div class="section-title t_center wow fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.po_vs_00') !!}</p>
+					<p class="txt_type_02 txt_w txt_b">{!! trans('messages.po_vs_00') !!}</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.3s"  style="border:1px solid #d2b1fa;border-radius:3px;color:#decff1;text-align:center;padding:10px;margin-bottom:15px">
                 {!! trans('messages.po_vs_01') !!}
@@ -200,7 +200,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 			<div class="project-content">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.po_svc_00') !!}</p>
+					<p class="txt_type_02 txt_c_01 txt_b">{!! trans('messages.po_svc_00') !!}</p>
 					<p class="txt_c_02">{!! trans('messages.po_svc_01') !!}</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.1s">
@@ -210,7 +210,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			<div style="background:#a563f5;">
 				
 				<div class="section-title t_center "  style="padding:1em 1.5em;">
-					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.po_core_00') !!}</p>
+					<p class="txt_type_02 txt_w txt_b">{!! trans('messages.po_core_00') !!}</p>
 					<p class="txt_c_03">T{!! trans('messages.po_core_01') !!}</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.1s">
@@ -242,7 +242,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 		<section id="tokenomics" data-stellar-background-ratio="0.5" >
 			<div class="tokenomics-content" style="background:#f8f8f8">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.to_int_00') !!}</p>
+					<p class="txt_type_02 txt_c_01 txt_b">{!! trans('messages.to_int_00') !!}</p>
 					<p class="txt_c_02">{!! trans('messages.to_int_01') !!}</p>
 				</div>
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.1s">
@@ -292,7 +292,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 			<div class="tokenomics-content" >
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.to_dt_00') !!}</p>
+					<p class="txt_type_02 txt_c_01 txt_b">{!! trans('messages.to_dt_00') !!}</p>
 				</div>
 				
 				<div class="text-center" style="position:relative;">
@@ -330,7 +330,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 			<div class="tokenomics-content" style="background:#a563f5">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
-					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.to_sto_00') !!}</p>
+					<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_sto_00') !!}</p>
 					<p class="txt_w">{!! trans('messages.to_sto_01') !!}</p>
 				</div>
 				<div class="text-center" style="position:relative;">
@@ -356,7 +356,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 			<div class="tokenomics-content"  >
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
-					<p class="txt_type_03_1 txt_c_01 txt_b">{!! trans('messages.to_sale_00') !!}</p>
+					<p class="txt_type_02 txt_c_01 txt_b">{!! trans('messages.to_sale_00') !!}</p>
 				</div>
 				<div class="row wow fadeInUp"  data-wow-delay="0.1s">
 					<div class="col-xs-12" >
@@ -410,7 +410,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 		<section id="roadmap" data-stellar-background-ratio="0.5" >
 			<div class="roadmap-content" style="background:#7748b1;height:1450px;">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
-					<p class="txt_type_03_1 txt_w txt_b">{!! trans('messages.to_map_00') !!}</p>
+					<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_00') !!}</p>
 					
 				</div>
 				<div class="row" >
