@@ -343,7 +343,7 @@ section {position:relative;padding:0;}
 }
 .sale-thumb {position: relative;overflow: hidden;cursor: pointer;}
 .sale-thumb .sale-hover {position: absolute;
-    background: #a563f5;
+    background: #d2abdf;
     width: 100%;
     height: 523px;
     top: 0;
