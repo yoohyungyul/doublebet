@@ -30,9 +30,7 @@ $(function(){
 			
 		}
 
-		// e.preventDefault();
-		// e.returnValue = false;
-		
+		e.preventDefault();
 	});
 
 	$('.menu_close').on('click',function(e){
