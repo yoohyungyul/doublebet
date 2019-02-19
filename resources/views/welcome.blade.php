@@ -1,5 +1,11 @@
+<?php
+
+$paper_link = "https://bit.ly/2SMkkbA";
+if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
+
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{Cookie::get('language')}}">
 <head>
 	<title>DoubleBet</title>
 	<meta charset="UTF-8">
@@ -7,8 +13,12 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="">
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800" rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	@if(Cookie::get('language') == "kr")
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+    @else
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800" rel='stylesheet' type='text/css'>
+    @endif
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/animate.css">
 	<link rel="stylesheet" href="/css/owl.carousel.css">
 	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
@@ -35,21 +45,21 @@
 			<!-- MENU LINKS -->
 			<div class="collapse navbar-collapse" id="tmNav">
 				<ul class="nav navbar-nav navbar-nav-first">
-					<li><a href="#home" class="smoothScroll"><span>HOME</span></a></li>
-					<li><a href="#project" class="smoothScroll"><span>PROJECT</span></a></li>
-					<li><a href="#tokenomics" class="smoothScroll"><span>TOKENOMICS</span></a></li>
-					<li><a href="#roadmap" class="smoothScroll"><span>ROADMAP</span></a></li>
-					<li><a href="#team" class="smoothScroll"><span>TEAM</span></a></li>
-					<li><a href="#news" class="smoothScroll"><span>NEWS</span></a></li>
-					<li><a href="#" class="smoothScroll"><span>WHITEPAPER</span></a></li>
+					<li><a href="#home" class="smoothScroll"><span>{!! trans('messages.me_home') !!}</span></a></li>
+					<li><a href="#project" class="smoothScroll"><span>{!! trans('messages.me_project') !!}</span></a></li>
+					<li><a href="#tokenomics" class="smoothScroll"><span>{!! trans('messages.me_tokenomics') !!}</span></a></li>
+					<li><a href="#roadmap" class="smoothScroll"><span>{!! trans('messages.me_roadmap') !!}</span></a></li>
+					<li><a href="#team" class="smoothScroll"><span>{!! trans('messages.me_team') !!}</span></a></li>
+					<li><a href="#news" class="smoothScroll"><span>{!! trans('messages.me_news') !!}</span></a></li>
+					<li><a href="#" class="smoothScroll"><span>{!! trans('messages.me_whitepaper') !!}</span></a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					 <li>
 						<div class="custom-select" style="width:60px;margin-top:14px;margin-right:16px;">
-							<select>
-								<option value="EN">EN</option>
-								<option value="KR">KR</option>
-							</select>
+                            <select>
+                                <option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
+                                <option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif>KR</option>
+                            </select>
 						</div>
 					 </li>
 				</ul>
@@ -69,11 +79,11 @@
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-8 col-sm-12">
-                                             <p class="txt_type_05 txt_w txt_b">DoubleBet</p>
-											 <p class="txt_type_03 txt_w">Sports Betting Blockchain Platform</p>
-                                             <p class="txt_box_01 txt_type_01 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-                                             <a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-											 <a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+                                            <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_1_01') !!}</p>
+											<p class="txt_type_03 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
+                                            <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
+                                            <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_1_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_1_05') !!}</a>
                                         </div>
                                    </div>
                               </div>
@@ -83,11 +93,11 @@
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-8 col-sm-12">
-                                             <p class="txt_type_05 txt_w txt_b">DoubleBet</p>
-											 <p class="txt_type_03 txt_w">Sports Betting Blockchain Platform</p>
-                                             <p class="txt_box_01 txt_type_01 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-                                             <a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-											 <a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+                                             <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</p>
+											 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_2_02') !!}</p>
+                                             <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_2_03') !!}</p>
+                                             <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_2_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_2_05') !!}</a>
                                         </div>
                                    </div>
                               </div>
@@ -97,11 +107,11 @@
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-8 col-sm-12">
-                                             <p class="txt_type_05 txt_w txt_b">DoubleBet</p>
-											 <p class="txt_type_03 txt_w">Sports Betting Blockchain Platform</p>
-                                             <p class="txt_box_01 txt_type_01 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-                                             <a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-											 <a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+                                             <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_3_01') !!}</p>
+											 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_3_02') !!}</p>
+                                             <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_3_03') !!}</p>
+                                             <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_3_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_3_05') !!}</a>
                                         </div>
                                    </div>
                               </div>
@@ -111,11 +121,11 @@
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-8 col-sm-12">
-                                             <p class="txt_type_05 txt_w txt_b">DoubleBet</p>
-											 <p class="txt_type_03 txt_w">Sports Betting Blockchain Platform</p>
-                                             <p class="txt_box_01 txt_type_01 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-                                             <a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-											 <a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+                                             <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_4_01') !!}</p>
+											 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_4_02') !!}</p>
+                                             <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_4_03') !!}</p>
+                                             <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_4_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_4_05') !!}</a>
                                         </div>
                                    </div>
                               </div>
@@ -125,11 +135,11 @@
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-8 col-sm-12">
-                                             <p class="txt_type_05 txt_w txt_b">DoubleBet</p>
-											 <p class="txt_type_03 txt_w">Sports Betting Blockchain Platform</p>
-                                             <p class="txt_box_01 txt_type_01 txt_w">Featuring blockchain-based cryptocurrency deposit/withdrawal capabilities(Double X Core-Wallet), increased transparency and fairness, the DoubleBet(Sports Betting Blockchain Platform) will emerge as a new player in the global sports betting market.</p>
-                                             <a href="#" class="section-btn-01 btn btn-default smoothScroll">Whitepaper</a>&nbsp;&nbsp;&nbsp;
-											 <a href="#" class="section-btn-02 btn btn-default smoothScroll">Whitepaper(Draft)</a>
+                                             <p class="txt_type_05 txt_w txt_b">{!! trans('messages.ho_t_5_01') !!}</p>
+											 <p class="txt_type_03 txt_w">{!! trans('messages.ho_t_5_02') !!}</p>
+                                             <p class="txt_box_01 txt_type_01 txt_w">{!! trans('messages.ho_t_5_03') !!}</p>
+                                             <a href="{{$paper_link}}" class="section-btn-01 btn btn-default smoothScroll" target="_blank">{!! trans('messages.ho_t_5_04') !!}</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default smoothScroll">{!! trans('messages.ho_t_5_05') !!}</a>
                                         </div>
                                    </div>
                               </div>
@@ -150,17 +160,17 @@
 				<div class="col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1>Global Sports Betting Market Status</h1>
+						<h1>{!! trans('messages.po_st_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<!-- market1/ -->
 					<div class="project-intro">
 						<div class="project-intro1 wow fadeInUp" data-wow-delay="0.2s">
-						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">The most profitable business in the global gambling market</p>
+						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">{!! trans('messages.po_st_01') !!}</p>
 						</div>
 						<div class="project-intro2 wow fadeInUp" data-wow-delay="0.2s">
-						   <p class="t_mid pa_ce_25">Moving forward, sports betting is expected to grow from 44.5% in 2017 to 46% in 2020. As of 2017, the sports betting market was 21.3bn(USD). However, by 2022, the market is expected to reach 27.2bn(USD).</p>
+						   <p class="t_mid pa_ce_25">{!! trans('messages.po_st_02') !!}</p>
 						</div>
 
 						<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.2s">
@@ -171,10 +181,10 @@
 					<!-- market2/ -->
 					<div class="project-intro">
 						<div class="project-intro1 wow fadeInUp" data-wow-delay="0.3s">
-						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">Fastest growing sports betting market :<br>USA</p>
+						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">{!! trans('messages.po_st_03') !!}</p>
 						</div>
 						<div class="project-intro2 wow fadeInUp" data-wow-delay="0.3s">
-						   <p class="t_mid pa_ce_20">In May 2018, the US Supreme Court made a ruling that, in effect, would legalize sports betting. Legalization of sports betting is expected to bring the industry, which is estimated at 160bn(USD) in size, out of the shadows and into the light.</p>
+						   <p class="t_mid pa_ce_20">{!! trans('messages.po_st_04') !!}</p>
 						</div>
 
 						<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.3s">
@@ -185,10 +195,10 @@
 					<!-- market3/ -->
 					<div class="project-intro">
 						<div class="project-intro1 wow fadeInUp" data-wow-delay="0.4s">
-						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">Asia-Pacific (APAC) :<br>Largest sports betting market in the world</p>
+						   <p class="t_mid pa_ce_28 txt_type_02 txt_w txt_b">{!! trans('messages.po_st_05') !!}</p>
 						</div>
 						<div class="project-intro2 wow fadeInUp" data-wow-delay="0.4s">
-						   <p class="t_mid pa_ce_20">Currently, in Asian markets, more than 95% of all betting actions go through illegal private companies due to regulations on sports betting. The size of these illicit markets in total is estimated at more than 10 times the size of the legal sports betting market.</p>
+						   <p class="t_mid pa_ce_20">{!! trans('messages.po_st_06') !!}</p>
 						</div>
 
 						<div class="porject-intro3 wow fadeInUp" data-wow-delay="0.4s">
@@ -205,31 +215,31 @@
 				<div class="col-xs-12">
 					<p class="space_100">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2>Implications and Vision of DoubleBet</h2>
+						<h2>{!! trans('messages.po_vs_00') !!}</h2>
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<div class="vision-01 wow fadeInUp" data-wow-delay="0.2s">
 						<ul>
-							<li class="txt_type_01 txt_w space_04">Monopolization of<br>sports betting</li>
-							<li class="txt_type_01 txt_w space_04">Convoluted market with illegal<br>private vendors</li>
-							<li class="txt_type_01 txt_w space_04">Standardization of online<br>sports betting mechanisms</li>
+							<li class="txt_type_01 txt_w space_04">{!! trans('messages.po_vs_01') !!}</li>
+							<li class="txt_type_01 txt_w space_04">{!! trans('messages.po_vs_02') !!}</li>
+							<li class="txt_type_01 txt_w space_04">{!! trans('messages.po_vs_03') !!}</li>
 						</ul>
 					</div>
 					<div class="vision-02 wow fadeInUp" data-wow-delay="0.3s">
 						<ul>
-							<li class="txt_type_01 txt_w txt_b">Move users to illegal private companies with high dividend rates and increase damage</li>
-							<li class="txt_type_01 txt_w txt_b">Low transparency and reliability of operating systems</li>
-							<li class="txt_type_01 txt_w txt_b">Users do not have the opportunity to enjoy various betting options.</li>
+							<li class="txt_type_01 txt_w txt_b">{!! trans('messages.po_vs_04') !!}</li>
+							<li class="txt_type_01 txt_w txt_b">{!! trans('messages.po_vs_05') !!}</li>
+							<li class="txt_type_01 txt_w txt_b">{!! trans('messages.po_vs_06') !!}</li>
 						</ul>
-						<div class="vision-03 wow fadeInUp" data-wow-delay="0.5s"">
-							<p class="txt_type_02 t_center txt_c_01">DoubleBet : Sports Betting Blockchain Platform</p>
-							<p class="txt_type_03 t_center txt_c_01 txt_b">Evolution of global sports betting systems</p>
+						<div class="vision-03 wow fadeInUp" data-wow-delay="0.5s">
+							<p class="txt_type_02 t_center txt_c_01">{!! trans('messages.po_vs_07') !!}</p>
+							<p class="txt_type_03 t_center txt_c_01 txt_b">{!! trans('messages.po_vs_08') !!}</p>
 							<p><img src="/images/vision_03.jpg" class="img-responsive" alt=""></p>
 							<ul>
-								<li class="txt_type_01 space_01">Legal global sports betting services<br>for the global market</li>
-								<li class="txt_type_01 space_01">Transparent, reliable system based on<br>blockchain technology</li>
-								<li class="txt_type_01 space_01">Diversity in services using<br>two-way services</li>
+								<li class="txt_type_01 space_01">{!! trans('messages.po_vs_09') !!}</li>
+								<li class="txt_type_01 space_01">{!! trans('messages.po_vs_10') !!}</li>
+								<li class="txt_type_01 space_01">{!! trans('messages.po_vs_11') !!}</li>
 							</ul>
 						</div>
 					</div>
@@ -242,8 +252,8 @@
 				<div class="col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.2s">
-						<h1>DoubleBet Service</h1>
-						<p class="txt_type_02 space_01 txt_c_02">At its core, DoubleBet's sports betting system will use the company’s p2p (pear-to-pear) open blockchain technology, which is transparent and almost instantaneous, in combination with an AI-based 'Double X Core' system.</p>
+						<h1>{!! trans('messages.po_svc_00') !!}</h1>
+						<p class="txt_type_02 space_01 txt_c_02">{!! trans('messages.po_svc_01') !!}</p>
 					</div>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.3s">
 						<img src="/images/doublebet_service.png" class="img-responsive" alt="">
@@ -257,8 +267,8 @@
 				<div class="col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2>‘Double X Core’ system</h2>
-						<p class="txt_type_02 space_01 txt_c_03">The Core Technology of DoubleBets Forming a Sports Beting Block Chain Platform</p>
+						<h2>{!! trans('messages.po_core_00') !!}</h2>
+						<p class="txt_type_02 space_01 txt_c_03">{!! trans('messages.po_core_01') !!}</p>
 					</div>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.3s">
 						<img src="/images/double_x_core.jpg" class="img-responsive" style="padding-top:21px;" alt="">
@@ -267,9 +277,9 @@
 				<div class="col-xs-12">
 					<div class="double-x wow fadeInUp" data-wow-delay="0.5s">
 						<ul>
-							<li class="txt_type_00 txt_w space_05">To collect high-quality, exclusive information from numerous bookmarkers, DoubleBet developed the 'Double X Core - AI,' which has its own artificial intelligence (AI) capabilities, in-house. The Odds API system featuring the Double X Core - AI will provide stable and reliable sports betting content.</li>
-							<li class="txt_type_00 txt_w space_06">Cryptocurrency transactions require top-grade stability and security. DoubleBet will ensure its system security is at least on par with other currency exchanges. The Double X Core - Wallet is the best security technology system developed to work with BitGo, a leader in cryptocurrency security, when exchanging and storing cryptocurrencies.</li>
-							<li class="txt_type_00 txt_w space_07">Double X Core-Betting is a stable, transparent, and fast core algorithm technology featured in DoubleBet’s blockchain-based betting system. Also, Double X Core - Betting is designed to take into account the special circumstances of the betting system, and handle over 100,000 betting transactions per second.</li>
+							<li class="txt_type_00 txt_w space_05">{!! trans('messages.po_core_02') !!}</li>
+							<li class="txt_type_00 txt_w space_06">{!! trans('messages.po_core_03') !!}</li>
+							<li class="txt_type_00 txt_w space_07">{!! trans('messages.po_core_04') !!}</li>
 						</ul>
 					</div>
 				</div>
@@ -294,9 +304,8 @@
 				<div class="col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1>Tokenomics</h1>
-						<p class="txt_type_02 space_01 txt_c_02">DoubleBet Tokens(DBET) can be purchased with cryptocurrencies during the private sale period in early 2019(TBD).<br />
-						Investors can purchase DoubleBet(DBET) Tokens with cryptocurrencies (Tether (USDT) and Ethereum (ETH)).</p>
+						<h1>{!! trans('messages.to_int_00') !!}</h1>
+						<p class="txt_type_02 space_01 txt_c_02">{!! trans('messages.to_int_01') !!}</p>
 					</div>
 				</div>
 				<!-- /tokenomics -->
@@ -304,13 +313,13 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center">TOKEN SYMBOL</span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b">DBET</span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_01') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_02') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center">TOKEN SYMBOL</span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b">DBET</span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_01') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_02') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -319,13 +328,13 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center">TOTAL TOKEN SUPPLY</span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b">1,250,000,000</span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_03') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_04') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center">TOTAL TOKEN SUPPLY</span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b">1,250,000,000</span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_03') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_04') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -334,13 +343,13 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center">PRE-SALE HARDCAP</span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b">250,000,000</span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_05') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_06') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center">PRE-SALE HARDCAP</span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b">250,000,000</span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_05') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_06') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -349,13 +358,13 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.2s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center">DBET PRICE</span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b">$0.15</span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_07') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_08') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center">DBET PRICE</span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b">$0.15</span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_07') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_08') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -364,13 +373,13 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.4s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center">ACCEPT CURRENCY</span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b">USDT, ETH</span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_09') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_10') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center">ACCEPT CURRENCY</span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b">USDT, ETH</span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_09') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_10') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -379,13 +388,13 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="token-thumb wow fadeInUp" data-wow-delay="0.6s">
 						<p class="token-thumb-box">
-							<span class="txt_type_02 t_center">TECHNICAL SPECIFICATIONS</span><br/><br/>
-							<span class="txt_type_05 txt_c_01 t_center txt_b">ERC-20</span>
+							<span class="txt_type_02 t_center">{!! trans('messages.to_dg_11') !!}</span><br/><br/>
+							<span class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_dg_12') !!}</span>
 						</p>
 						<div class="token-hover">
 							<div class="token-item">
-								<span class="txt_type_02 txt_w t_center">TECHNICAL SPECIFICATIONS</span><br/><br/>
-								<span class="txt_type_05 txt_c_04 t_center txt_b">ERC-20</span>
+								<span class="txt_type_02 txt_w t_center">{!! trans('messages.to_dg_11') !!}</span><br/><br/>
+								<span class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_dg_12') !!}</span>
 							</div>
 						</div>
 					 </div>
@@ -399,7 +408,7 @@
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1>Token distribution</h1>
+						<h1>{!! trans('messages.to_dt_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-xs-12 col-xs-12">
@@ -413,8 +422,8 @@
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b">15%</span><br>
-											<span class="txt_type_02 txt_c_06">Retainedat the company</span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_01') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_02') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_01.png" class="img-responsive" alt="">
@@ -433,8 +442,8 @@
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b">10%</span><br>
-											<span class="txt_type_02 txt_c_06">Marketing & Bounty & Airdrop</span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_03') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_04') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_02.png" class="img-responsive" alt="">
@@ -453,8 +462,8 @@
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b">15%</span><br>
-											<span class="txt_type_02 txt_c_06">DoubleBet Team</span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_05') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_06') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_02.png" class="img-responsive" alt="">
@@ -473,8 +482,8 @@
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_c_05 txt_b">10%</span><br>
-											<span class="txt_type_02 txt_c_06">Strategic Partner</span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_07') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_08') !!}</span>
 										</td>
 										<td>
 											<img src="/images/token_d_02.png" class="img-responsive" alt="">
@@ -496,8 +505,8 @@
 											<img src="/images/token_d_03.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_c_05 txt_b">20%</span><br>
-											<span class="txt_type_02 txt_c_06">Private sales</span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_09') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_10') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -516,8 +525,8 @@
 											<img src="/images/token_d_04.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_c_05 txt_b">20%</span><br>
-											<span class="txt_type_02 txt_c_06">Exchange Sales</span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_11') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_12') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -536,8 +545,8 @@
 											<img src="/images/token_d_03.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_c_05 txt_b">10%</span><br>
-											<span class="txt_type_02 txt_c_06">Initial Investor</span>
+											<span class="txt_type_03 txt_c_05 txt_b">{!! trans('messages.to_dt_13') !!}</span><br>
+											<span class="txt_type_02 txt_c_06">{!! trans('messages.to_dt_14') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -554,15 +563,15 @@
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2>STO Conversion</h2>
-						<p class="txt_type_02 space_01 txt_c_03">Security Token Offering (STO) is classified as a security-type token.<br />Upon completing its private sales, DoubleBet plans to initiate its STO in the US with a DoubleBet Token (DBET) in compliance with STO issuance guidelines stipulated by the Securities and Exchange Commission (SEC).</p>
+						<h2>{!! trans('messages.to_sto_00') !!}</h2>
+						<p class="txt_type_02 space_01 txt_c_03">{!! trans('messages.to_sto_01') !!}</p>
 					</div>
 				</div>
 				<!-- /sto -->
 				<!-- use of fund/ -->
 				<div class="col-xs-12 col-xs-12">
 					<div class="section-title wow fund-d-00 fadeInUp" data-wow-delay="0.1s">
-						<h2>Use of Fund</h2>
+						<h2>{!! trans('messages.to_fund_00') !!}</h2>
 					</div>
 					<div class="fund-d wow fadeInUp" data-wow-delay="0.2s">
 						<!-- 01/ -->
@@ -574,8 +583,8 @@
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_w txt_b">20%</span><br>
-											<span class="txt_type_02 txt_w">Business Expansion<br />and Management</span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_01') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_02') !!}</span>
 										</td>
 										<td>
 											<img src="/images/use_fund_01.png" class="img-responsive" alt="">
@@ -594,8 +603,8 @@
 								<tbody>
 									<tr>
 										<td class="right">
-											<span class="txt_type_03 txt_w txt_b">30%</span><br>
-											<span class="txt_type_02 txt_w">Marketing and Partnerships</span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_03') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_04') !!}</span>
 										</td>
 										<td>
 											<img src="/images/use_fund_01.png" class="img-responsive" alt="">
@@ -617,8 +626,8 @@
 											<img src="/images/use_fund_04.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_w txt_b">10%</span><br>
-											<span class="txt_type_02 txt_w">Reserve</span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_05') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_06') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -637,8 +646,8 @@
 											<img src="/images/use_fund_03.png" class="img-responsive" alt="">
 										</td>
 										<td>
-											<span class="txt_type_03 txt_w txt_b">40%</span><br>
-											<span class="txt_type_02 txt_w">Development Cost</span>
+											<span class="txt_type_03 txt_w txt_b">{!! trans('messages.to_fund_07') !!}</span><br>
+											<span class="txt_type_02 txt_w">{!! trans('messages.to_fund_08') !!}</span>
 										</td>
 									</tr>
 								</tbody>
@@ -655,25 +664,25 @@
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1>Token Sales</h1>
+						<h1>{!! trans('messages.to_sale_00') !!}</h1>
 					</div>
 				</div>
 				<div class="col-xs-4 col-xs-4">
 					<div class="sale-thumb wow fadeInUp" data-wow-delay="0.2s">
 						<div class="sale-thumb-box">
-							<p class="txt_type_02 t_center sale-t-bg-01">2019. 1</p><br/>
-							<p class="txt_type_02_24 t_center txt_c_01">Sale to Domestic<br />/International Institutions</p><br/><br/>
-							<p class="txt_type_05 txt_c_01 t_center txt_b">$0.10</p><br/>
-							<p class="txt_type_02 t_center txt_c_02">1,000USDT Minimum<br />10ETH Minimum</p><br/>
-							<p class="txt_type_02 t_center txt_c_02">1,000USDT = 10,000DBET</p>
+							<p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_01') !!}</p><br/>
+							<p class="txt_type_02_24 t_center txt_c_01">{!! trans('messages.to_sale_02') !!}</p><br/><br/>
+							<p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_03') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_04') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_05') !!}</p>
 						</div>
 						<div class="sale-hover">
 							<div class="sale-item">
-								<p class="txt_type_02 t_center txt_w sale-t-bg-02">2019. 1</p><br/>
-								<p class="txt_type_02_24 t_center txt_w">Sale to Domestic<br />/International Institutions</p><br/><br/>
-								<p class="txt_type_05 txt_c_04 t_center txt_b">$0.10</p><br/>
-								<p class="txt_type_02 t_center txt_w">1,000USDT Minimum<br />10ETH Minimum</p><br/>
-								<p class="txt_type_02 t_center txt_w">1,000USDT = 10,000DBET</p>
+								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_01') !!}</p><br/>
+								<p class="txt_type_02_24 t_center txt_w">{!! trans('messages.to_sale_02') !!}</p><br/><br/>
+								<p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_03') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_04') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_05') !!}</p>
 							</div>
 						</div>
 					 </div>
@@ -681,19 +690,19 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="sale-thumb wow fadeInUp" data-wow-delay="0.3s">
 						<div class="sale-thumb-box">
-							<p class="txt_type_02 t_center sale-t-bg-01">2019. 2</p><br/>
-							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">1st Private Sale</p><br/><br/>
-							<p class="txt_type_05 txt_c_01 t_center txt_b">$0.15</p><br/>
-							<p class="txt_type_02 t_center txt_c_02">1,000USDT Minimum<br />10ETH Minimum</p><br/>
-							<p class="txt_type_02 t_center txt_c_02">1,000USDT = 6,667DBET</p>
+							<p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_06') !!}</p><br/>
+							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">{!! trans('messages.to_sale_07') !!}</p><br/><br/>
+							<p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_08') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_09') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_10') !!}</p>
 						</div>
 						<div class="sale-hover">
 							<div class="sale-item">
-								<p class="txt_type_02 t_center txt_w sale-t-bg-02">2019. 2</p><br/>
-								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">1st Private Sale</p><br/><br/>
-								<p class="txt_type_05 txt_c_04 t_center txt_b">$0.15</p><br/>
-								<p class="txt_type_02 t_center txt_w">1,000USDT Minimum<br />10ETH Minimum</p><br/>
-								<p class="txt_type_02 t_center txt_w">1,000USDT = 6,667DBET</p>
+								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_06') !!}</p><br/>
+								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_07') !!}</p><br/><br/>
+								<p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_08') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_09') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_10') !!}</p>
 							</div>
 						</div>
 					 </div>
@@ -701,19 +710,19 @@
 				<div class="col-xs-4 col-xs-4">
 					<div class="sale-thumb wow fadeInUp" data-wow-delay="0.4s">
 						<div class="sale-thumb-box">
-							<p class="txt_type_02 t_center sale-t-bg-01">2019. 3</p><br/>
-							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">2nd Private Sale</p><br/><br/>
-							<p class="txt_type_05 txt_c_01 t_center txt_b">$0.30</p><br/>
-							<p class="txt_type_02 t_center txt_c_02">1,000USDT Minimum<br />10ETH Minimum</p><br/>
-							<p class="txt_type_02 t_center txt_c_02">1,000USDT = 3,334DBET</p>
+							<p class="txt_type_02 t_center sale-t-bg-01">{!! trans('messages.to_sale_11') !!}</p><br/>
+							<p class="txt_type_02_24 t_center txt_c_01" style="padding-top:38px;">{!! trans('messages.to_sale_12') !!}</p><br/><br/>
+							<p class="txt_type_05 txt_c_01 t_center txt_b">{!! trans('messages.to_sale_13') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_14') !!}</p><br/>
+							<p class="txt_type_02 t_center txt_c_02">{!! trans('messages.to_sale_15') !!}</p>
 						</div>
 						<div class="sale-hover">
 							<div class="sale-item">
-								<p class="txt_type_02 t_center txt_w sale-t-bg-02">2019. 3</p><br/>
-								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">2nd Private Sale</p><br/><br/>
-								<p class="txt_type_05 txt_c_04 t_center txt_b">$0.30</p><br/>
-								<p class="txt_type_02 t_center txt_w">1,000USDT Minimum<br />10ETH Minimum</p><br/>
-								<p class="txt_type_02 t_center txt_w">1,000USDT = 3,334DBET</p>
+								<p class="txt_type_02 t_center txt_w sale-t-bg-02">{!! trans('messages.to_sale_11') !!}</p><br/>
+								<p class="txt_type_02_24 t_center txt_w" style="padding-top:34px;">{!! trans('messages.to_sale_12') !!}</p><br/><br/>
+								<p class="txt_type_05 txt_c_04 t_center txt_b">{!! trans('messages.to_sale_13') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_14') !!}</p><br/>
+								<p class="txt_type_02 t_center txt_w">{!! trans('messages.to_sale_15') !!}</p>
 							</div>
 						</div>
 					 </div>
@@ -737,7 +746,7 @@
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_100">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2>Roadmap</h2>
+						<h2>{!! trans('messages.to_map_00') !!}</h2>
 					</div>
 				</div>
 				<!-- /roadmap -->
@@ -745,144 +754,134 @@
 					<div class="roadmap-d wow">
 						<!-- 01/ -->
 						<div class="roadmap-01-txt wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07">Launched the Bulls Nine<br />(total betting system)</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_01') !!}</p>
 						</div>
 						<div class="roadmap-01-pin wow fadeInDown" data-wow-delay="0.4s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-01-date wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b">2011. 12</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_02') !!}</p>
 						</div>
 						<!-- /01 -->
 						<!-- 02/ -->
 						<div class="roadmap-02-date wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b">2012. 06</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_03') !!}</p>
 						</div>
 						<div class="roadmap-02-pin wow fadeInUp" data-wow-delay="0.4s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-02-txt wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07">Launched the Bulls Nine Mobile Web / App Opened the casino game service</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_04') !!}</p>
 						</div>
 						<!-- /02 -->
 						<!-- 03/ -->
 						<div class="roadmap-03-txt wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07">Launched the UPOLL<br />(match prediction system) service</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_05') !!}</p>
 						</div>
 						<div class="roadmap-03-pin wow fadeInDown" data-wow-delay="0.4s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-03-date wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b">2018. 04</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_06') !!}</p>
 						</div>
 						<!-- /03 -->
 						<!-- 04/ -->
 						<div class="roadmap-04-date wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b">2018. 08</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_07') !!}</p>
 						</div>
 						<div class="roadmap-04-pin wow fadeInUp" data-wow-delay="0.4s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-04-txt wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07">Partially upgraded the Fixed Odds system within the UPOLL service<br />
-							Stabilized the UPOLL system</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_08') !!}</p>
 						</div>
 						<!-- /04 -->
 						<!-- 05/ -->
 						<div class="roadmap-05-txt wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07">Introduced blockchain technology in the UPOLL system<br />
-							Established plans for the DoubleBet<br />(sports betting system) environment</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_09') !!}</p>
 						</div>
 						<div class="roadmap-05-pin wow fadeInDown" data-wow-delay="0.4s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-05-date wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b">2018. 09</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_10') !!}</p>
 						</div>
 						<!-- /05 -->
 						<!-- 06/ -->
 						<div class="roadmap-06-date wow fadeInDown" data-wow-delay="0.4s">
-							<p class="txt_type_02 txt_w txt_b">2018. 12</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_11') !!}</p>
 						</div>
 						<div class="roadmap-06-pin wow fadeInUp" data-wow-delay="0.4s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-06-txt wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07">Issued DoubleBet(DBET) Tokens<br />Developed the DoubleBet Wallet</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_12') !!}</p>
 						</div>
 						<!-- /06 -->
 						<!-- 07/ -->
 						<div class="roadmap-07-date wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b">2019. 10</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_13') !!}</p>
 						</div>
 						<div class="roadmap-07-pin wow fadeInDown" data-wow-delay="0.6s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-07-txt wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">Expand DoubleBet services<br />
-							- Establish a global service expansion strategy<br />
-							- Establish a local service maintenance and management strategy</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_14') !!}</p>
 						</div>
 						<!-- /07 -->
 						<!-- 08/ -->
 						<div class="roadmap-08-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">Launch DoubleBet localized version<br />
-							- Localization for each country in Asia<br />
-							- Localization for the US</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_15') !!}</p>
 						</div>
 						<div class="roadmap-08-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-08-date wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b">2019. 07</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_16') !!}</p>
 						</div>
 						<!-- /08 -->
 						<!-- 09/ -->
 						<div class="roadmap-09-date wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b">2019. 05</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_17') !!}</p>
 						</div>
 						<div class="roadmap-09-pin wow fadeInDown" data-wow-delay="0.6s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-09-txt wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">Float the DoubleBet (DBET) Coin Launch DoubleBet global version<br />
-							- Web (PC, Mobile), App</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_18') !!}</p>
 						</div>
 						<!-- /09 -->
 						<!-- 10/ -->
 						<div class="roadmap-10-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">DoubleBet(DBET) Coin public sale<br />
-							Develop the DoubleBet prototype</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_19') !!}</p>
 						</div>
 						<div class="roadmap-10-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-10-date wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b">2019. 03</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_20') !!}</p>
 						</div>
 						<!-- /10 -->
 						<!-- 11/ -->
 						<div class="roadmap-11-date wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b">2019. 02</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_21') !!}</p>
 						</div>
 						<div class="roadmap-11-pin wow fadeInDown" data-wow-delay="0.6s">
 							<img src="/images/roadmap_02.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-11-txt wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">DoubleBet(DBET) Coin pre-sale<br />
-							Acquire corporate license in Georgia</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_22') !!}</p>
 						</div>
 						<!-- /11 -->
 						<!-- 12/ -->
 						<div class="roadmap-12-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">Published the reverse ICO white paper<br />
-							Commenced DoubleBet Coin private sale</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_23') !!}</p>
 						</div>
 						<div class="roadmap-12-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-12-date wow fadeInDown" data-wow-delay="0.6s">
-							<p class="txt_type_02 txt_w txt_b">2019. 01</p>
+							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_24') !!}</p>
 						</div>
 						<!-- /12 -->
 					</div>
@@ -905,87 +904,87 @@
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_50">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h1>Our Team</h1>
+						<h1>{!! trans('messages.team_00') !!}</h1>
 					</div>
 				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
-						<div class="team-thumb-box">
-							<p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
-							<p class="team_company txt_type_01">CEO of CHAINPLUS</p>
-							<p class="team_link_01"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
-						</div>
-						<div class="team-hover">
-							<div class="team-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
-						<div class="team-thumb-box team_mg_01">
-							<p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
-							<p class="team_company txt_type_01">CEO of CHAINPLUS</p>
-							<p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
-						</div>
-						<div class="team-hover">
-							<div class="team-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
-						<div class="team-thumb-box team_mg_02">
-							<p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
-							<p class="team_company txt_type_01">CEO of CHAINPLUS</p>
-							<p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
-						</div>
-						<div class="team-hover">
-							<div class="team-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
-						<div class="team-thumb-box">
-							<p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
-							<p class="team_company txt_type_01">CEO of CHAINPLUS</p>
-							<p class="team_link_01"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
-						</div>
-						<div class="team-hover">
-							<div class="team-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
-						<div class="team-thumb-box team_mg_01">
-							<p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
-							<p class="team_company txt_type_01">CEO of CHAINPLUS</p>
-							<p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
-						</div>
-						<div class="team-hover">
-							<div class="team-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
-						<div class="team-thumb-box team_mg_02">
-							<p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
-							<p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
-							<p class="team_company txt_type_01">CEO of CHAINPLUS</p>
-							<p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
-						</div>
-						<div class="team-hover">
-							<div class="team-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
+				<div class="col-md-4 col-sm-4">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-thumb-box">
+                            <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
+                            <p class="team_company txt_type_01">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
+                            <p class="team_link_01"><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-thumb-box team_mg_01">
+                            <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
+                            <p class="team_company txt_type_01">Co-founder & CTO of CHAINPLUS<br>CTO of Melonbit</p>
+                            <!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-thumb-box team_mg_02">
+                            <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
+                            <p class="team_company txt_type_01">Co-founder & COO of CHAINPLUS<br>Director of MGAME</p>
+                            <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-thumb-box">
+                            <p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">Michael Kim</p>
+                            <p class="team_company txt_type_01">Co-founder & CMO of CHAINPLUS<BR>CSO of Barunson E&A</p>
+                            <p class="team_link_01"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-thumb-box team_mg_01">
+                            <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">William. Ha</p>
+                            <p class="team_company txt_type_01">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
+                            <!-- <p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-thumb-box team_mg_02">
+                            <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
+                            <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
+                            <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
 				<!-- /team -->
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_100">&nbsp;</p>
@@ -1005,51 +1004,51 @@
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_100">&nbsp;</p>
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
-						<h2>News</h2>
+						<h2>{!! trans('messages.news_00') !!}</h2>
 					</div>
 				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="news-thumb wow fadeInUp" data-wow-delay="0.2s">
-						<div class="news-thumb-box">
-							<a href="#" target="_blank">
-							<p class="news-padding-20"><img src="/images/news_p_01.jpg" class="img-responsive" alt=""></p>
-							<p class="news_title txt_type_02 txt_c_01">Sportsbet — bitcoin sports betting</p>
-							<p class="news_cont txt_type_00">The project launched in June 2016 and due to rising popularity of bitcoin, the customer base grew rapidly and by November 2017 the amount of active users had doubled.</p>
-							</a>
-						</div>
-						<div class="news-hover">
-							<div class="news-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="news-thumb wow fadeInUp" data-wow-delay="0.3s">
-						<div class="news-thumb-box">
-							<a href="#">
-							<p class="news-padding-20"><img src="/images/news_p_02.jpg" class="img-responsive" alt=""></p>
-							<p class="news_title txt_type_02 txt_c_01">Sports betting should be legal across the country.</p>
-							<p class="news_cont txt_type_00">The Oakland Raiders’ impending move to Las Vegas has reignited debate about the legality of betting on sports. Most states ban betting schemes (although Nevada is an exception)</p>
-							</a>
-						</div>
-						<div class="news-hover">
-							<div class="news-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
-				<div class="col-xs-4 col-xs-4">
-					<div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
-						<div class="news-thumb-box">
-							<a href="#">
-							<p class="news-padding-20"><img src="/images/news_p_03.jpg" class="img-responsive" alt=""></p>
-							<p class="news_title txt_type_02 txt_c_01">ZenSports Launches Peer-to-Peer Sports Betting!</p>
-							<p class="news_cont txt_type_00">We can’t contain our excitement over here at ZenSports’ headquarters — today we’re announcing the launch of a new peer-to-peer sports betting marketplace where anyone can</p>
-							</a>
-						</div>
-						<div class="news-hover">
-							<div class="news-item">&nbsp;</div>
-						</div>
-					 </div>
-				</div>
+				<div class="col-md-4 col-sm-4">
+                    <div class="news-thumb wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="news-thumb-box">
+                            <a href="https://bitcoinexchangeguide.com/bitcoin-sports-betting/" target="_blank">
+                            <p class="news-padding-20"><img src="/images/news_p_01.jpg" class="img-responsive" alt=""></p>
+                            <p class="news_title txt_type_02 txt_c_01">Bitcoin Sports Betting & Live Player Gambling?</p>
+                            <p class="news_cont txt_type_00">When it comes to online sports betting, or any betting really, there is a lot involved with starting a successful website.</p>
+                            </a>
+                        </div>
+                        <div class="news-hover">
+                            <div class="news-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="news-thumb wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="news-thumb-box">
+                            <a href="https://www.learnliberty.org/blog/sports-betting-should-be-legal-across-the-country-heres-why/" target="_blank">
+                            <p class="news-padding-20"><img src="/images/news_p_02.jpg" class="img-responsive" alt=""></p>
+                            <p class="news_title txt_type_02 txt_c_01">Sports betting should be legal across the country.</p>
+                            <p class="news_cont txt_type_00">The Oakland Raiders’ impending move to Las Vegas has reignited debate about the legality of betting on sports. Most states ban betting schemes (although Nevada is an exception)</p>
+                            </a>
+                        </div>
+                        <div class="news-hover">
+                            <div class="news-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="news-thumb-box">
+                            <a href="https://blog.zensports.com/zensports-launches-peer-to-peer-sports-betting-c4e82c4d64c5" target="_blank">
+                            <p class="news-padding-20"><img src="/images/news_p_03.jpg" class="img-responsive" alt=""></p>
+                            <p class="news_title txt_type_02 txt_c_01">ZenSports Launches Peer-to-Peer Sports Betting!</p>
+                            <p class="news_cont txt_type_00">We can’t contain our excitement over here at ZenSports’ headquarters — today we’re announcing the launch of a new peer-to-peer sports betting marketplace where anyone can</p>
+                            </a>
+                        </div>
+                        <div class="news-hover">
+                            <div class="news-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
 				<!-- /news -->
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_100">&nbsp;</p>
@@ -1068,18 +1067,18 @@
 				<div class="col-xs-6 col-xs-12">
 					<div class="footer-info-01">
 						<div class="section-title">
-							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">DoubleBet</p>
+							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_me_00') !!}</p>
 						</div>
 						<div class="wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07"><a href="#home">Home</a></p>
-							<p class="txt_type_00 txt_c_07"><a href="#roadmap">Roadmap</a></p>
-							<p class="txt_type_00 txt_c_07"><a href="#">Terms and conditions</a></p>
-							<p class="txt_type_00 txt_c_07"><a href="#">Privacy Policy</a></p>
-						</div>
+							<p class="txt_type_00 txt_c_07"><a href="#home">{!! trans('messages.foot_me_01') !!}</a></p>
+							<p class="txt_type_00 txt_c_07"><a href="#roadmap">{!! trans('messages.foot_me_02') !!}</a></p>
+							<p class="txt_type_00 txt_c_07"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_03') !!}</a></p>
+                            <p class="txt_type_00 txt_c_07"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_04') !!}</a></p>
+                        </div>
 					</div>
 					<div class="footer-info-01">
 						<div class="section-title">
-							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">Contact us</p>
+							<p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_us_00') !!}</p>
 						</div>
 						<div class="wow fadeInUp" data-wow-delay="0.4s">
 							<p class="txt_type_00 txt_c_07"><a href="mailto:jhkim@doublebet.io">jhkim@doublebet.io</a></p>
@@ -1093,15 +1092,19 @@
 				<div class="col-xs-6 col-xs-12">
 					 <div class="footer-info-02">
 						  <div class="section-title">
-							   <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">SUBSCRIBE</p>
+							   <p class="txt_type_02 txt_w txt_b wow fadeInUp" data-wow-delay="0.2s">{!! trans('messages.foot_mail_00') !!}</p>
 						  </div>
-						  <div class="wow fadeInUp" data-wow-delay="0.4s">
-							<p class="txt_type_00 txt_c_07">Stay informed on our Fashion Updates & offers</p>
-							<p class="txt_type_00 txt_c_07">
-								<input type="text" class="input_email" id="e-mail" placeholder="e-mail" />
-								<a href="#"><img src="/images/btn_submit.png" class="" alt=""></a>
-							</p>
-						</div>
+						  <form name="subscribeForm" method="POST" onsubmit="return write_check();">
+                            {!! csrf_field() !!}
+                            <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                <p class="txt_type_00 txt_c_07">{!! trans('messages.foot_mail_01') !!}</p>
+                                <p class="txt_type_00 txt_c_07">
+                                    <input type="email" class="input_email" id="email" placeholder="e-mail" name="email" />
+                                    <input type="image" src="/images/btn_submit.png" border="0" alt="Submit" style="float: right;" />
+                                    <!-- <a href=""><img src="/images/btn_submit.png" /></a> -->
+                                </p>
+                            </div>
+                            </form>
 					 </div>
 				</div>
 
@@ -1126,7 +1129,45 @@
 	<script src="/js/smoothscroll.js"></script>
 	<script src="/js/select.box.js"></script>
 	<script src="/js/jquery.singlePageNav.min.js"></script>
-	<script src="/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
+    
+    <script>
+        function write_check(){
+
+
+            if(!$('#email').val()) {
+                $('#email').focus();
+                alert("{!! trans('messages.subscribeEmail') !!}");
+                return false;
+            }
+
+
+            var formData = $("form[name=subscribeForm]").serialize() ;
+
+            $.ajax({
+                type : 'post',
+                url : '/subscribe',
+                data : formData,
+                success : function(data) {
+                    if(data == "1") {
+                        $('#email').val('');
+                        alert("{!! trans('messages.subscribeSuccess') !!}");
+                    } else {
+                        alert("error");
+                    }
+                }, // success 
+    
+                error : function(xhr, status) {
+                    alert(xhr + " : " + status);
+                }
+            });
+
+            return false;
+
+        }
+
+
+    </script>
  
 </body>
 </html>
