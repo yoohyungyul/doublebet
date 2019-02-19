@@ -24,7 +24,10 @@ $(function(){
 	});
 
 	$('#link').on('click', function(e){
-		$('.menu_close').show();
+
+		if($bdy.hasClass('openmenu')) {
+			jsAnimateMenu('close');
+		}
 		e.preventDefault();
 		
 	});
