@@ -75,7 +75,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						<p class="s_txt_02 txt_type_02 txt_w">{!! trans('messages.ho_t_1_02') !!}</p>
 						<p class="s_txt_03 txt_w">{!! trans('messages.ho_t_1_03') !!}</p>
 						<a href="{{$paper_link}}" class="section-btn-01 btn btn-default ">{!! trans('messages.ho_t_1_04') !!}</a>&nbsp;&nbsp;&nbsp;
-						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default ">{!! trans('messages.ho_t_1_04') !!}</a>
+						<a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")' class="section-btn-02 btn btn-default ">{!! trans('messages.ho_t_1_05') !!}</a>
 					</li>
 					<li class="item-02">
 						<p class="s_txt_01 txt_type_03 txt_w txt_b">{!! trans('messages.ho_t_2_01') !!}</span>
