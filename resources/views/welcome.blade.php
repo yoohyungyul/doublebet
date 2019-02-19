@@ -903,97 +903,104 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="section-title wow t_center fadeInUp" data-wow-delay="0.1s">
 						<h1>{!! trans('messages.team_00') !!}</h1>
 					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-thumb-box">
-                            <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
-                            <p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
-                            <p class="team_company txt_type_01">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
-                            <p class="team_link_01"><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="team-thumb-box">
+                                <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Kim Jae Hong</p>
+                                <p class="team_company txt_type_01">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
+                                <p class="team_link_01"><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
                         </div>
-                        <div class="team-hover">
-                            <div class="team-item">&nbsp;</div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="team-thumb-box team_mg_01">
+                                <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
+                                <p class="team_company txt_type_01">Co-founder & CTO of CHAINPLUS<br>CTO of Melonbit</p>
+                                <!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="team-thumb-box team_mg_02">
+                                <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
+                                <p class="team_company txt_type_01">Co-founder & COO of CHAINPLUS<br>Director of MGAME</p>
+                                <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-thumb-box team_mg_01">
-                            <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
-                            <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
-                            <p class="team_company txt_type_01">Co-founder & CTO of CHAINPLUS<br>CTO of Melonbit</p>
-                            <!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
-                        </div>
-                        <div class="team-hover">
-                            <div class="team-item">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-thumb-box team_mg_02">
-                            <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
-                            <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
-                            <p class="team_company txt_type_01">Co-founder & COO of CHAINPLUS<br>Director of MGAME</p>
-                            <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
-                        </div>
-                        <div class="team-hover">
-                            <div class="team-item">&nbsp;</div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="team-thumb-box">
+                                <p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Michael Kim</p>
+                                <p class="team_company txt_type_01">Co-founder & CMO of CHAINPLUS<BR>CSO of Barunson E&A</p>
+                                <p class="team_link_01"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-thumb-box">
-                            <p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
-                            <p class="team_name txt_type_02 txt_b">Michael Kim</p>
-                            <p class="team_company txt_type_01">Co-founder & CMO of CHAINPLUS<BR>CSO of Barunson E&A</p>
-                            <p class="team_link_01"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
-                        </div>
-                        <div class="team-hover">
-                            <div class="team-item">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-4 col-sm-4">
-                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-thumb-box team_mg_01">
-                            <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
-                            <p class="team_name txt_type_02 txt_b">추가</p>
-                            <p class="team_company txt_type_01">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="team-thumb-box team_mg_01">
+                                <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Kyung Soo Kim</p>
+                                <p class="team_company txt_type_01">CFO of CHAINPLUS<br>Finance in Foxconn, Samsung, Hyosung</p>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
                         </div>
-                        <div class="team-hover">
-                            <div class="team-item">&nbsp;</div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-thumb-box team_mg_01">
+                                <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">William. Ha</p>
+                                <p class="team_company txt_type_01">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
+                                <!-- <p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
-                <div class="col-md-4 col-sm-4">
-                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-thumb-box team_mg_01">
-                            <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
-                            <p class="team_name txt_type_02 txt_b">William. Ha</p>
-                            <p class="team_company txt_type_01">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
-                            <!-- <p class="team_link_02"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
-                        </div>
-                        <div class="team-hover">
-                            <div class="team-item">&nbsp;</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-thumb-box team_mg_02">
-                            <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
-                            <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
-                            <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
-                            <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
-                        </div>
-                        <div class="team-hover">
-                            <div class="team-item">&nbsp;</div>
+            
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="team-thumb wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="team-thumb-box team_mg_02">
+                                <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
+                                <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
+                                <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
+                                <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-item">&nbsp;</div>
+                            </div>
                         </div>
                     </div>
                 </div>
