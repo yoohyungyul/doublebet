@@ -120,7 +120,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="project-intro1 " >
 						<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_01') !!}</p>
 					</div>
-					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -5px;"/></div>
+					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -6px;"/></div>
 					<div class="project-intro2 " >
 					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_02') !!}</p>
 					</div>
@@ -150,7 +150,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="project-intro1 ">
 					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_05') !!}</p>
 					</div>
-					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -5px;"/></div>
+					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -6px;"/></div>
 					<div class="project-intro2 " >
 					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_06') !!}</p>
 					</div>
