@@ -569,12 +569,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<!-- /sto -->
 				<!-- use of fund/ -->
-				<div class="col-xs-12 col-xs-12">
+				<!-- <div class="col-xs-12 col-xs-12">
 					<div class="section-title wow fund-d-00 fadeInUp" data-wow-delay="0.1s">
 						<h2>{!! trans('messages.to_fund_00') !!}</h2>
 					</div>
 					<div class="fund-d wow fadeInUp" data-wow-delay="0.2s">
-						<!-- 01/ -->
+					
 						<div class="fund-d-01 wow fadeInLeft" data-wow-delay="0.4s">
 							<table class="tbl_list" style="width:600px;">
 								<colgroup>
@@ -593,8 +593,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								</tbody>
 							</table>
 						</div>
-						<!-- /01 -->
-						<!-- 02/ -->
+						
 						<div class="fund-d-02 wow fadeInLeft" data-wow-delay="0.4s">
 							<table class="tbl_list" style="width:600px;">
 								<colgroup>
@@ -613,8 +612,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								</tbody>
 							</table>
 						</div>
-						<!-- /02 -->
-						<!-- 03/ -->
+						
 						<div class="fund-d-03 wow fadeInRight" data-wow-delay="0.4s">
 							<table class="tbl_list" style="width:600px;">
 								<colgroup>
@@ -633,8 +631,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								</tbody>
 							</table>
 						</div>
-						<!-- /03 -->
-						<!-- 04/ -->
+						
 						<div class="fund-d-04 wow fadeInRight" data-wow-delay="0.4s">
 							<table class="tbl_list" style="width:600px;">
 								<colgroup>
@@ -653,9 +650,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 								</tbody>
 							</table>
 						</div>
-						<!-- /04 -->
 					</div>
-				</div>
+				</div> -->
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_150">&nbsp;</p>
 				</div>
