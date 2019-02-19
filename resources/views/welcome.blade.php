@@ -12,7 +12,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
 	@if(Cookie::get('language') == "kr")
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
     @else
