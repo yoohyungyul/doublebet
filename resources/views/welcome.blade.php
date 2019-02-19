@@ -920,7 +920,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 </div>
                 <div class="col-xs-4">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-thumb-box team_mg_02">
+                        <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
                             <p class="team_company txt_type_01">Co-founder & CTO of CHAINPLUS<br>CTO of Melonbit</p>
@@ -961,7 +961,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
                 <div class="col-xs-4">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-thumb-box team_mg_02">
+                        <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_07.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Kyung Soo Kim</p>
                             <p class="team_company txt_type_01">CFO of CHAINPLUS<br>Finance in Foxconn, Samsung, Hyosung</p>
@@ -1001,7 +1001,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
                 <div class="col-xs-4">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.9s">
-                        <div class="team-thumb-box team_mg_02">
+                        <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
                             <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
