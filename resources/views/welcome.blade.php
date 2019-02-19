@@ -1127,7 +1127,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 	<script src="/js/owl.carousel.min.js"></script>
 	<script src="/js/jquery.magnific-popup.min.js"></script>
 	<script src="/js/smoothscroll.js"></script>
-	<script src="/js/select.box.js"></script>
+	<!-- <script src="/js/select.box.js"></script> -->
 	<script src="/js/jquery.singlePageNav.min.js"></script>
     <script src="/js/custom.js"></script>
     
