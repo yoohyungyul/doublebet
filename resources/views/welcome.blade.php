@@ -569,7 +569,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<!-- /sto -->
 				<!-- use of fund/ -->
-				<div class="col-xs-12 col-xs-12">
+				<!-- <div class="col-xs-12 col-xs-12">
 					<div class="section-title wow fund-d-00 fadeInUp" data-wow-delay="0.1s">
 						<h2>{!! trans('messages.to_fund_00') !!}</h2>
 					</div>
@@ -651,7 +651,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							</table>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div class="col-xs-12 col-xs-12">
 					<p class="space_150">&nbsp;</p>
 				</div>
