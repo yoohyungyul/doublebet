@@ -558,7 +558,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			</div>
 		</section>
 
-		<section id="new" data-stellar-background-ratio="0.5" >
+		<section id="news" data-stellar-background-ratio="0.5" >
 			<div class="new-content" style="background:#a563f5">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s" style="padding:1em 1.5em;">
 					<p class="txt_type_06 txt_w txt_b">{!! trans('messages.news_00') !!}</p>
