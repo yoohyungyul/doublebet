@@ -26,8 +26,8 @@ $(function(){
 	$('.link').on('click', function(e){
 
 		if($bdy.hasClass('openmenu')) {
-			// jsAnimateMenu('close');
-			alert("1");
+			jsAnimateMenu('close');
+			
 		}
 		e.preventDefault();
 		
