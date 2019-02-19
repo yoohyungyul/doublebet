@@ -30,7 +30,8 @@ $(function(){
 			
 		}
 
-		e.preventDefault();
+		// e.preventDefault();
+		e.returnValue = false;
 		
 	});
 
