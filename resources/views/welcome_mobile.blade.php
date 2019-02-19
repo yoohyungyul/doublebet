@@ -146,11 +146,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<!-- /market2 -->
 				<!-- market3/ -->
-				<div class="project-intro">
-					<div class="project-intro1 wow fadeInUp" data-wow-delay="0.4s">
+				<div class="project-intro wow fadeInUp" data-wow-delay="0.4s">
+					<div class="project-intro1 ">
 					<p class="t_mid pa_ce_20 txt_type_00 txt_w txt_b">{!! trans('messages.po_st_05') !!}</p>
 					</div>
-					<div class="project-intro2 wow fadeInUp" data-wow-delay="0.4s">
+					<div class="text-center"><img src="/images/mobile/img_down_arrow_02.png" style="width: 10%;margin-top: -5px;"/></div>
+					<div class="project-intro2 " >
 					<p class="t_mid pa_ce_20">{!! trans('messages.po_st_06') !!}</p>
 					</div>
 
