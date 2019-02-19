@@ -35,13 +35,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                     <a href="#" class="menu_close"><img src="/images/mobile/btn_close.png" alt="메뉴닫기"></a> 
                 </div>
                 <ul>
-                    <li><a href="#home" class="smoothScroll">{!! trans('messages.me_home') !!}</a></li>
-					<li><a href="#project" class="smoothScroll">{!! trans('messages.me_project') !!}</a></li>
-					<li><a href="#tokenomics" class="smoothScroll">{!! trans('messages.me_tokenomics') !!}</a></li>
-					<li><a href="#roadmap" class="smoothScroll">{!! trans('messages.me_roadmap') !!}</a></li>
-					<li><a href="#team" class="smoothScroll">{!! trans('messages.me_team') !!}</a></li>
-					<li><a href="#news" class="smoothScroll">{!! trans('messages.me_news') !!}</a></li>
-					<li><a href="#" class="smoothScroll">{!! trans('messages.me_whitepaper') !!}</a></li>
+                    <li><a href="#home" >{!! trans('messages.me_home') !!}</a></li>
+					<li><a href="#project" >{!! trans('messages.me_project') !!}</a></li>
+					<li><a href="#tokenomics" >{!! trans('messages.me_tokenomics') !!}</a></li>
+					<li><a href="#roadmap" >{!! trans('messages.me_roadmap') !!}</a></li>
+					<li><a href="#team" >{!! trans('messages.me_team') !!}</a></li>
+					<li><a href="#news" >{!! trans('messages.me_news') !!}</a></li>
+					<li><a href="#" >{!! trans('messages.me_whitepaper') !!}</a></li>
 					<li>
 						<select name="lang-select" class="lang-select" onchange="location.href=this.value">
 							<option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
@@ -62,8 +62,6 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
         </div>
 	</header>
 	
-
-	<a href="#team" >{!! trans('messages.me_team') !!}</a>
     
     <!-- 컨텐츠 내용-->      
     <div id="content">
