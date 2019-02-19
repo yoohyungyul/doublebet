@@ -36,12 +36,12 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 </div>
                 <ul>
                     <li><a href="#home" class="smoothScroll link">{!! trans('messages.me_home') !!}</a></li>
-					<li><a  href="#project" class="smoothScroll link">{!! trans('messages.me_project') !!}</a></li>
-					<li><a  href="#tokenomics" class="smoothScroll link">{!! trans('messages.me_tokenomics') !!}</a></li>
-					<li><a  href="#roadmap" class="smoothScroll link">{!! trans('messages.me_roadmap') !!}</a></li>
-					<li><a  href="#team" class="smoothScroll link">{!! trans('messages.me_team') !!}</a></li>
-					<li><a  href="#news" class="smoothScroll link">{!! trans('messages.me_news') !!}</a></li>
-					<li><a  href="#" class="smoothScroll link">{!! trans('messages.me_whitepaper') !!}</a></li>
+					<li><a href="#project" class="smoothScroll link">{!! trans('messages.me_project') !!}</a></li>
+					<li><a href="#tokenomics" class="smoothScroll link">{!! trans('messages.me_tokenomics') !!}</a></li>
+					<li><a href="#roadmap" class="smoothScroll link">{!! trans('messages.me_roadmap') !!}</a></li>
+					<li><a href="#team" class="smoothScroll link">{!! trans('messages.me_team') !!}</a></li>
+					<li><a href="#news" class="smoothScroll link">{!! trans('messages.me_news') !!}</a></li>
+					<li><a href="#team" class="smoothScroll link">{!! trans('messages.me_whitepaper') !!}</a></li>
 					<li>
 						<select name="lang-select" class="lang-select" onchange="location.href=this.value">
 							<option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
