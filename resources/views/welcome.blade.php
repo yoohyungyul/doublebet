@@ -18,7 +18,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     @else
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800" rel='stylesheet' type='text/css'>
     @endif
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/animate.css">
 	<link rel="stylesheet" href="/css/owl.carousel.css">
 	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
@@ -55,7 +55,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					 <li>
-						<div class="custom-select" style="width:60px;margin-top:14px;margin-right:16px;">
+						<div style="width:60px;margin-top:14px;margin-right:16px;">
                             <select  >
                                 <option value="/lang/en" @if(Cookie::get('language') == "en") selected @endif>EN</option>
                                 <option value="/lang/kr" @if(Cookie::get('language') == "kr") selected @endif>KR</option>
