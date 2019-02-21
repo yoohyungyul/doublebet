@@ -16,7 +16,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" media="all" href="css/menu_styles.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/mobile_style.css?v=4">
+    <link rel="stylesheet" type="text/css" href="css/mobile_style.css?{{date('Ymdis')}}">
 </head>
 <body>
 <div id="pgcontainer">

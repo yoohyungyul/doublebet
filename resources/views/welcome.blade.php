@@ -24,7 +24,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 	<link rel="stylesheet" href="/css/owl.carousel.css">
 	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="/css/magnific-popup.css">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/style.css?{{date('Ymdis')}}">
 </head>
 <body>
 	<!-- PRE LOADER -->
