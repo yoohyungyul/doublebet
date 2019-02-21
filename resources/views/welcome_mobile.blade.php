@@ -532,7 +532,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.5s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_07.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Kyung Soo Kim</p>
-						<p class="txt_c_02">CFO of DOUBLEBET<br>Finance in Samsung, Hyosung</p>
+						<p class="txt_c_02">CFO of DOUBLEBET<br>Finance in Samsung & Hyosung</p>
 						
 					</div>
 

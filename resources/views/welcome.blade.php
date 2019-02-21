@@ -964,7 +964,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_07.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Kyung Soo Kim</p>
-                            <p class="team_company txt_type_01">CFO of DOUBLEBET<br>Finance in Samsung, Hyosung</p>
+                            <p class="team_company txt_type_01">CFO of DOUBLEBET<br>Finance in Samsung & Hyosung</p>
                         </div>
                         <div class="team-hover">
                             <div class="team-item">&nbsp;</div>
