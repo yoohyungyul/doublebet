@@ -539,7 +539,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.6s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_08.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Jay W. Kim</p>
-						<p class="txt_c_02">CLO of CHAINPLUS<br>Attorney at Law (NY, NJ) & C.P.A</p>
+						<p class="txt_c_02">CLO of DOUBLEBET<br>Attorney at Law (NY, NJ) & C.P.A</p>
 						
 					</div>
 

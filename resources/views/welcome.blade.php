@@ -977,7 +977,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_08.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Jay W. Kim</p>
-                            <p class="team_company txt_type_01">CLO of CHAINPLUS<br>Attorney at Law (NY, NJ) & C.P.A</p>
+                            <p class="team_company txt_type_01">CLO of DOUBLEBET<br>Attorney at Law (NY, NJ) & C.P.A</p>
                         </div>
                         <div class="team-hover">
                             <div class="team-item">&nbsp;</div>
