@@ -148,7 +148,7 @@ body.openmenu {
   RESPONSIVE STYLES              
 ----------------------------------------*/
 
-.tokenomics_donut {width:60%;padding:60px 0px;border:1px solid #ff00ff}
+.tokenomics_donut {width:60%;padding:60px 0px;}
 .tokenomics_donut_graph_01 {position:absolute;top:5%;left:23%;}
 .tokenomics_donut_graph_02 {position:absolute;top:24%;left:3%;}
 .tokenomics_donut_graph_03 {position:absolute;top:53%;left:3%;}

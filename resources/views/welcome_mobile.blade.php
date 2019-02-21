@@ -299,31 +299,31 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<div class="text-center" style="position:relative;">
 					
 					<img src="/images/mobile/img_tokenomics_bg01.png" class="tokenomics_donut"  />
-					<div class="wow fadeInLeft" data-wow-delay="0.1s" class="tokenomics_donut_graph_01">
+					<div class="wow fadeInLeft tokenomics_donut_graph_01" data-wow-delay="0.1s">
 						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left;"><span class="txt_c_05">{!! trans('messages.to_dt_01') !!}</span><br>{!! trans('messages.to_dt_02_m') !!}</div>
 						<div  style="float:left;text-align:left;padding:30px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_01.png" style="width:25%;"/></div>
 					</div>
-					<div class="wow fadeInLeft" data-wow-delay="0.2s" class="tokenomics_donut_graph_02">
+					<div class="wow fadeInLeft tokenomics_donut_graph_02" data-wow-delay="0.2s">
 						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_09">{!! trans('messages.to_dt_03') !!}</span><br>{!! trans('messages.to_dt_04_m') !!}</div>
 						<div style="float:left;text-align:left;padding:30px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_02.png" style="width:25%;"/></div>
 					</div>
-					<div  class="wow fadeInLeft" data-wow-delay="0.3s" class="tokenomics_donut_graph_03" >
+					<div  class="wow fadeInLeft tokenomics_donut_graph_03" data-wow-delay="0.3s"  >
 						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_10">{!! trans('messages.to_dt_05') !!}</span><br>{!! trans('messages.to_dt_06_m') !!}</div>
 						<div style="float:left;text-align:left;padding:0px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_03.png" style="width:25%;"/></div>
 					</div>
-					<div  class="wow fadeInUp" data-wow-delay="0.4s" class="tokenomics_donut_graph_04" >
+					<div  class="wow fadeInUp tokenomics_donut_graph_04" data-wow-delay="0.4s">
 						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left"><span class="txt_c_11">{!! trans('messages.to_dt_07') !!}</span><br>{!! trans('messages.to_dt_08_m') !!}</div>
 						<div style="float:left;text-align:left;padding:0px 0px 0px 5px;"><img src="/images/mobile/img_tokenomics_line_04.png" style="width:25%;"/></div>
 					</div>
-					<div  class="wow fadeInUp" data-wow-delay="0.5s" class="tokenomics_donut_graph_05" >
+					<div  class="wow fadeInUp tokenomics_donut_graph_05" data-wow-delay="0.5s" >
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_05.png" style="width:44px;"/></div>
 						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:10px 0px 0px 5px;"><span class="txt_c_14">{!! trans('messages.to_dt_13') !!}</span><br>{!! trans('messages.to_dt_14_m') !!}</div>
 					</div>
-					<div  class="wow fadeInRight" data-wow-delay="0.6s" class="tokenomics_donut_graph_06" >
+					<div  class="wow fadeInRight tokenomics_donut_graph_06" data-wow-delay="0.6s">
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_06.png" style="width:35px;"/></div>
 						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:0px 0px 0px 5px;"><span class="txt_c_13">{!! trans('messages.to_dt_11') !!}</span><br>{!! trans('messages.to_dt_12_m') !!}</div>
 					</div>
-					<div  class="wow fadeInRight" data-wow-delay="0.7s" class="tokenomics_donut_graph_07" >
+					<div  class="wow fadeInRight tokenomics_donut_graph_07" data-wow-delay="0.7s"  >
 						<div style="text-align:left;float:left;"><img src="/images/mobile/img_tokenomics_line_07.png" style="width:34px;"/></div>
 						<div class="txt_c_06 txt_type_08" style="text-align:left;float:left;padding:0px 0px 0px 5px;"><span class="txt_c_12">{!! trans('messages.to_dt_09') !!}</span><br>{!! trans('messages.to_dt_10_m') !!}</div>
 					</div>
