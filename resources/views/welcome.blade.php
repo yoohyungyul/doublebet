@@ -910,7 +910,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="team-thumb-box">
                             <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Jae Hong Kim</p>
-                            <p class="team_company txt_type_01">Co-founder & CEO of CHAINPLUS<br>CEO of Melonbit</p>
+                            <p class="team_company txt_type_01">Co-founder & CEO of DOUBLEBET<br>CEO of Melonbit</p>
                             <p class="team_link_01"><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
                         </div>
                         <div class="team-hover">
@@ -923,7 +923,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
-                            <p class="team_company txt_type_01">Co-founder & CTO of CHAINPLUS<br>CTO of Melonbit</p>
+                            <p class="team_company txt_type_01">Co-founder & CTO of DOUBLEBET<br>CTO of Melonbit</p>
                             <!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
                         </div>
                         <div class="team-hover">
@@ -936,7 +936,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
-                            <p class="team_company txt_type_01">Co-founder & COO of CHAINPLUS<br>Director of MGAME</p>
+                            <p class="team_company txt_type_01">Co-founder & COO of DOUBLEBET<br>Director of MGAME</p>
                             <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
                         </div>
                         <div class="team-hover">
@@ -950,7 +950,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="team-thumb-box">
                             <p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Michael Kim</p>
-                            <p class="team_company txt_type_01">Co-founder & CMO of CHAINPLUS<BR>CSO of Barunson E&A</p>
+                            <p class="team_company txt_type_01">Co-founder & CMO of DOUBLEBET<BR>CSO of Barunson E&A</p>
                             <p class="team_link_01"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
                         </div>
                         <div class="team-hover">
@@ -964,7 +964,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_07.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Kyung Soo Kim</p>
-                            <p class="team_company txt_type_01">CFO of CHAINPLUS<br>Finance in Foxconn, Samsung, Hyosung</p>
+                            <p class="team_company txt_type_01">CFO of DOUBLEBET<br>Finance in Foxconn, Samsung, Hyosung</p>
                         </div>
                         <div class="team-hover">
                             <div class="team-item">&nbsp;</div>
