@@ -143,3 +143,13 @@ body.openmenu {
 }
 #hamburgermenu ul li .sns-icon ul li{float:left;width:40px;}
 #hamburgermenu ul li .sns-icon img{width:34px;}
+
+/*---------------------------------------
+  RESPONSIVE STYLES              
+----------------------------------------*/
+
+.tokenomics_donut_graph {width:60%;padding:60px 0px;border:1px solid #ff00ff}
+@media (max-width: 320px) {
+  .tokenomics_donut_graph {width:60%;padding:60px 0px;border:1px solid #ffff00}
+}
+

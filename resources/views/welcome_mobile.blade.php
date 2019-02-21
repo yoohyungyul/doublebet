@@ -297,7 +297,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				
 				<div class="text-center" style="position:relative;">
-					<img src="/images/mobile/img_tokenomics_bg01.png" style="width:60%;padding:60px 0px;" />
+					
+					<img src="/images/mobile/img_tokenomics_bg01.png" class="tokenomics_donut_graph" style="width:60%;padding:60px 0px;" />
 					<div class="wow fadeInLeft" data-wow-delay="0.1s" style="position:absolute;top:7%;left:23%;">
 						<div class="txt_c_06 txt_type_08" style="text-align: right;float:left;"><span class="txt_c_05">{!! trans('messages.to_dt_01') !!}</span><br>{!! trans('messages.to_dt_02_m') !!}</div>
 						<div  style="float:left;text-align:left;padding:30px 0px 0px 5px"><img src="/images/mobile/img_tokenomics_line_01.png" style="width:25%;"/></div>
