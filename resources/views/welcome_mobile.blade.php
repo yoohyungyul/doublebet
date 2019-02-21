@@ -202,7 +202,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 			<div class="project-content">
 				<div class="section-title t_center fadeInUp" data-wow-delay="0.1s">
 					<p class="txt_type_02 txt_c_01 txt_b">{!! trans('messages.po_svc_00') !!}</p>
-					<p class="txt_c_02">{!! trans('messages.po_svc_01') !!}</p>
+					<p class="txt_c_02">{!! trans('messages.po_svc_01_m') !!}</p>
 				</div>
 				<div class="wow fadeInUp" data-wow-delay="0.1s">
 					<img src="/images/mobile/img_service_01.png" />

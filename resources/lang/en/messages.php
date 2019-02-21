@@ -70,6 +70,7 @@ return [
 'po_vs_11'			=> 'Diversity in services using<br>two-way services',
 'po_svc_00'			=> 'DoubleBet Service',
 'po_svc_01'			=> 'At its core, DoubleBet&#39;s sports betting system will use the company&#39;s p2p (pear-to-pear) open blockchain technology, which is transparent and almost instantaneous, in combination with an AI-based &#39;Double X Core&#39; system.',
+'po_svc_01_m'			=> 'At its core, DoubleBet&#39;s sports betting system will use the company&#39;s p2p (pear-to-pear) open blockchain technology, which is transparent and almost instantaneous, in combination with an AI-based &#39;Double X Core&#39; system.',
 'po_core_00'		=> '&#39;Double X Core&#39; system',
 'po_core_01'		=> 'The Core Technology of DoubleBets Forming a Sports Beting Block Chain Platform',
 'po_core_02'		=> 'To collect high-quality, exclusive information from numerous bookmarkers, DoubleBet developed the &#39;Double X Core - AI,&#39; which has its own artificial intelligence (AI) capabilities, in-house. The Odds API system featuring the Double X Core - AI will provide stable and reliable sports betting content.',
