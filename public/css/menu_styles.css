@@ -148,7 +148,7 @@ body.openmenu {
   RESPONSIVE STYLES              
 ----------------------------------------*/
 
-.tokenomics_donut {width:60%;padding:60px 0px;border:1px solid #ffff00}
+.tokenomics_donut {width:60%;padding:60px 0px;}
 .tokenomics_donut_graph_01 {position:absolute;top:5%;left:23%;}
 .tokenomics_donut_graph_02 {position:absolute;top:24%;left:3%;}
 .tokenomics_donut_graph_03 {position:absolute;top:53%;left:3%;}
@@ -157,7 +157,7 @@ body.openmenu {
 .tokenomics_donut_graph_06 {position:absolute;top:60%;left:73%;}
 .tokenomics_donut_graph_07 {position:absolute;top:30%;left:70%;}
 @media (max-width: 371px) {
-  .tokenomics_donut {width:50%;border:1px solid #ff00ff}
+  .tokenomics_donut {width:50%;}
   .tokenomics_donut_graph_01 {top:6%;left:16%;}
   .tokenomics_donut_graph_02 {top:24%;left:3%;}
   .tokenomics_donut_graph_03 {top:53%;left:3%;}
@@ -169,12 +169,5 @@ body.openmenu {
 
 
 @media (max-width: 321px) {
-  .tokenomics_donut {width:40%;border:1px solid #00ffff}
-  .tokenomics_donut_graph_01 {top:6%;left:16%;}
-  .tokenomics_donut_graph_02 {top:24%;left:3%;}
-  .tokenomics_donut_graph_03 {top:53%;left:3%;}
-  .tokenomics_donut_graph_04 {top:72%;left:18%;}
-  .tokenomics_donut_graph_05 {top:75%;left:48%;}
-  .tokenomics_donut_graph_06 {top:55%;left:68%;}
-  .tokenomics_donut_graph_07 {top:28%;left:64%;}
+  .tokenomics_donut {width:40%;}
 }
