@@ -156,7 +156,7 @@ body.openmenu {
 .tokenomics_donut_graph_05 {position:absolute;top:78%;left:50%;}
 .tokenomics_donut_graph_06 {position:absolute;top:60%;left:73%;}
 .tokenomics_donut_graph_07 {position:absolute;top:30%;left:70%;}
-@media (max-width: 320px) {
-  .tokenomics_donut_graph {border:1px solid #ffff00}
+@media (max-width: 370px) {
+  .tokenomics_donut {width:40%;}
 }
 
