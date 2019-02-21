@@ -509,30 +509,30 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					<div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="0.1s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_01.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Jae Hong Kim</p>
-						<p class="txt_c_02">Co-founder & CEO of DOUBLEBET<br>CEO of Melonbit</p>
+						<p class="txt_c_02">CEO of DOUBLEBET<br>CEO of Melonbit</p>
 						<p><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/mobile/icon_link.jpg" style="width:20px;" alt=""></a></p>
 					</div>
 					<div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="0.2s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_02.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Hyung Yul Yoo</p>
-						<p class="txt_c_02">Co-founder & CTO of DOUBLEBET<br>CTO of Melonbit</p>
+						<p class="txt_c_02">CTO of DOUBLEBET<br>CTO of Melonbit</p>
 					</div>
 					<div class="col-xs-12 text-center wow fadeInUp"  data-wow-delay="0.3s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_03.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Sang Guk Lee</p>
-						<p class="txt_c_02">Co-founder & COO of DOUBLEBET<br>Director of MGAME</p>
+						<p class="txt_c_02">COO of DOUBLEBET<br>Director of MGAME</p>
 					</div>
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.4s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_04.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Michael Kim</p>
-						<p class="txt_c_02">Co-founder & CMO of DOUBLEBET<BR>CSO of Barunson E&A</p>
+						<p class="txt_c_02">CMO of DOUBLEBET<BR>CSO of Barunson E&A</p>
 						<p><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/mobile/icon_link.jpg" style="width:20px;" alt=""></a></p>
 					</div>
 
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.5s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_07.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Kyung Soo Kim</p>
-						<p class="txt_c_02">CFO of DOUBLEBET<br>Finance in Foxconn, Samsung, Hyosung</p>
+						<p class="txt_c_02">CFO of DOUBLEBET<br>Finance in Samsung, Hyosung</p>
 						
 					</div>
 
