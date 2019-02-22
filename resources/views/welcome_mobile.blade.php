@@ -248,13 +248,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.1s">
 					<div class="col-xs-6" >
-						<div style="background:#a563f5;padding:10px;width:100%;height:86px">
+						<div style="background:#a563f5;padding:10px;width:100%;height:80px">
 							<p class="txt_w text-center txt_type_07">{!! trans('messages.to_dg_01') !!}</p>
 							<p class="txt_c_04 txt_b text-center txt_type_00">{!! trans('messages.to_dg_02') !!}</p>
 						</div>
 					</div>
 					<div class="col-xs-6">
-						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:86px">
+						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:80px">
 							<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_03') !!}</p>
 							<p class="txt_c_01 text-center txt_type_00">{!! trans('messages.to_dg_04') !!}</p>
 						</div>
@@ -262,13 +262,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.2s">
 					<div class="col-xs-6">
-						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px">
+						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:80px">
 							<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_05') !!}</p>
 							<p class="txt_c_01 text-center txt_type_00">{!! trans('messages.to_dg_06') !!}</p>
 						</div>
 					</div>
 					<div class="col-xs-6 wow fadeInUp">
-						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:86px">
+						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:80px">
 								<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_07') !!}</p>
 								<p class="txt_c_01 text-center txt_type_00">{!! trans('messages.to_dg_08') !!}</p>
 							</div>
@@ -276,13 +276,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				</div>
 				<div class="row wow fadeInUp" style="margin-bottom:20px;" data-wow-delay="0.3s">
 					<div class="col-xs-6">
-						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:86px">
+						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:80px">
 							<p class="txt_c_02 text-center txt_type_07">{!! trans('messages.to_dg_09') !!}</p>
 							<p class="txt_c_01 text-center txt_type_00">{!! trans('messages.to_dg_10') !!}</p>
 						</div>
 					</div>
 					<div class="col-xs-6">
-						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:86px">
+						<div style="border-top:1px solid #a563f5;background:#fff;padding:10px;height:80px">
 							<p class="txt_c_02 text-center txt_type_07" >{!! trans('messages.to_dg_11') !!}</p>
 							<p class="txt_c_01 text-center txt_type_00">{!! trans('messages.to_dg_12') !!}</p>
 						</div>
