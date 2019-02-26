@@ -545,11 +545,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 					</div>
 
 
-					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.7s"  style="margin-bottom:30px">
+					<!-- <div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.7s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_05.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">William. Ha</p>
 						<p class="txt_c_02">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
-					</div>
+					</div> -->
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.8s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_06.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Yu Sik Kim</p>

@@ -986,7 +986,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                 </div>
 
 
-                <div class="col-xs-4" style="margin-bottom:20px;">
+                <!-- <div class="col-xs-4" style="margin-bottom:20px;">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.8s">
                         <div class="team-thumb-box ">
                             <p class="t_center"><img src="/images/team_05.jpg" class="img-responsive" alt=""></p>
@@ -997,11 +997,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
                             <div class="team-item">&nbsp;</div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-xs-4"  style="margin-bottom:20px;">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.9s">
-                        <div class="team-thumb-box team_mg_01">
+                        <div class="team-thumb-box ">
                             <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
                             <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
