@@ -433,7 +433,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 							<p class="txt_c_07" >{!! trans('messages.to_map_12') !!}</p>
 						</div>
 
-						<div class="wow fadeInLeft" data-wow-delay="0.8s"  style="position:absolute;right:20px;top:750px;text-align: right">
+						<div class="wow fadeInLeft" data-wow-delay="0.8s"  style="position:absolute;right:20px;top:850px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
 							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_20') !!}</p>
 							<p class="txt_c_07" >{!! trans('messages.to_map_19') !!}</p>
@@ -441,7 +441,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 
 						
 
-						<div class="wow fadeInLeft" data-wow-delay="1.0s"  style="position:absolute;right:20px;top:900px;text-align: right">
+						<div class="wow fadeInLeft" data-wow-delay="1.0s"  style="position:absolute;right:20px;top:1100px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
 							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_16') !!}</p>
 							<p class="txt_c_07" >{!! trans('messages.to_map_14') !!}</p>
@@ -469,14 +469,14 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 							
 						</div>
 
-						<div class="wow fadeInRight" data-wow-delay="0.7s"  style="position:absolute;left:20px;top:630px;">
+						<div class="wow fadeInRight" data-wow-delay="0.7s"  style="position:absolute;left:20px;top:670px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
 							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_21') !!}</p>
 							<p class="txt_c_07" >{!! trans('messages.to_map_22') !!}</p>
 						</div>
                         
                         
-						<div class="wow fadeInRight" data-wow-delay="0.9s"  style="position:absolute;left:20px;top:830px;">
+						<div class="wow fadeInRight" data-wow-delay="0.9s"  style="position:absolute;left:20px;top:970px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
 							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_17') !!}</p>
 							<p class="txt_c_07" >{!! trans('messages.to_map_18') !!}</p>
