@@ -172,7 +172,7 @@ return [
 'to_map_15'			=> 'Launch DoubleBet localized version<br />- Localization for each country in Asia<br />- Localization for the US',
 'to_map_16'			=> '2019. Q4',
 'to_map_17'			=> '2019. Q3',
-'to_map_18'			=> 'DoubleBet(DBET) Coin public sale Launch DoubleBet global version<br />- Web (PC, Mobile), App Launch DoubleBet localized version- Localization for each country in Asia<br />- Localization for the US ',
+'to_map_18'			=> 'DoubleBet(DBET) Coin public sale Launch DoubleBet global version<br />- Web (PC, Mobile), App Launch DoubleBet localized version<br />- Localization for each country in Asia<br />- Localization for the US ',
 'to_map_19'			=> 'DoubleBet(DBET) Coin public sale<br />Develop the DoubleBet prototype',
 'to_map_20'			=> '2019. Q2',
 'to_map_21'			=> '2019. Q1',
