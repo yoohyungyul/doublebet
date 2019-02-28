@@ -1,7 +1,7 @@
 <?php
 
-$paper_link = "https://bit.ly/2SMkkbA";
-if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
+$paper_link = "http://bit.ly/2SyWSdX";
+if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 
 ?>
 <!DOCTYPE html>
@@ -435,20 +435,15 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 						<div class="wow fadeInLeft" data-wow-delay="0.8s"  style="position:absolute;right:20px;top:750px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_21') !!}</p>
-							<p class="txt_c_07" >{!! trans('messages.to_map_22') !!}</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_20') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_19') !!}</p>
 						</div>
 
 						
 
 						<div class="wow fadeInLeft" data-wow-delay="1.0s"  style="position:absolute;right:20px;top:900px;text-align: right">
 							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_17') !!}</p>
-							<p class="txt_c_07" >{!! trans('messages.to_map_18') !!}</p>
-						</div>
-						<div class="wow fadeInLeft" data-wow-delay="1.2s"  style="position:absolute;right:20px;top:1140px;text-align: right">
-							<div style="position:absolute;right: -24px;"><img src="/images/mobile/img_roadmap_line_01.png" style="width:20px;"/></div>
-							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_13') !!}</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_16') !!}</p>
 							<p class="txt_c_07" >{!! trans('messages.to_map_14') !!}</p>
 						</div>
 						
@@ -476,20 +471,15 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 
 						<div class="wow fadeInRight" data-wow-delay="0.7s"  style="position:absolute;left:20px;top:630px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_24') !!}</p>
-							<p class="txt_c_07" >{!! trans('messages.to_map_23') !!}</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_21') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_22') !!}</p>
 						</div>
                         
                         
 						<div class="wow fadeInRight" data-wow-delay="0.9s"  style="position:absolute;left:20px;top:830px;">
 							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_20') !!}</p>
-							<p class="txt_c_07" >{!! trans('messages.to_map_19') !!}</p>
-						</div>
-						<div class="wow fadeInRight" data-wow-delay="1.1s"  style="position:absolute;left:20px;top:1000px;">
-							<div style="text-align:left;float:left;margin-left:-25px"><img src="/images/mobile/img_roadmap_line_02.png" style="width:20px;"/> </div>
-							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_16') !!}</p>
-							<p class="txt_c_07" >{!! trans('messages.to_map_15') !!}</p>
+							<p class="txt_w" style="margin-bottom:0px;">{!! trans('messages.to_map_17') !!}</p>
+							<p class="txt_c_07" >{!! trans('messages.to_map_18') !!}</p>
 						</div>
 						
 						
@@ -616,8 +606,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						<ul style="padding:0px;margin-top:15px;">
 							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#home">{!! trans('messages.foot_me_01') !!}</a></li>
 							<li class="txt_c_07" style="padding-bottom:5px;"><a href="#roadmap">{!! trans('messages.foot_me_02') !!}</a></li>
-							<li class="txt_c_07" style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_03') !!}</a></li>
-							<li class="txt_c_07"  style="padding-bottom:5px;"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_04') !!}</a></li>
+							<li class="txt_c_07" style="padding-bottom:5px;"><a href="http://bit.ly/2XtlF6H" target="_blank">{!! trans('messages.foot_me_03') !!}</a></li>
+							<li class="txt_c_07"  style="padding-bottom:5px;"><a href="http://bit.ly/2EjTiza" target="_blank">{!! trans('messages.foot_me_04') !!}</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-6">

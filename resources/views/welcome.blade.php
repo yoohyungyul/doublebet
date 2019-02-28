@@ -1,7 +1,7 @@
 <?php
 
-$paper_link = "https://bit.ly/2SMkkbA";
-if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
+$paper_link = "http://bit.ly/2SyWSdX";
+if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 
 ?>
 <!DOCTYPE html>
@@ -749,7 +749,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 				<!-- /roadmap -->
 				<div class="col-xs-12 col-xs-12">
 					<div class="roadmap-d wow">
-						<!-- 01/ -->
+						<!-- 01/   2011.12-->
 						<div class="roadmap-01-txt wow fadeInDown" data-wow-delay="0.4s">
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_01') !!}</p>
 						</div>
@@ -760,7 +760,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_02') !!}</p>
 						</div>
 						<!-- /01 -->
-						<!-- 02/ -->
+						<!-- 02/ 2012.06 -->
 						<div class="roadmap-02-date wow fadeInDown" data-wow-delay="0.4s">
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_03') !!}</p>
 						</div>
@@ -771,7 +771,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_04') !!}</p>
 						</div>
 						<!-- /02 -->
-						<!-- 03/ -->
+						<!-- 03/ 2018.04 -->
 						<div class="roadmap-03-txt wow fadeInDown" data-wow-delay="0.4s">
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_05') !!}</p>
 						</div>
@@ -782,7 +782,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_06') !!}</p>
 						</div>
 						<!-- /03 -->
-						<!-- 04/ -->
+						<!-- 04/ 2018.08 -->
 						<div class="roadmap-04-date wow fadeInDown" data-wow-delay="0.4s">
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_07') !!}</p>
 						</div>
@@ -793,7 +793,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_08') !!}</p>
 						</div>
 						<!-- /04 -->
-						<!-- 05/ -->
+						<!-- 05/ 2018.09 -->
 						<div class="roadmap-05-txt wow fadeInDown" data-wow-delay="0.4s">
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_09') !!}</p>
 						</div>
@@ -804,7 +804,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_10') !!}</p>
 						</div>
 						<!-- /05 -->
-						<!-- 06/ -->
+						<!-- 06/ 2018.12 -->
 						<div class="roadmap-06-date wow fadeInDown" data-wow-delay="0.4s">
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_11') !!}</p>
 						</div>
@@ -815,8 +815,13 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_12') !!}</p>
 						</div>
 						<!-- /06 -->
-						<!-- 07/ -->
-						<div class="roadmap-07-date wow fadeInUp" data-wow-delay="0.6s">
+
+
+
+
+
+						<!-- 07/ 2019.10 -->
+						<!-- <div class="roadmap-07-date wow fadeInUp" data-wow-delay="0.6s">
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_13') !!}</p>
 						</div>
 						<div class="roadmap-07-pin wow fadeInDown" data-wow-delay="0.6s">
@@ -824,11 +829,11 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						</div>
 						<div class="roadmap-07-txt wow fadeInDown" data-wow-delay="0.6s">
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_14') !!}</p>
-						</div>
+						</div> -->
 						<!-- /07 -->
-						<!-- 08/ -->
+						<!-- 08/ 2019.Q4 -->
 						<div class="roadmap-08-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_15') !!}</p>
+							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_14') !!}</p>
 						</div>
 						<div class="roadmap-08-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
@@ -837,7 +842,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_16') !!}</p>
 						</div>
 						<!-- /08 -->
-						<!-- 09/ -->
+						<!-- 09/ 2019. Q3-->
 						<div class="roadmap-09-date wow fadeInUp" data-wow-delay="0.6s">
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_17') !!}</p>
 						</div>
@@ -848,7 +853,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_18') !!}</p>
 						</div>
 						<!-- /09 -->
-						<!-- 10/ -->
+						<!-- 10/ 2019.Q2 -->
 						<div class="roadmap-10-txt wow fadeInUp" data-wow-delay="0.6s">
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_19') !!}</p>
 						</div>
@@ -859,7 +864,7 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_20') !!}</p>
 						</div>
 						<!-- /10 -->
-						<!-- 11/ -->
+						<!-- 11/ 2019.Q1 -->
 						<div class="roadmap-11-date wow fadeInUp" data-wow-delay="0.6s">
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_21') !!}</p>
 						</div>
@@ -870,16 +875,16 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_22') !!}</p>
 						</div>
 						<!-- /11 -->
-						<!-- 12/ -->
+						<!-- 12/ 2019.02 -->
 						<div class="roadmap-12-txt wow fadeInUp" data-wow-delay="0.6s">
-							<p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_23') !!}</p>
+							<!-- <p class="txt_type_00 txt_c_07">{!! trans('messages.to_map_23') !!}</p>
 						</div>
 						<div class="roadmap-12-pin wow fadeInUp" data-wow-delay="0.6s">
 							<img src="/images/roadmap_01.png" class="img-responsive" alt="">
 						</div>
 						<div class="roadmap-12-date wow fadeInDown" data-wow-delay="0.6s">
 							<p class="txt_type_02 txt_w txt_b">{!! trans('messages.to_map_24') !!}</p>
-						</div>
+						</div> -->
 						<!-- /12 -->
 					</div>
 				</div>
@@ -1099,8 +1104,8 @@ if(Cookie::get('language') == "kr") $paper_link = "https://bit.ly/2UUIkqs";
 						<div class="wow fadeInUp" data-wow-delay="0.4s">
 							<p class="txt_type_00 txt_c_07"><a href="#home">{!! trans('messages.foot_me_01') !!}</a></p>
 							<p class="txt_type_00 txt_c_07"><a href="#roadmap">{!! trans('messages.foot_me_02') !!}</a></p>
-							<p class="txt_type_00 txt_c_07"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_03') !!}</a></p>
-                            <p class="txt_type_00 txt_c_07"><a href="javascript:" onclick='alert("{!! trans('messages.paper_alert') !!}")'>{!! trans('messages.foot_me_04') !!}</a></p>
+							<p class="txt_type_00 txt_c_07"><a href="http://bit.ly/2XtlF6H" target="_blank">{!! trans('messages.foot_me_03') !!}</a></p>
+                            <p class="txt_type_00 txt_c_07"><a href="http://bit.ly/2EjTiza" target="_blank">{!! trans('messages.foot_me_04') !!}</a></p>
                         </div>
 					</div>
 					<div class="footer-info-01">
