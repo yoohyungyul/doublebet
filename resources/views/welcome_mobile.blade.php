@@ -11,6 +11,14 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>DoubleBet</title>
+	<meta name="description" content="DoubleBet - {!! trans('messages.ho_t_1_03') !!}">
+	<meta name=keywords content=" ">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="DoubleBet">
+	<meta property="og:description" content="DoubleBet - {!! trans('messages.ho_t_1_03') !!}">
+	<meta property="og:image" content="http://doublebet.io/images/img_site_image.png">
+	<meta property="og:url" content="http://doublebet.io/">
+	
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
