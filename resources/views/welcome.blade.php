@@ -31,6 +31,16 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="/css/magnific-popup.css">
 	<link rel="stylesheet" href="/css/style.css?{{date('Ymdis')}}">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135545789-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-135545789-1');
+	</script>
 </head>
 <body>
 	<!-- PRE LOADER -->

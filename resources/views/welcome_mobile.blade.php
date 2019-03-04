@@ -18,13 +18,23 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 	<meta property="og:description" content="DoubleBet - {!! trans('messages.ho_t_1_03') !!}">
 	<meta property="og:image" content="http://doublebet.io/images/img_site_image.png">
 	<meta property="og:url" content="http://doublebet.io/">
-	
+
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" media="all" href="css/menu_styles.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/mobile_style.css?{{date('Ymdis')}}">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135545789-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-135545789-1');
+	</script>
 </head>
 <body>
 <div id="pgcontainer">
