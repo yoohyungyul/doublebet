@@ -11,7 +11,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="description" content="DoubleBet - {!! trans('messages.ho_t_1_03') !!}">
-	<meta name=keywords content="DoubleBet, blockchain, ico">
+	<meta name=keywords content="DoubleBet, blockchain, ico, Sports Betting">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="DoubleBet">
 	<meta property="og:description" content="DoubleBet - {!! trans('messages.ho_t_1_03') !!}">
