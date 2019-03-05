@@ -518,37 +518,37 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 					<div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="0.1s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_01.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Jae Hong Kim</p>
-						<p class="txt_c_02">CEO of DOUBLEBET<br>CEO of Melonbit</p>
+						<p class="txt_c_02"><strong>CEO</strong><br>CEO of Melonbit</p>
 						<p><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/mobile/icon_link.jpg" style="width:20px;" alt=""></a></p>
 					</div>
 					<div class="col-xs-12 text-center wow fadeInUp" data-wow-delay="0.2s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_02.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Hyung Yul Yoo</p>
-						<p class="txt_c_02">CTO of DOUBLEBET<br>CTO of Melonbit</p>
+						<p class="txt_c_02"><strong>CTO</strong><br>CTO of Melonbit</p>
 					</div>
 					<div class="col-xs-12 text-center wow fadeInUp"  data-wow-delay="0.3s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_03.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Sang Guk Lee</p>
-						<p class="txt_c_02">COO of DOUBLEBET<br>Director of MGAME</p>
+						<p class="txt_c_02"><strong>COO</strong><br>Director of MGAME</p>
 					</div>
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.4s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_04.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Michael Kim</p>
-						<p class="txt_c_02">CMO of DOUBLEBET<BR>CSO of Barunson E&A</p>
+						<p class="txt_c_02"><strong>CMO</strong><BR>CSO of Barunson E&A</p>
 						<p><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/mobile/icon_link.jpg" style="width:20px;" alt=""></a></p>
 					</div>
 
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.5s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_07.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Kyung Soo Kim</p>
-						<p class="txt_c_02">CFO of DOUBLEBET<br>Finance in Samsung & Hyosung</p>
+						<p class="txt_c_02"><strong>CFO</strong><br>Finance in Samsung & Hyosung</p>
 						
 					</div>
 
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.6s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_08.jpg" alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Jay W. Kim</p>
-						<p class="txt_c_02">CLO of DOUBLEBET<br>Attorney at Law (NY, NJ) & C.P.A</p>
+						<p class="txt_c_02"><strong>CLO</strong><br>Attorney at Law (NY, NJ) & C.P.A</p>
 						
 					</div>
 
@@ -558,6 +558,14 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 						<p class="txt_c_16" style="margin:10px 0px 0px">William. Ha</p>
 						<p class="txt_c_02">Founder & CEO of TennTen<BR>CEO of ABLEX</p>
 					</div> -->
+
+					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.7s"  style="margin-bottom:30px">
+						<img src="/images/mobile/team_09.jpg"  alt="" style="max-width:230px">
+						<p class="txt_c_16" style="margin:10px 0px 0px">Steve Pipenger</p>
+						<p class="txt_c_02">Blockchain Architect  /   Attorney at Law</p>
+					</div>
+
+
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.8s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_06.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Yu Sik Kim</p>

@@ -931,7 +931,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
                         <div class="team-thumb-box">
                             <p class="t_center"><img src="/images/team_01.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Jae Hong Kim</p>
-                            <p class="team_company txt_type_01">CEO of DOUBLEBET<br>CEO of Melonbit</p>
+                            <p class="team_company txt_type_01"><strong>CEO</strong><br>CEO of Melonbit</p>
                             <p class="team_link_01"><a href="https://bit.ly/2QI1b5H" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
                         </div>
                         <div class="team-hover">
@@ -944,7 +944,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_02.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Hyung Yul Yoo</p>
-                            <p class="team_company txt_type_01">CTO of DOUBLEBET<br>CTO of Melonbit</p>
+                            <p class="team_company txt_type_01"><strong>CTO</strong><br>CTO of Melonbit</p>
                             <!-- <p class="team_link_02"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
                         </div>
                         <div class="team-hover">
@@ -957,7 +957,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_03.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Sang Guk Lee</p>
-                            <p class="team_company txt_type_01">COO of DOUBLEBET<br>Director of MGAME</p>
+                            <p class="team_company txt_type_01"><strong>COO</strong><br>Director of MGAME</p>
                             <!-- <p class="team_link_03"><a href="#"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p> -->
                         </div>
                         <div class="team-hover">
@@ -971,7 +971,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
                         <div class="team-thumb-box">
                             <p class="t_center"><img src="/images/team_04.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Michael Kim</p>
-                            <p class="team_company txt_type_01">CMO of DOUBLEBET<BR>CSO of Barunson E&A</p>
+                            <p class="team_company txt_type_01"><strong>CMO</strong><BR>CSO of Barunson E&A</p>
                             <p class="team_link_01"><a href="https://bit.ly/2Spjz93" target="_blank"><img src="/images/icon_link.jpg" width="22" height="22" alt=""></a></p>
                         </div>
                         <div class="team-hover">
@@ -985,20 +985,23 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_07.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Kyung Soo Kim</p>
-                            <p class="team_company txt_type_01">CFO of DOUBLEBET<br>Finance in Samsung & Hyosung</p>
+                            <p class="team_company txt_type_01"><strong>CFO</strong><br>Finance in Samsung & Hyosung</p>
                         </div>
                         <div class="team-hover">
                             <div class="team-item">&nbsp;</div>
                         </div>
                     </div>
                 </div>
+				
+
+				
 
                 <div class="col-xs-4" style="margin-bottom:20px;">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_08.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Jay W. Kim</p>
-                            <p class="team_company txt_type_01">CLO of DOUBLEBET<br>Attorney at Law (NY, NJ) & C.P.A</p>
+                            <p class="team_company txt_type_01"><strong>CLO</strong><br>Attorney at Law (NY, NJ) & C.P.A</p>
                         </div>
                         <div class="team-hover">
                             <div class="team-item">&nbsp;</div>
@@ -1020,9 +1023,22 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
                     </div>
                 </div> -->
 
+				<div class="col-xs-4"  style="margin-bottom:20px;">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-thumb-box ">
+                            <p class="t_center"><img src="/images/team_09.jpg" class="img-responsive" alt=""></p>
+                            <p class="team_name txt_type_02 txt_b">Steve Pipenger</p>
+                            <p class="team_company txt_type_01">Blockchain Architect / Attorney at Law</p>
+                        </div>
+                        <div class="team-hover">
+                            <div class="team-item">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-xs-4"  style="margin-bottom:20px;">
                     <div class="team-thumb wow fadeInUp" data-wow-delay="0.9s">
-                        <div class="team-thumb-box ">
+                        <div class="team-thumb-box team_mg_01">
                             <p class="t_center"><img src="/images/team_06.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Yu Sik Kim</p>
                             <p class="team_company txt_type_01">Founder & CEO of DCInside</p>
