@@ -562,7 +562,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
 					<div class="col-xs-12 text-center wow fadeInUp " data-wow-delay="0.7s"  style="margin-bottom:30px">
 						<img src="/images/mobile/team_09.jpg"  alt="" style="max-width:230px">
 						<p class="txt_c_16" style="margin:10px 0px 0px">Steve Pipenger</p>
-						<p class="txt_c_02">Blockchain Architect  /   Attorney at Law</p>
+						<p class="txt_c_02"><strong>Blockchain Architect</strong><br />Attorney at Law</p>
 					</div>
 
 

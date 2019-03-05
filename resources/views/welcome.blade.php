@@ -1028,7 +1028,7 @@ if(Cookie::get('language') == "kr") $paper_link = "http://bit.ly/2H6mzAb";
                         <div class="team-thumb-box ">
                             <p class="t_center"><img src="/images/team_09.jpg" class="img-responsive" alt=""></p>
                             <p class="team_name txt_type_02 txt_b">Steve Pipenger</p>
-                            <p class="team_company txt_type_01">Blockchain Architect / Attorney at Law</p>
+                            <p class="team_company txt_type_01"><strong>Blockchain Architect</strong><br />Attorney at Law</p>
                         </div>
                         <div class="team-hover">
                             <div class="team-item">&nbsp;</div>
